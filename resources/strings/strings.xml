@@ -1,0 +1,5 @@
+<strings>
+    <string id="AppName">IoA Watchface</string>
+    <string id="lunchHourTitle">Lunch Hour (24 Hour Format)</string>
+    <string id="lunchMinTitle">Lunch Minute</string>
+</strings>

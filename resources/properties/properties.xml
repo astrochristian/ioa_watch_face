@@ -1,0 +1,4 @@
+<properties>
+    <property id="lunchHour" type="number">13</property>
+    <property id="lunchMin" type="number">0</property>
+</properties>

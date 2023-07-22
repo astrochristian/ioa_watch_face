@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+<manifest filename="C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\manifest.xml"/>
+<pcToLineNum>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchApp.mc" id="1" lineNum="26" parent="globals" pc="268435460" symbol="getApp"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchApp.mc" id="1" lineNum="27" parent="globals" pc="268435470" symbol="getApp"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="2" lineNum="7" parent="globals/ioa_watchView" pc="268435486" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="5" lineNum="14" parent="globals/ioa_watchView" pc="268435505" symbol="onLayout"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="5" lineNum="15" parent="globals/ioa_watchView" pc="268435507" symbol="onLayout"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="7" lineNum="9" parent="globals/ioa_watchView" pc="268435549" symbol="initialize"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="7" lineNum="10" parent="globals/ioa_watchView" pc="268435551" symbol="initialize"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="25" parent="globals/ioa_watchView" pc="268435570" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="27" parent="globals/ioa_watchView" pc="268435574" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="28" parent="globals/ioa_watchView" pc="268435591" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="29" parent="globals/ioa_watchView" pc="268435679" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="31" parent="globals/ioa_watchView" pc="268435707" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="34" parent="globals/ioa_watchView" pc="268435721" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="35" parent="globals/ioa_watchView" pc="268435755" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="37" parent="globals/ioa_watchView" pc="268435771" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="38" parent="globals/ioa_watchView" pc="268435782" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="39" parent="globals/ioa_watchView" pc="268435789" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="43" parent="globals/ioa_watchView" pc="268435802" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="44" parent="globals/ioa_watchView" pc="268435835" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="46" parent="globals/ioa_watchView" pc="268435868" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="47" parent="globals/ioa_watchView" pc="268435899" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="49" parent="globals/ioa_watchView" pc="268435918" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="50" parent="globals/ioa_watchView" pc="268435929" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="51" parent="globals/ioa_watchView" pc="268435939" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="55" parent="globals/ioa_watchView" pc="268435952" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="56" parent="globals/ioa_watchView" pc="268435986" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="58" parent="globals/ioa_watchView" pc="268436002" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="59" parent="globals/ioa_watchView" pc="268436013" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="60" parent="globals/ioa_watchView" pc="268436023" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="63" parent="globals/ioa_watchView" pc="268436036" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="64" parent="globals/ioa_watchView" pc="268436075" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="66" parent="globals/ioa_watchView" pc="268436085" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="68" parent="globals/ioa_watchView" pc="268436096" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="69" parent="globals/ioa_watchView" pc="268436106" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="70" parent="globals/ioa_watchView" pc="268436116" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="74" parent="globals/ioa_watchView" pc="268436129" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="76" parent="globals/ioa_watchView" pc="268436140" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="77" parent="globals/ioa_watchView" pc="268436150" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="78" parent="globals/ioa_watchView" pc="268436160" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="81" parent="globals/ioa_watchView" pc="268436173" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="82" parent="globals/ioa_watchView" pc="268436255" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="84" parent="globals/ioa_watchView" pc="268436283" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="85" parent="globals/ioa_watchView" pc="268436365" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="87" parent="globals/ioa_watchView" pc="268436393" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="88" parent="globals/ioa_watchView" pc="268436475" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="90" parent="globals/ioa_watchView" pc="268436503" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="91" parent="globals/ioa_watchView" pc="268436517" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="92" parent="globals/ioa_watchView" pc="268436531" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchView.mc" id="9" lineNum="95" parent="globals/ioa_watchView" pc="268436545" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="10" lineNum="7" parent="globals/Rez" pc="268436570" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchApp.mc" id="11" lineNum="5" parent="globals/ioa_watchApp" pc="268436594" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchApp.mc" id="12" lineNum="12" parent="globals/ioa_watchApp" pc="268436613" symbol="onStart"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchApp.mc" id="13" lineNum="20" parent="globals/ioa_watchApp" pc="268436616" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchApp.mc" id="13" lineNum="21" parent="globals/ioa_watchApp" pc="268436618" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchApp.mc" id="14" lineNum="7" parent="globals/ioa_watchApp" pc="268436659" symbol="initialize"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchApp.mc" id="14" lineNum="8" parent="globals/ioa_watchApp" pc="268436661" symbol="initialize"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\source\\ioa_watchApp.mc" id="15" lineNum="16" parent="globals/ioa_watchApp" pc="268436680" symbol="onStop"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="19" parent="globals/Rez/Layouts" pc="268436683" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="20" parent="globals/Rez/Layouts" pc="268436695" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="22" parent="globals/Rez/Layouts" pc="268436807" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="24" parent="globals/Rez/Layouts" pc="268436919" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="26" parent="globals/Rez/Layouts" pc="268437031" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\garmin_sdk\\ioa_watch\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="28" parent="globals/Rez/Layouts" pc="268437143" symbol="WatchFace"/>
+</pcToLineNum>
+<symbolTable>
+<entry id="8388639" module="true" symbol="Graphics"/>
+<entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+<entry id="7" module="true" symbol="globals/Rez/Menus"/>
+<entry id="8388924" module="true" symbol="Gregorian"/>
+<entry id="10" object="true" symbol="ioa_watchView"/>
+<entry field="true" id="8388611" module="true" symbol="Toybox"/>
+<entry id="9" object="true" symbol="ioa_watchApp"/>
+<entry field="true" id="14" symbol="AppName"/>
+<entry id="8" module="true" symbol="globals/Rez/Strings"/>
+<entry id="8388772" module="true" object="true" symbol="Fonts"/>
+<entry id="8388648" module="true" symbol="WatchUi"/>
+<entry id="2" module="true" symbol="globals/Rez"/>
+<entry id="8389124" method="true" symbol="onUpdate"/>
+<entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+<entry field="true" id="8389065" symbol="locY"/>
+<entry field="true" id="8389064" symbol="locX"/>
+<entry id="8388771" module="true" object="true" symbol="Drawables"/>
+<entry id="8389348" symbol="font"/>
+<entry id="12" module="true" symbol="Menus"/>
+<entry id="8389275" method="true" symbol="getApp"/>
+<entry id="6" module="true" symbol="globals/Rez/Layouts"/>
+<entry id="8389122" method="true" symbol="onLayout"/>
+<entry id="8389376" method="true" symbol="onEnterSleep"/>
+<entry field="true" id="8389063" symbol="identifier"/>
+<entry id="8389349" symbol="justification"/>
+<entry id="5" module="true" symbol="globals/Rez/JsonData"/>
+<entry id="3" module="true" symbol="globals/Rez/Drawables"/>
+<entry id="8389377" method="true" symbol="onExitSleep"/>
+<entry id="8388644" module="true" symbol="System"/>
+<entry id="8388769" module="true" object="true" symbol="Rez"/>
+<entry id="8388640" module="true" symbol="Lang"/>
+<entry id="8390088" module="true" object="true" symbol="JsonData"/>
+<entry field="true" id="13" symbol="LauncherIcon"/>
+<entry id="8388610" symbol="statics"/>
+<entry id="8389123" method="true" symbol="onShow"/>
+<entry id="8389350" module="true" symbol="globals"/>
+<entry id="8388770" module="true" object="true" symbol="Strings"/>
+<entry id="8388702" method="true" symbol="initialize"/>
+<entry id="8389279" method="true" symbol="onStart"/>
+<entry field="true" id="15" symbol="lunchHourTitle"/>
+<entry id="8389280" method="true" symbol="getInitialView"/>
+<entry id="8389281" method="true" symbol="onStop"/>
+<entry id="8389347" symbol="color"/>
+<entry field="true" id="16" symbol="lunchMinTitle"/>
+<entry id="11" module="true" symbol="Layouts"/>
+<entry id="4" module="true" symbol="globals/Rez/Fonts"/>
+<entry id="8389125" method="true" symbol="onHide"/>
+<entry id="8388635" module="true" symbol="Application"/>
+</symbolTable>
+<localVars>
+<entry arg="true" endPc="268435548" name="dc" stackId="1" startPc="268435505"/>
+<entry arg="true" endPc="268436569" name="dc" stackId="1" startPc="268435570"/>
+<entry endPc="268436568" name="clockTime" stackId="2" startPc="268435574"/>
+<entry endPc="268436568" name="timeString" stackId="3" startPc="268435574"/>
+<entry endPc="268436568" name="mainView" stackId="4" startPc="268435574"/>
+<entry endPc="268436568" name="hoursUntilCoffee" stackId="5" startPc="268435574"/>
+<entry endPc="268436568" name="minutesUntilCoffee" stackId="6" startPc="268435574"/>
+<entry endPc="268436568" name="lunchHour" stackId="7" startPc="268435574"/>
+<entry endPc="268436568" name="lunchMinute" stackId="8" startPc="268435574"/>
+<entry endPc="268436568" name="hoursUntilLunch" stackId="9" startPc="268435574"/>
+<entry endPc="268436568" name="minutesUntilLunch" stackId="10" startPc="268435574"/>
+<entry endPc="268436568" name="hoursUntilTea" stackId="11" startPc="268435574"/>
+<entry endPc="268436568" name="minutesUntilTea" stackId="12" startPc="268435574"/>
+<entry endPc="268436568" name="today" stackId="13" startPc="268435574"/>
+<entry endPc="268436568" name="weekday" stackId="14" startPc="268435574"/>
+<entry endPc="268436568" name="coffeeString" stackId="15" startPc="268435574"/>
+<entry endPc="268436568" name="coffeeView" stackId="16" startPc="268435574"/>
+<entry endPc="268436568" name="lunchString" stackId="17" startPc="268435574"/>
+<entry endPc="268436568" name="lunchView" stackId="18" startPc="268435574"/>
+<entry endPc="268436568" name="TeaString" stackId="19" startPc="268435574"/>
+<entry endPc="268436568" name="TeaView" stackId="20" startPc="268435574"/>
+<entry arg="true" endPc="268437189" name="dc" stackId="1" startPc="268436683"/>
+<entry endPc="268437189" name="rez_cmp_local_text_MainTimeLabel" stackId="2" startPc="268436695"/>
+<entry endPc="268437189" name="rez_cmp_local_text_CoffeeTimeLabel" stackId="3" startPc="268436695"/>
+<entry endPc="268437189" name="rez_cmp_local_text_LunchTimeLabel" stackId="4" startPc="268436695"/>
+<entry endPc="268437189" name="rez_cmp_local_text_TeaTimeLabel" stackId="5" startPc="268436695"/>
+</localVars>
+<annotations>
+<annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="lunchHourTitle"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+<annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="lunchMinTitle"/>
+</annotations>
+<dataEntryOffsetMappings>
+<dataEntry label="globals" offset="87" parentId="" symbolId="globals" type="module"/>
+<dataEntry label="globals/ioa_watchView" offset="158" parentId="globals" symbolId="ioa_watchView" type="class"/>
+<dataEntry label="globals/Rez" offset="253" parentId="globals" symbolId="Rez" type="module"/>
+<dataEntry label="globals/ioa_watchApp" offset="332" parentId="globals" symbolId="ioa_watchApp" type="class"/>
+<dataEntry label="globals/Rez/Drawables" offset="403" parentId="Rez" symbolId="Drawables" type="module"/>
+<dataEntry label="globals/Rez/Layouts" offset="442" parentId="Rez" symbolId="Layouts" type="module"/>
+<dataEntry label="globals/Rez/Menus" offset="481" parentId="Rez" symbolId="Menus" type="module"/>
+<dataEntry label="globals/Rez/Fonts" offset="512" parentId="Rez" symbolId="Fonts" type="module"/>
+<dataEntry label="globals/Rez/Strings" offset="543" parentId="Rez" symbolId="Strings" type="module"/>
+<dataEntry label="globals/Rez/JsonData" offset="598" parentId="Rez" symbolId="JsonData" type="module"/>
+</dataEntryOffsetMappings>
+<functions>
+<functionEntry accessMode="public" endPc="268435485" name="getApp" startPc="268435460">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435504" name="&lt;init&gt;" parent="ioa_watchView" startPc="268435486">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onExitSleep" parent="ioa_watchView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onShow" parent="ioa_watchView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435548" name="onLayout" parent="ioa_watchView" startPc="268435505">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onEnterSleep" parent="ioa_watchView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268435569" name="initialize" parent="ioa_watchView" startPc="268435549">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="onHide" parent="ioa_watchView">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436569" name="onUpdate" parent="ioa_watchView" startPc="268435570">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436593" name="&lt;init&gt;" parent="Rez" startPc="268436570">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436612" name="&lt;init&gt;" parent="ioa_watchApp" startPc="268436594">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436615" name="onStart" parent="ioa_watchApp" startPc="268436613">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436658" name="getInitialView" parent="ioa_watchApp" startPc="268436616">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436679" name="initialize" parent="ioa_watchApp" startPc="268436659">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268436682" name="onStop" parent="ioa_watchApp" startPc="268436680">
+<param id="state"/>
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Drawables">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Layouts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Menus">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Fonts">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="Strings">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
+<documentation/>
+</functionEntry>
+<functionEntry accessMode="public" endPc="268437189" name="WatchFace" parent="Layouts" startPc="268436683">
+<param id="dc"/>
+<documentation/>
+</functionEntry>
+</functions>
+</debugInfo>

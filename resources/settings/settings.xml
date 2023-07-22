@@ -1,0 +1,9 @@
+<settings>
+    <setting propertyKey="@Properties.lunchHour" title="@Strings.lunchHourTitle">
+        <settingConfig type="numeric" />
+    </setting>
+
+    <setting propertyKey="@Properties.lunchMin" title="@Strings.lunchMinTitle">
+        <settingConfig type="numeric" />
+    </setting>
+</settings>
