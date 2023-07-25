@@ -32,6 +32,11 @@ class ioa_watchView extends WatchUi.WatchFace {
 
         // Time until coffee (11:00 weekdays)
         var hoursUntilCoffee = (24 - (clockTime.hour - 11)) % 24 - 1;
+
+        if (hoursUntilCoffee < 0) {
+            hoursUntilCoffee += 24;
+        }
+
         var minutesUntilCoffee = 60 - clockTime.min;
 
         if (minutesUntilCoffee == 60) {
@@ -46,6 +51,10 @@ class ioa_watchView extends WatchUi.WatchFace {
         var hoursUntilLunch = (24 - (clockTime.hour - lunchHour)) % 24 - 1;
         var minutesUntilLunch = 60 + lunchMinute - clockTime.min;
 
+        if (hoursUntilLunch < 0) {
+            hoursUntilLunch += 24;
+        }
+
         if (minutesUntilLunch >= 60) {
             minutesUntilLunch -= 60;
             hoursUntilLunch += 1;
@@ -54,6 +63,10 @@ class ioa_watchView extends WatchUi.WatchFace {
         // Time until tea (15:30 weekdays)
         var hoursUntilTea = (24 - (clockTime.hour - 15 )) % 24 - 1;
         var minutesUntilTea = 90 - clockTime.min;
+
+        if (hoursUntilTea < 0) {
+            hoursUntilTea += 24;
+        }
 
         if (minutesUntilTea >= 60) {
             hoursUntilTea += 1;
@@ -78,15 +91,54 @@ class ioa_watchView extends WatchUi.WatchFace {
             hoursUntilTea += 24;
         }
         
-        var coffeeString = "Coffee: " + Lang.format("$1$:$2$", [hoursUntilCoffee.format("%02d"), minutesUntilCoffee.format("%02d")]);
+        // Defaults of strings
+        var announceString = "";
+        var announceView = View.findDrawableById("AnnounceLabel") as Text;
+
+        var coffeeString = "Coffee: " + Lang.format("$1$h $2$m", [hoursUntilCoffee.format("%02d"), minutesUntilCoffee.format("%02d")]);
         var coffeeView = View.findDrawableById("CoffeeTimeLabel") as Text;
 
-        var lunchString = "Lunch: " + Lang.format("$1$:$2$", [hoursUntilLunch.format("%02d"), minutesUntilLunch.format("%02d")]);
+        var lunchString = "Lunch: " + Lang.format("$1$h $2$m", [hoursUntilLunch.format("%02d"), minutesUntilLunch.format("%02d")]);
         var lunchView = View.findDrawableById("LunchTimeLabel") as Text;
 
-        var TeaString = "Tea: " + Lang.format("$1$:$2$", [hoursUntilTea.format("%02d"), minutesUntilTea.format("%02d")]);
+        var TeaString = "Tea: " + Lang.format("$1$h $2$m", [hoursUntilTea.format("%02d"), minutesUntilTea.format("%02d")]);
         var TeaView = View.findDrawableById("TeaTimeLabel") as Text;
 
+        var TimeUntilString = "Time Until...";
+        var TimeUntilView = View.findDrawableById("TimeUntilLabel") as Text;
+
+        // Check if it is currently coffee/lunch/tea time
+        if ((hoursUntilCoffee == 23 and minutesUntilCoffee > 30) or (hoursUntilCoffee == 24 and minutesUntilCoffee == 0)) {
+            announceString = "Coffee Time!";
+
+            TimeUntilString = "";
+            coffeeString = "";
+            lunchString = "";
+            TeaString = "";
+        }
+
+        if ((hoursUntilLunch == 23 and minutesUntilLunch > 0) or (hoursUntilLunch == 24 and minutesUntilLunch == 0)) {
+            announceString = "Lunch Time!";
+
+            TimeUntilString = "";
+            coffeeString = "";
+            lunchString = "";
+            TeaString = "";
+        }
+
+        if ((hoursUntilTea == 23 and minutesUntilTea > 30) or (hoursUntilTea == 24 and minutesUntilTea == 0)) {
+            announceString = "Tea Time!";
+
+            TimeUntilString = "";
+            coffeeString = "";
+            lunchString = "";
+            TeaString = "";
+        }
+
+
+        // Set views
+        announceView.setText(announceString);
+        TimeUntilView.setText(TimeUntilString);
         coffeeView.setText(coffeeString);
         lunchView.setText(lunchString);
         TeaView.setText(TeaString);

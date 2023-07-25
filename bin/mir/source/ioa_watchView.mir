@@ -104,336 +104,599 @@ C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_sta
         %tmp.41 = 1;
         %tmp.42 = sub %tmp.40 %tmp.41;
         lputv %hoursUntilCoffee.4 %tmp.42;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 35 8 ]
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 36 8 ]
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_36_8_if_stmt:
+        %tmp.44 = lgetv %hoursUntilCoffee.4;
+        %tmp.45 = 0;
+        %tmp.46 = lt %tmp.44 %tmp.45;
+        bf %tmp.46 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_36_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_36_8_if_true:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_36_34_start:
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 37 12 ]
+        %tmp.47 = lgetv %hoursUntilCoffee.4;
+        %tmp.48 = 24;
+        %tmp.49 = add %tmp.47 %tmp.48;
+        lputv %hoursUntilCoffee.4 %tmp.49;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_36_34_stop:
+        goto @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_36_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_36_8_if_end:
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 40 8 ]
         [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
         %minutesUntilCoffee.5 = local;
-        %tmp.43 = 60;
-        %tmp.44 = lgetv %clockTime.1;
-        %tmp.45 = getv %tmp.44 :min;
-        %tmp.46 = sub %tmp.43 %tmp.45;
-        lputv %minutesUntilCoffee.5 %tmp.46;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 37 8 ]
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_37_8_if_stmt:
-        %tmp.48 = lgetv %minutesUntilCoffee.5;
-        %tmp.49 = 60;
-        %tmp.50 = eq %tmp.48 %tmp.49;
-        bf %tmp.50 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_37_8_if_end;
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_37_8_if_true:
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_37_38_start:
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 38 12 ]
-        %tmp.51 = 0;
-        lputv %minutesUntilCoffee.5 %tmp.51;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 39 12 ]
-        %tmp.52 = lgetv %hoursUntilCoffee.4;
-        %tmp.53 = 1;
-        %tmp.54 = add %tmp.52 %tmp.53;
-        lputv %hoursUntilCoffee.4 %tmp.54;
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_37_38_stop:
-        goto @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_37_8_if_end;
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_37_8_if_end:
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 43 8 ]
+        %tmp.50 = 60;
+        %tmp.51 = lgetv %clockTime.1;
+        %tmp.52 = getv %tmp.51 :min;
+        %tmp.53 = sub %tmp.50 %tmp.52;
+        lputv %minutesUntilCoffee.5 %tmp.53;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 42 8 ]
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_42_8_if_stmt:
+        %tmp.55 = lgetv %minutesUntilCoffee.5;
+        %tmp.56 = 60;
+        %tmp.57 = eq %tmp.55 %tmp.56;
+        bf %tmp.57 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_42_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_42_8_if_true:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_42_38_start:
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 43 12 ]
+        %tmp.58 = 0;
+        lputv %minutesUntilCoffee.5 %tmp.58;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 44 12 ]
+        %tmp.59 = lgetv %hoursUntilCoffee.4;
+        %tmp.60 = 1;
+        %tmp.61 = add %tmp.59 %tmp.60;
+        lputv %hoursUntilCoffee.4 %tmp.61;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_42_38_stop:
+        goto @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_42_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_42_8_if_end:
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 48 8 ]
         [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
         %lunchHour.6 = local;
-        %tmp.56 = getv ? :Application;
-        %tmp.57 = getv function %tmp.56 :getApp;
-        %tmp.58 = invoke %tmp.56 %tmp.57();
-        %tmp.59 = getv function %tmp.58 :getProperty;
-        %tmp.60 = "lunchHour";
-        %tmp.61 = invoke %tmp.58 %tmp.59(%tmp.60);
-        lputv %lunchHour.6 %tmp.61;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 44 8 ]
-        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
-        %lunchMinute.7 = local;
         %tmp.63 = getv ? :Application;
         %tmp.64 = getv function %tmp.63 :getApp;
         %tmp.65 = invoke %tmp.63 %tmp.64();
         %tmp.66 = getv function %tmp.65 :getProperty;
-        %tmp.67 = "lunchMin";
+        %tmp.67 = "lunchHour";
         %tmp.68 = invoke %tmp.65 %tmp.66(%tmp.67);
-        lputv %lunchMinute.7 %tmp.68;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 46 8 ]
+        lputv %lunchHour.6 %tmp.68;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 49 8 ]
+        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
+        %lunchMinute.7 = local;
+        %tmp.70 = getv ? :Application;
+        %tmp.71 = getv function %tmp.70 :getApp;
+        %tmp.72 = invoke %tmp.70 %tmp.71();
+        %tmp.73 = getv function %tmp.72 :getProperty;
+        %tmp.74 = "lunchMin";
+        %tmp.75 = invoke %tmp.72 %tmp.73(%tmp.74);
+        lputv %lunchMinute.7 %tmp.75;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 51 8 ]
         [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
         %hoursUntilLunch.8 = local;
-        %tmp.69 = 24;
-        %tmp.70 = lgetv %clockTime.1;
-        %tmp.71 = getv %tmp.70 :hour;
-        %tmp.73 = lgetv %lunchHour.6;
-        %tmp.74 = sub %tmp.71 %tmp.73;
-        %tmp.75 = sub %tmp.69 %tmp.74;
         %tmp.76 = 24;
-        %tmp.77 = mod %tmp.75 %tmp.76;
-        %tmp.78 = 1;
-        %tmp.79 = sub %tmp.77 %tmp.78;
-        lputv %hoursUntilLunch.8 %tmp.79;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 47 8 ]
+        %tmp.77 = lgetv %clockTime.1;
+        %tmp.78 = getv %tmp.77 :hour;
+        %tmp.80 = lgetv %lunchHour.6;
+        %tmp.81 = sub %tmp.78 %tmp.80;
+        %tmp.82 = sub %tmp.76 %tmp.81;
+        %tmp.83 = 24;
+        %tmp.84 = mod %tmp.82 %tmp.83;
+        %tmp.85 = 1;
+        %tmp.86 = sub %tmp.84 %tmp.85;
+        lputv %hoursUntilLunch.8 %tmp.86;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 52 8 ]
         [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
         %minutesUntilLunch.9 = local;
-        %tmp.80 = 60;
-        %tmp.82 = lgetv %lunchMinute.7;
-        %tmp.83 = add %tmp.80 %tmp.82;
-        %tmp.84 = lgetv %clockTime.1;
-        %tmp.85 = getv %tmp.84 :min;
-        %tmp.86 = sub %tmp.83 %tmp.85;
-        lputv %minutesUntilLunch.9 %tmp.86;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 49 8 ]
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_49_8_if_stmt:
-        %tmp.88 = lgetv %minutesUntilLunch.9;
-        %tmp.89 = 60;
-        %tmp.90 = gte %tmp.88 %tmp.89;
-        bf %tmp.90 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_49_8_if_end;
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_49_8_if_true:
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_49_37_start:
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 50 12 ]
-        %tmp.91 = lgetv %minutesUntilLunch.9;
-        %tmp.92 = 60;
-        %tmp.93 = sub %tmp.91 %tmp.92;
+        %tmp.87 = 60;
+        %tmp.89 = lgetv %lunchMinute.7;
+        %tmp.90 = add %tmp.87 %tmp.89;
+        %tmp.91 = lgetv %clockTime.1;
+        %tmp.92 = getv %tmp.91 :min;
+        %tmp.93 = sub %tmp.90 %tmp.92;
         lputv %minutesUntilLunch.9 %tmp.93;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 51 12 ]
-        %tmp.94 = lgetv %hoursUntilLunch.8;
-        %tmp.95 = 1;
-        %tmp.96 = add %tmp.94 %tmp.95;
-        lputv %hoursUntilLunch.8 %tmp.96;
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_49_37_stop:
-        goto @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_49_8_if_end;
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_49_8_if_end:
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 55 8 ]
-        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
-        %hoursUntilTea.10 = local;
-        %tmp.97 = 24;
-        %tmp.98 = lgetv %clockTime.1;
-        %tmp.99 = getv %tmp.98 :hour;
-        %tmp.100 = 15;
-        %tmp.101 = sub %tmp.99 %tmp.100;
-        %tmp.102 = sub %tmp.97 %tmp.101;
-        %tmp.103 = 24;
-        %tmp.104 = mod %tmp.102 %tmp.103;
-        %tmp.105 = 1;
-        %tmp.106 = sub %tmp.104 %tmp.105;
-        lputv %hoursUntilTea.10 %tmp.106;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 56 8 ]
-        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
-        %minutesUntilTea.11 = local;
-        %tmp.107 = 90;
-        %tmp.108 = lgetv %clockTime.1;
-        %tmp.109 = getv %tmp.108 :min;
-        %tmp.110 = sub %tmp.107 %tmp.109;
-        lputv %minutesUntilTea.11 %tmp.110;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 54 8 ]
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_54_8_if_stmt:
+        %tmp.95 = lgetv %hoursUntilLunch.8;
+        %tmp.96 = 0;
+        %tmp.97 = lt %tmp.95 %tmp.96;
+        bf %tmp.97 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_54_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_54_8_if_true:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_54_33_start:
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 55 12 ]
+        %tmp.98 = lgetv %hoursUntilLunch.8;
+        %tmp.99 = 24;
+        %tmp.100 = add %tmp.98 %tmp.99;
+        lputv %hoursUntilLunch.8 %tmp.100;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_54_33_stop:
+        goto @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_54_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_54_8_if_end:
 [ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 58 8 ]
 C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_58_8_if_stmt:
-        %tmp.112 = lgetv %minutesUntilTea.11;
-        %tmp.113 = 60;
-        %tmp.114 = gte %tmp.112 %tmp.113;
-        bf %tmp.114 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_58_8_if_end;
+        %tmp.102 = lgetv %minutesUntilLunch.9;
+        %tmp.103 = 60;
+        %tmp.104 = gte %tmp.102 %tmp.103;
+        bf %tmp.104 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_58_8_if_end;
 C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_58_8_if_true:
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_58_35_start:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_58_37_start:
 [ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 59 12 ]
-        %tmp.115 = lgetv %hoursUntilTea.10;
-        %tmp.116 = 1;
-        %tmp.117 = add %tmp.115 %tmp.116;
-        lputv %hoursUntilTea.10 %tmp.117;
+        %tmp.105 = lgetv %minutesUntilLunch.9;
+        %tmp.106 = 60;
+        %tmp.107 = sub %tmp.105 %tmp.106;
+        lputv %minutesUntilLunch.9 %tmp.107;
 [ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 60 12 ]
-        %tmp.118 = lgetv %minutesUntilTea.11;
-        %tmp.119 = 60;
-        %tmp.120 = sub %tmp.118 %tmp.119;
-        lputv %minutesUntilTea.11 %tmp.120;
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_58_35_stop:
+        %tmp.108 = lgetv %hoursUntilLunch.8;
+        %tmp.109 = 1;
+        %tmp.110 = add %tmp.108 %tmp.109;
+        lputv %hoursUntilLunch.8 %tmp.110;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_58_37_stop:
         goto @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_58_8_if_end;
 C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_58_8_if_end:
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 63 8 ]
-        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
-        %today.12 = local;
-        %tmp.121 = getm $.Toybox.Time.Gregorian;
-        %tmp.122 = getv function %tmp.121 :info;
-        %tmp.124 = getv ? :Time;
-        %tmp.125 = getv function %tmp.124 :now;
-        %tmp.126 = invoke %tmp.124 %tmp.125();
-        %tmp.128 = getv ? :Time;
-        %tmp.129 = getv %tmp.128 :FORMAT_SHORT;
-        %tmp.130 = invoke %tmp.121 %tmp.122(%tmp.126, %tmp.129);
-        lputv %today.12 %tmp.130;
 [ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 64 8 ]
         [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
-        %weekday.13 = local;
-        %tmp.131 = lgetv %today.12;
-        %tmp.132 = getv %tmp.131 :day_of_week;
-        lputv %weekday.13 %tmp.132;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 66 8 ]
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_66_8_if_stmt:
-        %tmp.134 = lgetv %weekday.13;
-        %tmp.135 = 7;
-        %tmp.136 = eq %tmp.134 %tmp.135;
-        bf %tmp.136 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_66_8_if_end;
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_66_8_if_true:
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_66_26_start:
+        %hoursUntilTea.10 = local;
+        %tmp.111 = 24;
+        %tmp.112 = lgetv %clockTime.1;
+        %tmp.113 = getv %tmp.112 :hour;
+        %tmp.114 = 15;
+        %tmp.115 = sub %tmp.113 %tmp.114;
+        %tmp.116 = sub %tmp.111 %tmp.115;
+        %tmp.117 = 24;
+        %tmp.118 = mod %tmp.116 %tmp.117;
+        %tmp.119 = 1;
+        %tmp.120 = sub %tmp.118 %tmp.119;
+        lputv %hoursUntilTea.10 %tmp.120;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 65 8 ]
+        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
+        %minutesUntilTea.11 = local;
+        %tmp.121 = 90;
+        %tmp.122 = lgetv %clockTime.1;
+        %tmp.123 = getv %tmp.122 :min;
+        %tmp.124 = sub %tmp.121 %tmp.123;
+        lputv %minutesUntilTea.11 %tmp.124;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 67 8 ]
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_67_8_if_stmt:
+        %tmp.126 = lgetv %hoursUntilTea.10;
+        %tmp.127 = 0;
+        %tmp.128 = lt %tmp.126 %tmp.127;
+        bf %tmp.128 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_67_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_67_8_if_true:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_67_31_start:
 [ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 68 12 ]
-        %tmp.137 = lgetv %hoursUntilCoffee.4;
-        %tmp.138 = 48;
-        %tmp.139 = add %tmp.137 %tmp.138;
-        lputv %hoursUntilCoffee.4 %tmp.139;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 69 12 ]
-        %tmp.140 = lgetv %hoursUntilLunch.8;
-        %tmp.141 = 48;
-        %tmp.142 = add %tmp.140 %tmp.141;
-        lputv %hoursUntilLunch.8 %tmp.142;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 70 12 ]
-        %tmp.143 = lgetv %hoursUntilTea.10;
-        %tmp.144 = 48;
-        %tmp.145 = add %tmp.143 %tmp.144;
-        lputv %hoursUntilTea.10 %tmp.145;
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_66_26_stop:
-        goto @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_66_8_if_end;
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_66_8_if_end:
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 74 8 ]
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_74_8_if_stmt:
-        %tmp.147 = lgetv %weekday.13;
-        %tmp.148 = 1;
-        %tmp.149 = eq %tmp.147 %tmp.148;
-        bf %tmp.149 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_74_8_if_end;
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_74_8_if_true:
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_74_26_start:
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 76 12 ]
-        %tmp.150 = lgetv %hoursUntilCoffee.4;
-        %tmp.151 = 24;
-        %tmp.152 = add %tmp.150 %tmp.151;
-        lputv %hoursUntilCoffee.4 %tmp.152;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 77 12 ]
-        %tmp.153 = lgetv %hoursUntilLunch.8;
-        %tmp.154 = 24;
-        %tmp.155 = add %tmp.153 %tmp.154;
-        lputv %hoursUntilLunch.8 %tmp.155;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 78 12 ]
-        %tmp.156 = lgetv %hoursUntilTea.10;
-        %tmp.157 = 24;
-        %tmp.158 = add %tmp.156 %tmp.157;
-        lputv %hoursUntilTea.10 %tmp.158;
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_74_26_stop:
-        goto @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_74_8_if_end;
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_74_8_if_end:
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 81 8 ]
+        %tmp.129 = lgetv %hoursUntilTea.10;
+        %tmp.130 = 24;
+        %tmp.131 = add %tmp.129 %tmp.130;
+        lputv %hoursUntilTea.10 %tmp.131;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_67_31_stop:
+        goto @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_67_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_67_8_if_end:
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 71 8 ]
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_71_8_if_stmt:
+        %tmp.133 = lgetv %minutesUntilTea.11;
+        %tmp.134 = 60;
+        %tmp.135 = gte %tmp.133 %tmp.134;
+        bf %tmp.135 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_71_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_71_8_if_true:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_71_35_start:
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 72 12 ]
+        %tmp.136 = lgetv %hoursUntilTea.10;
+        %tmp.137 = 1;
+        %tmp.138 = add %tmp.136 %tmp.137;
+        lputv %hoursUntilTea.10 %tmp.138;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 73 12 ]
+        %tmp.139 = lgetv %minutesUntilTea.11;
+        %tmp.140 = 60;
+        %tmp.141 = sub %tmp.139 %tmp.140;
+        lputv %minutesUntilTea.11 %tmp.141;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_71_35_stop:
+        goto @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_71_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_71_8_if_end:
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 76 8 ]
         [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
-        %coffeeString.14 = local;
-        %tmp.159 = "Coffee: ";
-        %tmp.160 = getm $.Toybox.Lang;
-        %tmp.161 = getv function %tmp.160 :format;
-        %tmp.162 = "$1$:$2$";
-        %tmp.163 = newa 2;
-        %tmp.164 = lgetv %hoursUntilCoffee.4;
-        %tmp.165 = getv function %tmp.164 :format;
-        %tmp.166 = "%02d";
-        %tmp.167 = invoke %tmp.164 %tmp.165(%tmp.166);
-        %tmp.168 = dup %tmp.163;
-        %tmp.169 = aputv %tmp.168 0 %tmp.167;
-        %tmp.170 = lgetv %minutesUntilCoffee.5;
-        %tmp.171 = getv function %tmp.170 :format;
-        %tmp.172 = "%02d";
-        %tmp.173 = invoke %tmp.170 %tmp.171(%tmp.172);
-        %tmp.174 = dup %tmp.169;
-        %tmp.175 = aputv %tmp.174 1 %tmp.173;
-        %tmp.176 = invoke %tmp.160 %tmp.161(%tmp.162, %tmp.175);
-        %tmp.177 = add %tmp.159 %tmp.176;
-        lputv %coffeeString.14 %tmp.177;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 82 8 ]
+        %today.12 = local;
+        %tmp.142 = getm $.Toybox.Time.Gregorian;
+        %tmp.143 = getv function %tmp.142 :info;
+        %tmp.145 = getv ? :Time;
+        %tmp.146 = getv function %tmp.145 :now;
+        %tmp.147 = invoke %tmp.145 %tmp.146();
+        %tmp.149 = getv ? :Time;
+        %tmp.150 = getv %tmp.149 :FORMAT_SHORT;
+        %tmp.151 = invoke %tmp.142 %tmp.143(%tmp.147, %tmp.150);
+        lputv %today.12 %tmp.151;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 77 8 ]
         [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
-        %coffeeView.15 = local;
-        %tmp.179 = getv ? :View;
-        %tmp.180 = getv function %tmp.179 :findDrawableById;
-        %tmp.181 = "CoffeeTimeLabel";
-        %tmp.182 = invoke %tmp.179 %tmp.180(%tmp.181);
-        %tmp.183 = as %tmp.182 Text;
-        lputv %coffeeView.15 %tmp.183;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 84 8 ]
-        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
-        %lunchString.16 = local;
-        %tmp.184 = "Lunch: ";
-        %tmp.185 = getm $.Toybox.Lang;
-        %tmp.186 = getv function %tmp.185 :format;
-        %tmp.187 = "$1$:$2$";
-        %tmp.188 = newa 2;
-        %tmp.189 = lgetv %hoursUntilLunch.8;
-        %tmp.190 = getv function %tmp.189 :format;
-        %tmp.191 = "%02d";
-        %tmp.192 = invoke %tmp.189 %tmp.190(%tmp.191);
-        %tmp.193 = dup %tmp.188;
-        %tmp.194 = aputv %tmp.193 0 %tmp.192;
-        %tmp.195 = lgetv %minutesUntilLunch.9;
-        %tmp.196 = getv function %tmp.195 :format;
-        %tmp.197 = "%02d";
-        %tmp.198 = invoke %tmp.195 %tmp.196(%tmp.197);
-        %tmp.199 = dup %tmp.194;
-        %tmp.200 = aputv %tmp.199 1 %tmp.198;
-        %tmp.201 = invoke %tmp.185 %tmp.186(%tmp.187, %tmp.200);
-        %tmp.202 = add %tmp.184 %tmp.201;
-        lputv %lunchString.16 %tmp.202;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 85 8 ]
-        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
-        %lunchView.17 = local;
-        %tmp.204 = getv ? :View;
-        %tmp.205 = getv function %tmp.204 :findDrawableById;
-        %tmp.206 = "LunchTimeLabel";
-        %tmp.207 = invoke %tmp.204 %tmp.205(%tmp.206);
-        %tmp.208 = as %tmp.207 Text;
-        lputv %lunchView.17 %tmp.208;
+        %weekday.13 = local;
+        %tmp.152 = lgetv %today.12;
+        %tmp.153 = getv %tmp.152 :day_of_week;
+        lputv %weekday.13 %tmp.153;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 79 8 ]
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_79_8_if_stmt:
+        %tmp.155 = lgetv %weekday.13;
+        %tmp.156 = 7;
+        %tmp.157 = eq %tmp.155 %tmp.156;
+        bf %tmp.157 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_79_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_79_8_if_true:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_79_26_start:
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 81 12 ]
+        %tmp.158 = lgetv %hoursUntilCoffee.4;
+        %tmp.159 = 48;
+        %tmp.160 = add %tmp.158 %tmp.159;
+        lputv %hoursUntilCoffee.4 %tmp.160;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 82 12 ]
+        %tmp.161 = lgetv %hoursUntilLunch.8;
+        %tmp.162 = 48;
+        %tmp.163 = add %tmp.161 %tmp.162;
+        lputv %hoursUntilLunch.8 %tmp.163;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 83 12 ]
+        %tmp.164 = lgetv %hoursUntilTea.10;
+        %tmp.165 = 48;
+        %tmp.166 = add %tmp.164 %tmp.165;
+        lputv %hoursUntilTea.10 %tmp.166;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_79_26_stop:
+        goto @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_79_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_79_8_if_end:
 [ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 87 8 ]
-        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
-        %TeaString.18 = local;
-        %tmp.209 = "Tea: ";
-        %tmp.210 = getm $.Toybox.Lang;
-        %tmp.211 = getv function %tmp.210 :format;
-        %tmp.212 = "$1$:$2$";
-        %tmp.213 = newa 2;
-        %tmp.214 = lgetv %hoursUntilTea.10;
-        %tmp.215 = getv function %tmp.214 :format;
-        %tmp.216 = "%02d";
-        %tmp.217 = invoke %tmp.214 %tmp.215(%tmp.216);
-        %tmp.218 = dup %tmp.213;
-        %tmp.219 = aputv %tmp.218 0 %tmp.217;
-        %tmp.220 = lgetv %minutesUntilTea.11;
-        %tmp.221 = getv function %tmp.220 :format;
-        %tmp.222 = "%02d";
-        %tmp.223 = invoke %tmp.220 %tmp.221(%tmp.222);
-        %tmp.224 = dup %tmp.219;
-        %tmp.225 = aputv %tmp.224 1 %tmp.223;
-        %tmp.226 = invoke %tmp.210 %tmp.211(%tmp.212, %tmp.225);
-        %tmp.227 = add %tmp.209 %tmp.226;
-        lputv %TeaString.18 %tmp.227;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 88 8 ]
-        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
-        %TeaView.19 = local;
-        %tmp.229 = getv ? :View;
-        %tmp.230 = getv function %tmp.229 :findDrawableById;
-        %tmp.231 = "TeaTimeLabel";
-        %tmp.232 = invoke %tmp.229 %tmp.230(%tmp.231);
-        %tmp.233 = as %tmp.232 Text;
-        lputv %TeaView.19 %tmp.233;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 90 8 ]
-        %tmp.234 = lgetv %coffeeView.15;
-        %tmp.235 = getv function %tmp.234 :setText;
-        %tmp.237 = lgetv %coffeeString.14;
-        invoke %tmp.234 %tmp.235(%tmp.237);
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 91 8 ]
-        %tmp.238 = lgetv %lunchView.17;
-        %tmp.239 = getv function %tmp.238 :setText;
-        %tmp.241 = lgetv %lunchString.16;
-        invoke %tmp.238 %tmp.239(%tmp.241);
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 92 8 ]
-        %tmp.242 = lgetv %TeaView.19;
-        %tmp.243 = getv function %tmp.242 :setText;
-        %tmp.245 = lgetv %TeaString.18;
-        invoke %tmp.242 %tmp.243(%tmp.245);
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_87_8_if_stmt:
+        %tmp.168 = lgetv %weekday.13;
+        %tmp.169 = 1;
+        %tmp.170 = eq %tmp.168 %tmp.169;
+        bf %tmp.170 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_87_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_87_8_if_true:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_87_26_start:
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 89 12 ]
+        %tmp.171 = lgetv %hoursUntilCoffee.4;
+        %tmp.172 = 24;
+        %tmp.173 = add %tmp.171 %tmp.172;
+        lputv %hoursUntilCoffee.4 %tmp.173;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 90 12 ]
+        %tmp.174 = lgetv %hoursUntilLunch.8;
+        %tmp.175 = 24;
+        %tmp.176 = add %tmp.174 %tmp.175;
+        lputv %hoursUntilLunch.8 %tmp.176;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 91 12 ]
+        %tmp.177 = lgetv %hoursUntilTea.10;
+        %tmp.178 = 24;
+        %tmp.179 = add %tmp.177 %tmp.178;
+        lputv %hoursUntilTea.10 %tmp.179;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_87_26_stop:
+        goto @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_87_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_87_8_if_end:
 [ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 95 8 ]
-        %tmp.247 = getv ? :View;
-        %tmp.248 = getv function %tmp.247 :onUpdate;
-        %tmp.250 = lgetv %dc;
-        invoke %tmp.247 %tmp.248(%tmp.250);
+        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
+        %announceString.14 = local;
+        %tmp.180 = "";
+        lputv %announceString.14 %tmp.180;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 96 8 ]
+        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
+        %announceView.15 = local;
+        %tmp.182 = getv ? :View;
+        %tmp.183 = getv function %tmp.182 :findDrawableById;
+        %tmp.184 = "AnnounceLabel";
+        %tmp.185 = invoke %tmp.182 %tmp.183(%tmp.184);
+        %tmp.186 = as %tmp.185 Text;
+        lputv %announceView.15 %tmp.186;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 98 8 ]
+        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
+        %coffeeString.16 = local;
+        %tmp.187 = "Coffee: ";
+        %tmp.188 = getm $.Toybox.Lang;
+        %tmp.189 = getv function %tmp.188 :format;
+        %tmp.190 = "$1$h $2$m";
+        %tmp.191 = newa 2;
+        %tmp.192 = lgetv %hoursUntilCoffee.4;
+        %tmp.193 = getv function %tmp.192 :format;
+        %tmp.194 = "%02d";
+        %tmp.195 = invoke %tmp.192 %tmp.193(%tmp.194);
+        %tmp.196 = dup %tmp.191;
+        %tmp.197 = aputv %tmp.196 0 %tmp.195;
+        %tmp.198 = lgetv %minutesUntilCoffee.5;
+        %tmp.199 = getv function %tmp.198 :format;
+        %tmp.200 = "%02d";
+        %tmp.201 = invoke %tmp.198 %tmp.199(%tmp.200);
+        %tmp.202 = dup %tmp.197;
+        %tmp.203 = aputv %tmp.202 1 %tmp.201;
+        %tmp.204 = invoke %tmp.188 %tmp.189(%tmp.190, %tmp.203);
+        %tmp.205 = add %tmp.187 %tmp.204;
+        lputv %coffeeString.16 %tmp.205;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 99 8 ]
+        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
+        %coffeeView.17 = local;
+        %tmp.207 = getv ? :View;
+        %tmp.208 = getv function %tmp.207 :findDrawableById;
+        %tmp.209 = "CoffeeTimeLabel";
+        %tmp.210 = invoke %tmp.207 %tmp.208(%tmp.209);
+        %tmp.211 = as %tmp.210 Text;
+        lputv %coffeeView.17 %tmp.211;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 101 8 ]
+        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
+        %lunchString.18 = local;
+        %tmp.212 = "Lunch: ";
+        %tmp.213 = getm $.Toybox.Lang;
+        %tmp.214 = getv function %tmp.213 :format;
+        %tmp.215 = "$1$h $2$m";
+        %tmp.216 = newa 2;
+        %tmp.217 = lgetv %hoursUntilLunch.8;
+        %tmp.218 = getv function %tmp.217 :format;
+        %tmp.219 = "%02d";
+        %tmp.220 = invoke %tmp.217 %tmp.218(%tmp.219);
+        %tmp.221 = dup %tmp.216;
+        %tmp.222 = aputv %tmp.221 0 %tmp.220;
+        %tmp.223 = lgetv %minutesUntilLunch.9;
+        %tmp.224 = getv function %tmp.223 :format;
+        %tmp.225 = "%02d";
+        %tmp.226 = invoke %tmp.223 %tmp.224(%tmp.225);
+        %tmp.227 = dup %tmp.222;
+        %tmp.228 = aputv %tmp.227 1 %tmp.226;
+        %tmp.229 = invoke %tmp.213 %tmp.214(%tmp.215, %tmp.228);
+        %tmp.230 = add %tmp.212 %tmp.229;
+        lputv %lunchString.18 %tmp.230;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 102 8 ]
+        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
+        %lunchView.19 = local;
+        %tmp.232 = getv ? :View;
+        %tmp.233 = getv function %tmp.232 :findDrawableById;
+        %tmp.234 = "LunchTimeLabel";
+        %tmp.235 = invoke %tmp.232 %tmp.233(%tmp.234);
+        %tmp.236 = as %tmp.235 Text;
+        lputv %lunchView.19 %tmp.236;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 104 8 ]
+        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
+        %TeaString.20 = local;
+        %tmp.237 = "Tea: ";
+        %tmp.238 = getm $.Toybox.Lang;
+        %tmp.239 = getv function %tmp.238 :format;
+        %tmp.240 = "$1$h $2$m";
+        %tmp.241 = newa 2;
+        %tmp.242 = lgetv %hoursUntilTea.10;
+        %tmp.243 = getv function %tmp.242 :format;
+        %tmp.244 = "%02d";
+        %tmp.245 = invoke %tmp.242 %tmp.243(%tmp.244);
+        %tmp.246 = dup %tmp.241;
+        %tmp.247 = aputv %tmp.246 0 %tmp.245;
+        %tmp.248 = lgetv %minutesUntilTea.11;
+        %tmp.249 = getv function %tmp.248 :format;
+        %tmp.250 = "%02d";
+        %tmp.251 = invoke %tmp.248 %tmp.249(%tmp.250);
+        %tmp.252 = dup %tmp.247;
+        %tmp.253 = aputv %tmp.252 1 %tmp.251;
+        %tmp.254 = invoke %tmp.238 %tmp.239(%tmp.240, %tmp.253);
+        %tmp.255 = add %tmp.237 %tmp.254;
+        lputv %TeaString.20 %tmp.255;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 105 8 ]
+        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
+        %TeaView.21 = local;
+        %tmp.257 = getv ? :View;
+        %tmp.258 = getv function %tmp.257 :findDrawableById;
+        %tmp.259 = "TeaTimeLabel";
+        %tmp.260 = invoke %tmp.257 %tmp.258(%tmp.259);
+        %tmp.261 = as %tmp.260 Text;
+        lputv %TeaView.21 %tmp.261;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 107 8 ]
+        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
+        %TimeUntilString.22 = local;
+        %tmp.262 = "Time Until...";
+        lputv %TimeUntilString.22 %tmp.262;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 108 8 ]
+        [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop" ]
+        %TimeUntilView.23 = local;
+        %tmp.264 = getv ? :View;
+        %tmp.265 = getv function %tmp.264 :findDrawableById;
+        %tmp.266 = "TimeUntilLabel";
+        %tmp.267 = invoke %tmp.264 %tmp.265(%tmp.266);
+        %tmp.268 = as %tmp.267 Text;
+        lputv %TimeUntilView.23 %tmp.268;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 111 8 ]
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_8_if_stmt:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_12_begin:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_13_begin:
+        %tmp.270 = lgetv %hoursUntilCoffee.4;
+        %tmp.271 = 23;
+        %tmp.272 = eq %tmp.270 %tmp.271;
+        %tmp.273 = dup %tmp.272;
+        bf %tmp.273 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_40_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_40_true:
+        %tmp.275 = lgetv %minutesUntilCoffee.5;
+        %tmp.276 = 30;
+        %tmp.277 = gt %tmp.275 %tmp.276;
+        %tmp.278 = and %tmp.272 %tmp.277;
+        push %tmp.278;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_40_end:
+        %tmp.279 = phi [%tmp.273 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_13_begin] [%tmp.278 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_40_true] [%tmp.279 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_40_end];
+        %tmp.280 = dup %tmp.279;
+        bt %tmp.280 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_68_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_68_false:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_69_begin:
+        %tmp.282 = lgetv %hoursUntilCoffee.4;
+        %tmp.283 = 24;
+        %tmp.284 = eq %tmp.282 %tmp.283;
+        %tmp.285 = dup %tmp.284;
+        bf %tmp.285 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_96_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_96_true:
+        %tmp.287 = lgetv %minutesUntilCoffee.5;
+        %tmp.288 = 0;
+        %tmp.289 = eq %tmp.287 %tmp.288;
+        %tmp.290 = and %tmp.284 %tmp.289;
+        push %tmp.290;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_96_end:
+        %tmp.291 = phi [%tmp.285 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_69_begin] [%tmp.290 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_96_true] [%tmp.291 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_96_end];
+        %tmp.292 = or %tmp.279 %tmp.291;
+        push %tmp.292;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_68_end:
+        %tmp.293 = phi [%tmp.280 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_12_begin] [%tmp.292 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_68_false] [%tmp.293 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_68_end];
+        bf %tmp.293 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_8_if_true:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_122_start:
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 112 12 ]
+        %tmp.294 = "Coffee Time!";
+        lputv %announceString.14 %tmp.294;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 114 12 ]
+        %tmp.295 = "";
+        lputv %TimeUntilString.22 %tmp.295;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 115 12 ]
+        %tmp.296 = "";
+        lputv %coffeeString.16 %tmp.296;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 116 12 ]
+        %tmp.297 = "";
+        lputv %lunchString.18 %tmp.297;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 117 12 ]
+        %tmp.298 = "";
+        lputv %TeaString.20 %tmp.298;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_122_stop:
+        goto @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_111_8_if_end:
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 120 8 ]
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_8_if_stmt:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_12_begin:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_13_begin:
+        %tmp.300 = lgetv %hoursUntilLunch.8;
+        %tmp.301 = 23;
+        %tmp.302 = eq %tmp.300 %tmp.301;
+        %tmp.303 = dup %tmp.302;
+        bf %tmp.303 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_39_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_39_true:
+        %tmp.305 = lgetv %minutesUntilLunch.9;
+        %tmp.306 = 0;
+        %tmp.307 = gt %tmp.305 %tmp.306;
+        %tmp.308 = and %tmp.302 %tmp.307;
+        push %tmp.308;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_39_end:
+        %tmp.309 = phi [%tmp.303 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_13_begin] [%tmp.308 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_39_true] [%tmp.309 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_39_end];
+        %tmp.310 = dup %tmp.309;
+        bt %tmp.310 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_65_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_65_false:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_66_begin:
+        %tmp.312 = lgetv %hoursUntilLunch.8;
+        %tmp.313 = 24;
+        %tmp.314 = eq %tmp.312 %tmp.313;
+        %tmp.315 = dup %tmp.314;
+        bf %tmp.315 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_92_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_92_true:
+        %tmp.317 = lgetv %minutesUntilLunch.9;
+        %tmp.318 = 0;
+        %tmp.319 = eq %tmp.317 %tmp.318;
+        %tmp.320 = and %tmp.314 %tmp.319;
+        push %tmp.320;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_92_end:
+        %tmp.321 = phi [%tmp.315 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_66_begin] [%tmp.320 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_92_true] [%tmp.321 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_92_end];
+        %tmp.322 = or %tmp.309 %tmp.321;
+        push %tmp.322;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_65_end:
+        %tmp.323 = phi [%tmp.310 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_12_begin] [%tmp.322 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_65_false] [%tmp.323 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_65_end];
+        bf %tmp.323 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_8_if_true:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_117_start:
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 121 12 ]
+        %tmp.324 = "Lunch Time!";
+        lputv %announceString.14 %tmp.324;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 123 12 ]
+        %tmp.325 = "";
+        lputv %TimeUntilString.22 %tmp.325;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 124 12 ]
+        %tmp.326 = "";
+        lputv %coffeeString.16 %tmp.326;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 125 12 ]
+        %tmp.327 = "";
+        lputv %lunchString.18 %tmp.327;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 126 12 ]
+        %tmp.328 = "";
+        lputv %TeaString.20 %tmp.328;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_117_stop:
+        goto @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_120_8_if_end:
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 129 8 ]
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_8_if_stmt:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_12_begin:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_13_begin:
+        %tmp.330 = lgetv %hoursUntilTea.10;
+        %tmp.331 = 23;
+        %tmp.332 = eq %tmp.330 %tmp.331;
+        %tmp.333 = dup %tmp.332;
+        bf %tmp.333 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_37_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_37_true:
+        %tmp.335 = lgetv %minutesUntilTea.11;
+        %tmp.336 = 30;
+        %tmp.337 = gt %tmp.335 %tmp.336;
+        %tmp.338 = and %tmp.332 %tmp.337;
+        push %tmp.338;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_37_end:
+        %tmp.339 = phi [%tmp.333 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_13_begin] [%tmp.338 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_37_true] [%tmp.339 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_37_end];
+        %tmp.340 = dup %tmp.339;
+        bt %tmp.340 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_62_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_62_false:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_63_begin:
+        %tmp.342 = lgetv %hoursUntilTea.10;
+        %tmp.343 = 24;
+        %tmp.344 = eq %tmp.342 %tmp.343;
+        %tmp.345 = dup %tmp.344;
+        bf %tmp.345 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_87_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_87_true:
+        %tmp.347 = lgetv %minutesUntilTea.11;
+        %tmp.348 = 0;
+        %tmp.349 = eq %tmp.347 %tmp.348;
+        %tmp.350 = and %tmp.344 %tmp.349;
+        push %tmp.350;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_87_end:
+        %tmp.351 = phi [%tmp.345 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_63_begin] [%tmp.350 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_87_true] [%tmp.351 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_87_end];
+        %tmp.352 = or %tmp.339 %tmp.351;
+        push %tmp.352;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_62_end:
+        %tmp.353 = phi [%tmp.340 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_12_begin] [%tmp.352 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_62_false] [%tmp.353 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_62_end];
+        bf %tmp.353 @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_8_if_true:
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_110_start:
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 130 12 ]
+        %tmp.354 = "Tea Time!";
+        lputv %announceString.14 %tmp.354;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 132 12 ]
+        %tmp.355 = "";
+        lputv %TimeUntilString.22 %tmp.355;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 133 12 ]
+        %tmp.356 = "";
+        lputv %coffeeString.16 %tmp.356;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 134 12 ]
+        %tmp.357 = "";
+        lputv %lunchString.18 %tmp.357;
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 135 12 ]
+        %tmp.358 = "";
+        lputv %TeaString.20 %tmp.358;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_110_stop:
+        goto @C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_8_if_end;
+C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_129_8_if_end:
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 140 8 ]
+        %tmp.359 = lgetv %announceView.15;
+        %tmp.360 = getv function %tmp.359 :setText;
+        %tmp.362 = lgetv %announceString.14;
+        invoke %tmp.359 %tmp.360(%tmp.362);
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 141 8 ]
+        %tmp.363 = lgetv %TimeUntilView.23;
+        %tmp.364 = getv function %tmp.363 :setText;
+        %tmp.366 = lgetv %TimeUntilString.22;
+        invoke %tmp.363 %tmp.364(%tmp.366);
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 142 8 ]
+        %tmp.367 = lgetv %coffeeView.17;
+        %tmp.368 = getv function %tmp.367 :setText;
+        %tmp.370 = lgetv %coffeeString.16;
+        invoke %tmp.367 %tmp.368(%tmp.370);
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 143 8 ]
+        %tmp.371 = lgetv %lunchView.19;
+        %tmp.372 = getv function %tmp.371 :setText;
+        %tmp.374 = lgetv %lunchString.18;
+        invoke %tmp.371 %tmp.372(%tmp.374);
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 144 8 ]
+        %tmp.375 = lgetv %TeaView.21;
+        %tmp.376 = getv function %tmp.375 :setText;
+        %tmp.378 = lgetv %TeaString.20;
+        invoke %tmp.375 %tmp.376(%tmp.378);
+[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc" 147 8 ]
+        %tmp.380 = getv ? :View;
+        %tmp.381 = getv function %tmp.380 :onUpdate;
+        %tmp.383 = lgetv %dc;
+        invoke %tmp.380 %tmp.381(%tmp.383);
 C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_source_ioa_watchView_mc_25_40_stop:
     }
-    [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc"; @line = 101; ]
+    [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc"; @line = 153; ]
     function onHide() as Void {
     }
-    [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc"; @line = 105; ]
+    [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc"; @line = 157; ]
     function onExitSleep() as Void {
     }
-    [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc"; @line = 109; ]
+    [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\source\ioa_watchView.mc"; @line = 161; ]
     function onEnterSleep() as Void {
     }
 }

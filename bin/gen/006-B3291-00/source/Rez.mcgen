@@ -17,15 +17,19 @@ module Rez {
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_MainTimeLabel = new WatchUi.Text({:identifier=>"MainTimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>(280 * 0.5), :locY=>(280 * (10 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_THAI_HOT});
+            var rez_cmp_local_text_MainTimeLabel = new WatchUi.Text({:identifier=>"MainTimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>(280 * 0.5), :locY=>(280 * (4 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_THAI_HOT});
 
-            var rez_cmp_local_text_CoffeeTimeLabel = new WatchUi.Text({:identifier=>"CoffeeTimeLabel", :color=>Graphics.COLOR_WHITE, :locX=>(280 * 0.5), :locY=>(280 * (54 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+            var rez_cmp_local_text_TimeUntilLabel = new WatchUi.Text({:identifier=>"TimeUntilLabel", :color=>Graphics.COLOR_GREEN, :locX=>(280 * (10 / 100.0)), :locY=>(280 * (42 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
 
-            var rez_cmp_local_text_LunchTimeLabel = new WatchUi.Text({:identifier=>"LunchTimeLabel", :color=>Graphics.COLOR_LT_GRAY, :locX=>(280 * 0.5), :locY=>(280 * (66 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+            var rez_cmp_local_text_CoffeeTimeLabel = new WatchUi.Text({:identifier=>"CoffeeTimeLabel", :color=>Graphics.COLOR_WHITE, :locX=>(280 * (80 / 100.0)), :locY=>(280 * (57 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_TINY});
 
-            var rez_cmp_local_text_TeaTimeLabel = new WatchUi.Text({:identifier=>"TeaTimeLabel", :color=>Graphics.COLOR_WHITE, :locX=>(280 * 0.5), :locY=>(280 * (78 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
+            var rez_cmp_local_text_LunchTimeLabel = new WatchUi.Text({:identifier=>"LunchTimeLabel", :color=>Graphics.COLOR_LT_GRAY, :locX=>(280 * (80 / 100.0)), :locY=>(280 * (69 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_TINY});
 
-            return [rez_cmp_local_text_MainTimeLabel, rez_cmp_local_text_CoffeeTimeLabel, rez_cmp_local_text_LunchTimeLabel, rez_cmp_local_text_TeaTimeLabel] as Array<WatchUi.Drawable>;
+            var rez_cmp_local_text_TeaTimeLabel = new WatchUi.Text({:identifier=>"TeaTimeLabel", :color=>Graphics.COLOR_WHITE, :locX=>(280 * (80 / 100.0)), :locY=>(280 * (81 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_TINY});
+
+            var rez_cmp_local_text_AnnounceLabel = new WatchUi.Text({:identifier=>"AnnounceLabel", :color=>Graphics.COLOR_GREEN, :locX=>(280 * 0.5), :locY=>(280 * (57 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
+
+            return [rez_cmp_local_text_MainTimeLabel, rez_cmp_local_text_TimeUntilLabel, rez_cmp_local_text_CoffeeTimeLabel, rez_cmp_local_text_LunchTimeLabel, rez_cmp_local_text_TeaTimeLabel, rez_cmp_local_text_AnnounceLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
