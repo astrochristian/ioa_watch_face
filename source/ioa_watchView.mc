@@ -51,26 +51,26 @@ class ioa_watchView extends WatchUi.WatchFace {
         var hoursUntilLunch = (24 - (clockTime.hour - lunchHour)) % 24 - 1;
         var minutesUntilLunch = 60 + lunchMinute - clockTime.min;
 
-        if (hoursUntilLunch < 0) {
-            hoursUntilLunch += 24;
-        }
-
         if (minutesUntilLunch >= 60) {
             minutesUntilLunch -= 60;
             hoursUntilLunch += 1;
+        }
+
+        if (hoursUntilLunch < 0) {
+            hoursUntilLunch += 24;
         }
 
         // Time until tea (15:30 weekdays)
         var hoursUntilTea = (24 - (clockTime.hour - 15 )) % 24 - 1;
         var minutesUntilTea = 90 - clockTime.min;
 
-        if (hoursUntilTea < 0) {
-            hoursUntilTea += 24;
-        }
-
         if (minutesUntilTea >= 60) {
             hoursUntilTea += 1;
             minutesUntilTea -= 60;
+        }
+
+        if (hoursUntilTea < 0) {
+            hoursUntilTea += 24;
         }
 
         var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);

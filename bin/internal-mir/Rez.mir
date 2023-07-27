@@ -1,48 +1,48 @@
-[ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 1; ]
 import Toybox.Lang;
-[ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 2; ]
+[ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 2; ]
 using Toybox.WatchUi;
-[ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 3; ]
+[ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 3; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 4; ]
+[ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 4; ]
 using Toybox.Graphics;
-[ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 5; ]
+[ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 5; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 7; ]
+[ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 7; ]
 module Rez {
-    [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 7; ]
+    [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 8; ]
+    [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 8; ]
     module Drawables {
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 8; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
         var LauncherIcon as Symbol;
     }
-    [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 12; ]
+    [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 12; ]
     module Fonts {
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 12; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 12; ]
         <init> {
         }
     }
-    [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 15; ]
+    [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 15; ]
     module JsonData {
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 15; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 15; ]
         <init> {
         }
     }
-    [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 18; ]
+    [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 18; ]
     module Layouts {
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 18; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 18; ]
         <init> {
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 19; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 19; ]
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_start:
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 20 12 ]
-            [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_stop" ]
+_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_start:
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 20 12 ]
+            [ "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_start" "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_stop" ]
             %rez_cmp_local_text_MainTimeLabel.1 = local;
             %tmp.3 = getm $.Toybox.WatchUi;
             %tmp.4 = getv function ? %tmp.3 :Text;
@@ -82,8 +82,8 @@ C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_m
             %tmp.44 = aputv %tmp.43 %tmp.40 %tmp.42;
             %tmp.1 = newc %tmp.4 (%tmp.44);
             lputv %rez_cmp_local_text_MainTimeLabel.1 %tmp.1;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 22 12 ]
-            [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_stop" ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 22 12 ]
+            [ "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_start" "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_stop" ]
             %rez_cmp_local_text_TimeUntilLabel.2 = local;
             %tmp.47 = getm $.Toybox.WatchUi;
             %tmp.48 = getv function ? %tmp.47 :Text;
@@ -125,8 +125,8 @@ C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_m
             %tmp.90 = aputv %tmp.89 %tmp.86 %tmp.88;
             %tmp.45 = newc %tmp.48 (%tmp.90);
             lputv %rez_cmp_local_text_TimeUntilLabel.2 %tmp.45;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 24 12 ]
-            [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_stop" ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 24 12 ]
+            [ "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_start" "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_stop" ]
             %rez_cmp_local_text_CoffeeTimeLabel.3 = local;
             %tmp.93 = getm $.Toybox.WatchUi;
             %tmp.94 = getv function ? %tmp.93 :Text;
@@ -168,8 +168,8 @@ C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_m
             %tmp.136 = aputv %tmp.135 %tmp.132 %tmp.134;
             %tmp.91 = newc %tmp.94 (%tmp.136);
             lputv %rez_cmp_local_text_CoffeeTimeLabel.3 %tmp.91;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 26 12 ]
-            [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_stop" ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 26 12 ]
+            [ "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_start" "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_stop" ]
             %rez_cmp_local_text_LunchTimeLabel.4 = local;
             %tmp.139 = getm $.Toybox.WatchUi;
             %tmp.140 = getv function ? %tmp.139 :Text;
@@ -211,8 +211,8 @@ C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_m
             %tmp.182 = aputv %tmp.181 %tmp.178 %tmp.180;
             %tmp.137 = newc %tmp.140 (%tmp.182);
             lputv %rez_cmp_local_text_LunchTimeLabel.4 %tmp.137;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 28 12 ]
-            [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_stop" ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 28 12 ]
+            [ "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_start" "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_stop" ]
             %rez_cmp_local_text_TeaTimeLabel.5 = local;
             %tmp.185 = getm $.Toybox.WatchUi;
             %tmp.186 = getv function ? %tmp.185 :Text;
@@ -254,8 +254,8 @@ C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_m
             %tmp.228 = aputv %tmp.227 %tmp.224 %tmp.226;
             %tmp.183 = newc %tmp.186 (%tmp.228);
             lputv %rez_cmp_local_text_TeaTimeLabel.5 %tmp.183;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 30 12 ]
-            [ "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_start" "C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_stop" ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 30 12 ]
+            [ "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_start" "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_stop" ]
             %rez_cmp_local_text_AnnounceLabel.6 = local;
             %tmp.231 = getm $.Toybox.WatchUi;
             %tmp.232 = getv function ? %tmp.231 :Text;
@@ -295,7 +295,7 @@ C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_m
             %tmp.272 = aputv %tmp.271 %tmp.268 %tmp.270;
             %tmp.229 = newc %tmp.232 (%tmp.272);
             lputv %rez_cmp_local_text_AnnounceLabel.6 %tmp.229;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 32 12 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 32 12 ]
             %tmp.273 = newa Array<WatchUi.Drawable> 6;
             %tmp.275 = lgetv %rez_cmp_local_text_MainTimeLabel.1;
             %tmp.276 = dup %tmp.273;
@@ -316,1253 +316,1253 @@ C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_m
             %tmp.296 = dup %tmp.293;
             %tmp.297 = aputv %tmp.296 5 %tmp.295;
             ret %tmp.297;
-C_Users_Tachyon_Documents_garmin_sdk_ioa_watch_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_stop:
+_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3291_00_source_Rez_mcgen_19_73_stop:
         }
     }
-    [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 36; ]
+    [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 36; ]
     module Menus {
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 36; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 36; ]
         <init> {
         }
     }
-    [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 39; ]
+    [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 39; ]
     module Strings {
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 39; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 39; ]
         <init> {
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 40; @position = 27; initialized = true; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 40; @position = 27; initialized = true; ]
         var lunchHourTitle as Symbol;
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 41; @position = 27; initialized = true; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 41; @position = 27; initialized = true; ]
         var AppName as Symbol;
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 42; @position = 27; initialized = true; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 42; @position = 27; initialized = true; ]
         var lunchMinTitle as Symbol;
     }
-    [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 45; ]
+    [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 45; ]
     module Styles {
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 45; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 45; ]
         <init> {
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 46; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 46; ]
         module prompt_font_enhanced_readability__body_with_title {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 46; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 46; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 47; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 47; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 50; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 50; ]
         module system_size__menu_header {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 50; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 50; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 51; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 51; @position = 18; ]
             const width as Number = 280;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 52; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 52; @position = 18; ]
             const height as Number = 87;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 55; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 55; ]
         module system_loc__hint_button_left_bottom {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 55; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 55; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 56; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 56; @position = 18; ]
             const x as Number = 11;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 57; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 57; @position = 18; ]
             const y as Number = 185;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 60; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 60; ]
         module prompt_font_enhanced_readability__body_no_title {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 60; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 60; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 61; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 61; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 64; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 64; ]
         module prompt_loc__body_no_title {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 64; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 64; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 65; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 65; @position = 18; ]
             const x as Number = 28;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 66; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 66; @position = 18; ]
             const y as Number = 28;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 69; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 69; ]
         module system_icon_dark__about {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 69; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 69; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 70; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__about.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 71; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 70; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__about.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 71; @position = 18; ]
             const compress as String = "true";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 72; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 72; @position = 18; ]
             const dithering as String = "none";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 73; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 73; @position = 18; ]
             const automaticPalette as String = "true";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 76; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 76; ]
         module system_icon_light__question {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 76; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 76; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 77; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__question.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 78; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 77; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__question.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 78; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 81; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 81; ]
         module system_loc__hint_button_left_top {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 81; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 81; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 82; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 82; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 85; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 85; ]
         module prompt_font__title {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 85; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 85; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 86 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 86 18 ]
                 %tmp.298 = getm $.Toybox.Graphics;
                 %tmp.299 = getv %tmp.298 :TEXT_JUSTIFY_CENTER;
                 %tmp.300 = getm $.Toybox.Graphics;
                 %tmp.301 = getv %tmp.300 :TEXT_JUSTIFY_VCENTER;
                 %tmp.302 = bitor %tmp.299 %tmp.301;
                 putv self :justification %tmp.302;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 87 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 87 18 ]
                 %tmp.303 = getm $.Toybox.Graphics;
                 %tmp.304 = getv %tmp.303 :FONT_XTINY;
                 putv self :font %tmp.304;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 86; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 86; @position = 18; ]
             const justification;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 87; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 87; @position = 18; ]
             const font;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 90; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 90; ]
         module system_icon_dark__discard {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 90; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 90; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 91; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__discard.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 92; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 91; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__discard.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 92; @position = 18; ]
             const compress as String = "true";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 93; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 93; @position = 18; ]
             const dithering as String = "none";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 94; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 94; @position = 18; ]
             const automaticPalette as String = "true";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 97; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 97; ]
         module system_size__menu_item {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 97; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 97; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 98; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 98; @position = 18; ]
             const width as Number = 280;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 99; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 99; @position = 18; ]
             const height as Number = 73;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 102; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 102; ]
         module system_color_dark__text {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 102; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 102; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 104 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 104 18 ]
                 %tmp.305 = getm $.Toybox.Graphics;
                 %tmp.306 = getv %tmp.305 :COLOR_TRANSPARENT;
                 putv self :background %tmp.306;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 103; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 103; @position = 18; ]
             const color as Number = 0xFFFFFF;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 104; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 104; @position = 18; ]
             const background;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 107; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 107; ]
         module system_icon_destructive__discard {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 107; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 107; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 108; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_destructive__discard.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 109; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 108; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_destructive__discard.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 109; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 112; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 112; ]
         module system_icon_dark__hint_action_menu {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 112; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 112; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 113; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__hint_button_right_top.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 114; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 113; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 114; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 117; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 117; ]
         module prompt_size__title {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 117; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 117; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 118; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 118; @position = 18; ]
             const width as Number = 224;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 119; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 119; @position = 18; ]
             const height as Number = 42;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 122; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 122; ]
         module confirmation_font__body {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 122; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 122; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 123 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 123 18 ]
                 %tmp.307 = getm $.Toybox.Graphics;
                 %tmp.308 = getv %tmp.307 :TEXT_JUSTIFY_CENTER;
                 %tmp.309 = getm $.Toybox.Graphics;
                 %tmp.310 = getv %tmp.309 :TEXT_JUSTIFY_VCENTER;
                 %tmp.311 = bitor %tmp.308 %tmp.310;
                 putv self :justification %tmp.311;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 124 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 124 18 ]
                 %tmp.312 = getm $.Toybox.Graphics;
                 %tmp.313 = getv %tmp.312 :FONT_TINY;
                 putv self :font %tmp.313;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 123; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 123; @position = 18; ]
             const justification;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 124; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 124; @position = 18; ]
             const font;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 127; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 127; ]
         module system_color_dark__background {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 127; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 127; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 128; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 128; @position = 18; ]
             const color as Number = 0x000000;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 129; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 129; @position = 18; ]
             const background as Number = 0x000000;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 132; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 132; ]
         module system_icon_destructive__hint_button_left_top {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 132; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 132; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 133; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 133; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 136; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 136; ]
         module system_size__launch_icon {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 136; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 136; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 137; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 137; @position = 18; ]
             const scaleX as Number = 40;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 138; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 138; @position = 18; ]
             const scaleY as Number = 40;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 139; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 139; @position = 18; ]
             const scaleRelativeTo as String = "screen";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 142; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 142; ]
         module confirmation_input__confirm {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 142; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 142; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 143 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 143 18 ]
                 %tmp.314 = getm $.Toybox.WatchUi;
                 %tmp.315 = getv %tmp.314 :KEY_ENTER;
                 putv self :button %tmp.315;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 143; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 143; @position = 18; ]
             const button;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 146; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 146; ]
         module prompt_font__body_with_title {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 146; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 146; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 147 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 147 18 ]
                 %tmp.316 = getm $.Toybox.Graphics;
                 %tmp.317 = getv %tmp.316 :TEXT_JUSTIFY_CENTER;
                 putv self :justification %tmp.317;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 148 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 148 18 ]
                 %tmp.318 = getm $.Toybox.Graphics;
                 %tmp.319 = getv %tmp.318 :FONT_TINY;
                 putv self :font %tmp.319;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 147; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 147; @position = 18; ]
             const justification;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 148; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 148; @position = 18; ]
             const font;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 151; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 151; ]
         module confirmation_loc__body {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 151; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 151; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 152; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 152; @position = 18; ]
             const x as Number = 56;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 153; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 153; @position = 18; ]
             const y as Number = 56;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 156; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 156; ]
         module system_icon_destructive__hint_button_left_bottom {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 156; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 156; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 157; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 157; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 160; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 160; ]
         module prompt_color_dark__background {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 160; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 160; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 161; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 161; @position = 18; ]
             const color as Number = 0x000000;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 162; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 162; @position = 18; ]
             const background as Number = 0x000000;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 165; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 165; ]
         module system_loc__hint_action_menu {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 165; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 165; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 166; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 166; @position = 18; ]
             const x as Number = 242;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 167; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 167; @position = 18; ]
             const y as Number = 52;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 170; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 170; ]
         module confirmation_icon__hint_confirm {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 170; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 170; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 171; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\confirmation_icon__hint_completion.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 172; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 171; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_completion.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 172; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 175; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 175; ]
         module system_loc__hint_button_left_middle {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 175; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 175; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 176; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 176; @position = 18; ]
             const x as Number = 3;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 177; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 177; @position = 18; ]
             const y as Number = 116;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 180; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 180; ]
         module prompt_size__body_no_title {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 180; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 180; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 181; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 181; @position = 18; ]
             const width as Number = 224;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 182; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 182; @position = 18; ]
             const height as Number = 224;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 185; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 185; ]
         module system_icon_light__hint_button_left_top {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 185; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 185; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 186; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__hint_button_left_top.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 187; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 186; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__hint_button_left_top.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 187; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 190; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 190; ]
         module prompt_color_light__background {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 190; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 190; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 191; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 191; @position = 18; ]
             const color as Number = 0xFFFFFF;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 192; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 192; @position = 18; ]
             const background as Number = 0xFFFFFF;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 195; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 195; ]
         module confirmation_input__delete {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 195; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 195; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 196 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 196 18 ]
                 %tmp.320 = getm $.Toybox.WatchUi;
                 %tmp.321 = getv %tmp.320 :KEY_ENTER;
                 putv self :button %tmp.321;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 196; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 196; @position = 18; ]
             const button;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 199; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 199; ]
         module system_icon_dark__hint_button_left_top {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 199; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 199; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 200; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__hint_button_left_top.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 201; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 200; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__hint_button_left_top.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 201; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 204; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 204; ]
         module system_input__action_menu {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 204; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 204; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 205 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 205 18 ]
                 %tmp.322 = getm $.Toybox.WatchUi;
                 %tmp.323 = getv %tmp.322 :KEY_ENTER;
                 putv self :button %tmp.323;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 205; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 205; @position = 18; ]
             const button;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 208; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 208; ]
         module system_icon_light__save {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 208; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 208; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 209; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__save.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 210; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 209; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__save.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 210; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 213; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 213; ]
         module prompt_color_light__body {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 213; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 213; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 215 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 215 18 ]
                 %tmp.324 = getm $.Toybox.Graphics;
                 %tmp.325 = getv %tmp.324 :COLOR_TRANSPARENT;
                 putv self :background %tmp.325;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 214; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 214; @position = 18; ]
             const color as Number = 0x000000;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 215; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 215; @position = 18; ]
             const background;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 218; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 218; ]
         module system_loc__subwindow {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 218; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 218; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 219; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 219; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 222; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 222; ]
         module system_icon_light__warning {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 222; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 222; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 223; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__warning.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 224; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 223; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__warning.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 224; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 227; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 227; ]
         module confirmation_color_light__body {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 227; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 227; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 229 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 229 18 ]
                 %tmp.326 = getm $.Toybox.Graphics;
                 %tmp.327 = getv %tmp.326 :COLOR_TRANSPARENT;
                 putv self :background %tmp.327;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 228; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 228; @position = 18; ]
             const color as Number = 0x000000;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 229; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 229; @position = 18; ]
             const background;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 232; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 232; ]
         module activity_color_light__background {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 232; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 232; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 233; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 233; @position = 18; ]
             const color as Number = 0xFFFFFF;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 234; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 234; @position = 18; ]
             const background as Number = 0xFFFFFF;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 237; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 237; ]
         module system_icon_positive__hint_button_right_top {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 237; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 237; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 238; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 238; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 241; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 241; ]
         module system_size__screen {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 241; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 241; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 242; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 242; @position = 18; ]
             const width as Number = 280;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 243; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 243; @position = 18; ]
             const height as Number = 280;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 246; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 246; ]
         module system_icon_destructive__hint_button_right_bottom {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 246; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 246; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 247; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 247; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 250; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 250; ]
         module system_color_light__background {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 250; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 250; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 251; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 251; @position = 18; ]
             const color as Number = 0xFFFFFF;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 252; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 252; @position = 18; ]
             const background as Number = 0xFFFFFF;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 255; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 255; ]
         module system_icon_destructive__hint_button_right_top {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 255; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 255; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 256; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 256; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 259; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 259; ]
         module confirmation_loc__hint_confirm {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 259; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 259; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 260; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 260; @position = 18; ]
             const x as Number = 226;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 261; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 261; @position = 18; ]
             const y as Number = 52;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 264; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 264; ]
         module activity_color_dark__text {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 264; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 264; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 266 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 266 18 ]
                 %tmp.328 = getm $.Toybox.Graphics;
                 %tmp.329 = getv %tmp.328 :COLOR_TRANSPARENT;
                 putv self :background %tmp.329;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 265; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 265; @position = 18; ]
             const color as Number = 0xFFFFFF;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 266; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 266; @position = 18; ]
             const background;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 269; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 269; ]
         module confirmation_input__keep {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 269; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 269; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 270 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 270 18 ]
                 %tmp.330 = getm $.Toybox.WatchUi;
                 %tmp.331 = getv %tmp.330 :KEY_DOWN;
                 putv self :button %tmp.331;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 270; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 270; @position = 18; ]
             const button;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 273; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 273; ]
         module prompt_loc__body_with_title {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 273; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 273; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 274; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 274; @position = 18; ]
             const x as Number = 28;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 275; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 275; @position = 18; ]
             const y as Number = 84;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 278; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 278; ]
         module system_icon_dark__search {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 278; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 278; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 279; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__search.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 280; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 279; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__search.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 280; @position = 18; ]
             const compress as String = "true";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 281; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 281; @position = 18; ]
             const dithering as String = "none";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 282; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 282; @position = 18; ]
             const automaticPalette as String = "true";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 285; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 285; ]
         module activity_color_light__text {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 285; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 285; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 287 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 287 18 ]
                 %tmp.332 = getm $.Toybox.Graphics;
                 %tmp.333 = getv %tmp.332 :COLOR_TRANSPARENT;
                 putv self :background %tmp.333;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 286; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 286; @position = 18; ]
             const color as Number = 0x000000;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 287; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 287; @position = 18; ]
             const background;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 290; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 290; ]
         module confirmation_icon__hint_keep {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 290; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 290; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 291; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\confirmation_icon__hint_keep.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 292; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 291; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_keep.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 292; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 295; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 295; ]
         module system_icon_dark__save {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 295; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 295; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 296; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__save.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 297; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 296; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__save.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 297; @position = 18; ]
             const compress as String = "true";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 298; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 298; @position = 18; ]
             const dithering as String = "none";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 299; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 299; @position = 18; ]
             const automaticPalette as String = "true";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 302; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 302; ]
         module system_icon_destructive__hint_button_left_middle {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 302; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 302; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 303; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 303; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 306; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 306; ]
         module system_icon_light__search {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 306; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 306; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 307; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__search.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 308; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 307; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__search.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 308; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 311; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 311; ]
         module system_icon_dark__hint_button_left_bottom {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 311; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 311; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 312; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__hint_button_left_bottom.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 313; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 312; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__hint_button_left_bottom.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 313; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 316; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 316; ]
         module system_icon_positive__hint_button_left_top {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 316; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 316; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 317; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 317; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 320; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 320; ]
         module system_loc__hint_button_right_bottom {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 320; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 320; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 321; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 321; @position = 18; ]
             const x as Number = 242;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 322; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 322; @position = 18; ]
             const y as Number = 185;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 325; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 325; ]
         module confirmation_color_dark__body {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 325; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 325; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 327 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 327 18 ]
                 %tmp.334 = getm $.Toybox.Graphics;
                 %tmp.335 = getv %tmp.334 :COLOR_TRANSPARENT;
                 putv self :background %tmp.335;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 326; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 326; @position = 18; ]
             const color as Number = 0xFFFFFF;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 327; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 327; @position = 18; ]
             const background;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 330; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 330; ]
         module prompt_color_dark__title {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 330; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 330; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 332 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 332 18 ]
                 %tmp.336 = getm $.Toybox.Graphics;
                 %tmp.337 = getv %tmp.336 :COLOR_TRANSPARENT;
                 putv self :background %tmp.337;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 331; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 331; @position = 18; ]
             const color as Number = 0xFFFFFF;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 332; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 332; @position = 18; ]
             const background;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 335; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 335; ]
         module system_icon_destructive__cancel {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 335; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 335; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 336; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_destructive__cancel.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 337; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 336; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_destructive__cancel.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 337; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 340; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 340; ]
         module system_icon_light__hint_button_right_bottom {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 340; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 340; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 341; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__hint_button_right_bottom.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 342; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 341; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__hint_button_right_bottom.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 342; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 345; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 345; ]
         module prompt_loc__title {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 345; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 345; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 346; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 346; @position = 18; ]
             const x as Number = 28;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 347; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 347; @position = 18; ]
             const y as Number = 21;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 350; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 350; ]
         module confirmation_font_enhanced_readability__body {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 350; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 350; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 351; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 351; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 354; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 354; ]
         module prompt_color_light__title {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 354; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 354; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 356 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 356 18 ]
                 %tmp.338 = getm $.Toybox.Graphics;
                 %tmp.339 = getv %tmp.338 :COLOR_TRANSPARENT;
                 putv self :background %tmp.339;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 355; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 355; @position = 18; ]
             const color as Number = 0x000000;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 356; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 356; @position = 18; ]
             const background;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 359; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 359; ]
         module system_icon_dark__hint_button_right_top {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 359; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 359; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 360; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__hint_button_right_top.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 361; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 360; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__hint_button_right_top.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 361; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 364; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 364; ]
         module system_icon_dark__hint_button_left_middle {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 364; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 364; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 365; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__hint_button_left_middle.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 366; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 365; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__hint_button_left_middle.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 366; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 369; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 369; ]
         module system_icon_light__cancel {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 369; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 369; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 370; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__cancel.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 371; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 370; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__cancel.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 371; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 374; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 374; ]
         module system_icon_light__about {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 374; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 374; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 375; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__about.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 376; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 375; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__about.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 376; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 379; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 379; ]
         module system_size__toast_icon {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 379; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 379; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 380; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 380; @position = 18; ]
             const scaleX as Number = 40;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 381; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 381; @position = 18; ]
             const scaleY as Number = 40;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 382; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 382; @position = 18; ]
             const scaleRelativeTo as String = "screen";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 385; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 385; ]
         module system_icon_dark__hint_button_right_middle {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 385; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 385; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 386; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 386; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 389; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 389; ]
         module confirmation_icon__hint_reject {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 389; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 389; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 390; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\confirmation_icon__hint_reject.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 391; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 390; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_reject.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 391; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 394; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 394; ]
         module system_icon_light__hint_action_menu {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 394; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 394; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 395; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__hint_button_right_top.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 396; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 395; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 396; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 399; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 399; ]
         module system_icon_light__hint_button_right_middle {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 399; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 399; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 400; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 400; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 403; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 403; ]
         module system_icon_destructive__hint_button_right_middle {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 403; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 403; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 404; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 404; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 407; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 407; ]
         module confirmation_loc__hint_reject {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 407; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 407; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 408; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 408; @position = 18; ]
             const x as Number = 11;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 409; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 409; @position = 18; ]
             const y as Number = 185;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 410; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 410; @position = 18; ]
             const horizontalJustification as String = "left";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 413; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 413; ]
         module activity_color_dark__background {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 413; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 413; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 414; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 414; @position = 18; ]
             const color as Number = 0x000000;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 415; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 415; @position = 18; ]
             const background as Number = 0x000000;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 418; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 418; ]
         module system_icon_light__hint_button_left_bottom {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 418; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 418; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 419; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__hint_button_left_bottom.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 420; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 419; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__hint_button_left_bottom.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 420; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 423; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 423; ]
         module system_icon_positive__hint_button_left_middle {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 423; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 423; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 424; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 424; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 427; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 427; ]
         module system_size__menu_icon {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 427; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 427; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 428; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 428; @position = 18; ]
             const scaleX as Number = 40;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 429; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 429; @position = 18; ]
             const scaleY as Number = 40;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 430; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 430; @position = 18; ]
             const scaleRelativeTo as String = "screen";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 433; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 433; ]
         module system_icon_destructive__warning {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 433; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 433; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 434; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_destructive__warning.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 435; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 434; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_destructive__warning.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 435; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 438; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 438; ]
         module system_loc__hint_button_right_middle {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 438; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 438; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 439; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 439; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 442; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 442; ]
         module system_icon_dark__cancel {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 442; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 442; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 443; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__cancel.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 444; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 443; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__cancel.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 444; @position = 18; ]
             const compress as String = "true";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 445; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 445; @position = 18; ]
             const dithering as String = "none";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 446; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 446; @position = 18; ]
             const automaticPalette as String = "true";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 449; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 449; ]
         module prompt_size__body_with_title {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 449; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 449; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 450; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 450; @position = 18; ]
             const width as Number = 224;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 451; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 451; @position = 18; ]
             const height as Number = 168;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 454; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 454; ]
         module system_loc__hint_button_right_top {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 454; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 454; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 455; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 455; @position = 18; ]
             const x as Number = 242;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 456; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 456; @position = 18; ]
             const y as Number = 52;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 459; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 459; ]
         module system_color_light__text {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 459; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 459; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 461 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 461 18 ]
                 %tmp.340 = getm $.Toybox.Graphics;
                 %tmp.341 = getv %tmp.340 :COLOR_TRANSPARENT;
                 putv self :background %tmp.341;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 460; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 460; @position = 18; ]
             const color as Number = 0x000000;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 461; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 461; @position = 18; ]
             const background;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 464; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 464; ]
         module system_icon_light__check {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 464; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 464; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 465; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__check.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 466; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 465; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__check.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 466; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 469; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 469; ]
         module confirmation_input__reject {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 469; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 469; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 470 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 470 18 ]
                 %tmp.342 = getm $.Toybox.WatchUi;
                 %tmp.343 = getv %tmp.342 :KEY_DOWN;
                 putv self :button %tmp.343;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 470; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 470; @position = 18; ]
             const button;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 473; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 473; ]
         module system_icon_light__revert {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 473; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 473; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 474; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__revert.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 475; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 474; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__revert.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 475; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 478; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 478; ]
         module system_size__subwindow {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 478; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 478; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 479; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 479; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 482; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 482; ]
         module system_icon_positive__hint_button_left_bottom {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 482; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 482; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 483; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 483; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 486; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 486; ]
         module system_icon_dark__check {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 486; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 486; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 487; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__check.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 488; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 487; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__check.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 488; @position = 18; ]
             const compress as String = "true";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 489; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 489; @position = 18; ]
             const dithering as String = "none";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 490; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 490; @position = 18; ]
             const automaticPalette as String = "true";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 493; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 493; ]
         module confirmation_loc__hint_keep {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 493; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 493; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 494; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 494; @position = 18; ]
             const x as Number = 11;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 495; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 495; @position = 18; ]
             const y as Number = 185;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 496; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 496; @position = 18; ]
             const horizontalJustification as String = "left";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 499; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 499; ]
         module confirmation_loc__hint_delete {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 499; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 499; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 500; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 500; @position = 18; ]
             const x as Number = 226;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 501; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 501; @position = 18; ]
             const y as Number = 52;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 504; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 504; ]
         module system_icon_positive__hint_button_right_middle {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 504; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 504; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 505; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 505; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 508; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 508; ]
         module system_icon_light__hint_button_left_middle {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 508; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 508; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 509; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__hint_button_left_middle.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 510; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 509; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__hint_button_left_middle.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 510; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 513; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 513; ]
         module system_icon_dark__hint_button_right_bottom {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 513; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 513; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 514; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__hint_button_right_bottom.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 515; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 514; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__hint_button_right_bottom.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 515; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 518; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 518; ]
         module system_icon_positive__hint_button_right_bottom {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 518; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 518; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 519; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 519; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 522; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 522; ]
         module system_icon_dark__revert {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 522; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 522; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 523; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__revert.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 524; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 523; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__revert.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 524; @position = 18; ]
             const compress as String = "true";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 525; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 525; @position = 18; ]
             const dithering as String = "none";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 526; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 526; @position = 18; ]
             const automaticPalette as String = "true";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 529; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 529; ]
         module system_icon_dark__question {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 529; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 529; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 530; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__question.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 531; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 530; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__question.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 531; @position = 18; ]
             const compress as String = "true";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 532; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 532; @position = 18; ]
             const dithering as String = "none";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 533; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 533; @position = 18; ]
             const automaticPalette as String = "true";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 536; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 536; ]
         module system_icon_light__discard {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 536; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 536; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 537; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__discard.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 538; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 537; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__discard.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 538; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 541; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 541; ]
         module device_info {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 541; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 541; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 543 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 543 18 ]
                 %tmp.344 = getm $.Toybox.System;
                 %tmp.345 = getv %tmp.344 :SCREEN_SHAPE_ROUND;
                 putv self :screenShape %tmp.345;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 542; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 542; @position = 18; ]
             const screenWidth as Number = 280;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 543; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 543; @position = 18; ]
             const screenShape;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 544; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 544; @position = 18; ]
             const hasNightMode as Boolean = false;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 545; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 545; @position = 18; ]
             const screenHeight as Number = 280;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 546; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 546; @position = 18; ]
             const hasTouchScreen as Boolean = false;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 547; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 547; @position = 18; ]
             const hasEnhancedReadabilityMode as Boolean = false;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 550; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 550; ]
         module prompt_font__body_no_title {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 550; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 550; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 551 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 551 18 ]
                 %tmp.346 = getm $.Toybox.Graphics;
                 %tmp.347 = getv %tmp.346 :TEXT_JUSTIFY_CENTER;
                 %tmp.348 = getm $.Toybox.Graphics;
                 %tmp.349 = getv %tmp.348 :TEXT_JUSTIFY_VCENTER;
                 %tmp.350 = bitor %tmp.347 %tmp.349;
                 putv self :justification %tmp.350;
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 552 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 552 18 ]
                 %tmp.351 = getm $.Toybox.Graphics;
                 %tmp.352 = getv %tmp.351 :FONT_TINY;
                 putv self :font %tmp.352;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 551; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 551; @position = 18; ]
             const justification;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 552; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 552; @position = 18; ]
             const font;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 555; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 555; ]
         module prompt_size__title_icon {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 555; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 555; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 556; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 556; @position = 18; ]
             const scaleX as Float = 0.15;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 557; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 557; @position = 18; ]
             const scaleRelativeTo as String = "screen";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 560; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 560; ]
         module system_icon_dark__warning {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 560; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 560; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 561; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__warning.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 562; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 561; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__warning.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 562; @position = 18; ]
             const compress as String = "true";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 563; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 563; @position = 18; ]
             const dithering as String = "none";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 564; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 564; @position = 18; ]
             const automaticPalette as String = "true";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 567; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 567; ]
         module prompt_loc__title_icon {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 567; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 567; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 568; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 568; @position = 18; ]
             const x as Number = 140;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 569; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 569; @position = 18; ]
             const y as Number = 42;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 570; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 570; @position = 18; ]
             const horizontalJustification as String = "center";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 571; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 571; @position = 18; ]
             const verticalJustification as String = "center";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 574; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 574; ]
         module prompt_font_enhanced_readability__title {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 574; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 574; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 575; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 575; @position = 18; ]
             const exclude as Boolean = true;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 578; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 578; ]
         module prompt_color_dark__body {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 578; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 578; ]
             <init> {
-[ "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen" 580 18 ]
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen" 580 18 ]
                 %tmp.353 = getm $.Toybox.Graphics;
                 %tmp.354 = getv %tmp.353 :COLOR_TRANSPARENT;
                 putv self :background %tmp.354;
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 579; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 579; @position = 18; ]
             const color as Number = 0xFFFFFF;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 580; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 580; @position = 18; ]
             const background;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 583; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 583; ]
         module confirmation_icon__hint_delete {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 583; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 583; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 584; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\confirmation_icon__hint_delete.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 585; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 584; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_delete.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 585; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 588; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 588; ]
         module system_icon_light__hint_button_right_top {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 588; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 588; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 589; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__hint_button_right_top.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 590; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 589; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__hint_button_right_top.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 590; @position = 18; ]
             const dithering as String = "none";
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 593; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 593; ]
         module confirmation_size__body {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 593; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 593; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 594; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 594; @position = 18; ]
             const width as Number = 168;
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 595; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 595; @position = 18; ]
             const height as Number = 168;
         }
-        [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 598; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 598; ]
         module system_icon_positive__check {
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 598; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 598; ]
             <init> {
             }
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 599; @position = 18; ]
-            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_positive__check.svg";
-            [ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 600; @position = 18; ]
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 599; @position = 18; ]
+            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_positive__check.svg";
+            [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 600; @position = 18; ]
             const dithering as String = "none";
         }
     }
 }
-[ @file = "C:\Users\Tachyon\Documents\garmin_sdk\ioa_watch\bin\gen\006-B3291-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3291-00/source/Rez.mcgen"; @line = 1; ]
 <init> {
 }
