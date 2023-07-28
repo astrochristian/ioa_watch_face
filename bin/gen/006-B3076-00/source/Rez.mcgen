@@ -17,9 +17,11 @@ module Rez {
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_MainTimeLabel = new WatchUi.Text({:identifier=>"MainTimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>(240 * 0.5), :locY=>(240 * (4 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_THAI_HOT});
+            var rez_cmp_local_text_DateLabel = new WatchUi.Text({:identifier=>"DateLabel", :color=>Graphics.COLOR_WHITE, :locX=>(240 * 0.5), :locY=>(240 * (2 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
 
-            var rez_cmp_local_text_TimeUntilLabel = new WatchUi.Text({:identifier=>"TimeUntilLabel", :color=>Graphics.COLOR_GREEN, :locX=>(240 * (10 / 100.0)), :locY=>(240 * (42 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
+            var rez_cmp_local_text_MainTimeLabel = new WatchUi.Text({:identifier=>"MainTimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>(240 * 0.5), :locY=>(240 * (7 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_THAI_HOT});
+
+            var rez_cmp_local_text_TimeUntilLabel = new WatchUi.Text({:identifier=>"TimeUntilLabel", :color=>Graphics.COLOR_GREEN, :locX=>(240 * (10 / 100.0)), :locY=>(240 * (44 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
 
             var rez_cmp_local_text_CoffeeTimeLabel = new WatchUi.Text({:identifier=>"CoffeeTimeLabel", :color=>Graphics.COLOR_WHITE, :locX=>(240 * (80 / 100.0)), :locY=>(240 * (57 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_TINY});
 
@@ -29,7 +31,7 @@ module Rez {
 
             var rez_cmp_local_text_AnnounceLabel = new WatchUi.Text({:identifier=>"AnnounceLabel", :color=>Graphics.COLOR_GREEN, :locX=>(240 * 0.5), :locY=>(240 * (57 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
 
-            return [rez_cmp_local_text_MainTimeLabel, rez_cmp_local_text_TimeUntilLabel, rez_cmp_local_text_CoffeeTimeLabel, rez_cmp_local_text_LunchTimeLabel, rez_cmp_local_text_TeaTimeLabel, rez_cmp_local_text_AnnounceLabel] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_text_DateLabel, rez_cmp_local_text_MainTimeLabel, rez_cmp_local_text_TimeUntilLabel, rez_cmp_local_text_CoffeeTimeLabel, rez_cmp_local_text_LunchTimeLabel, rez_cmp_local_text_TeaTimeLabel, rez_cmp_local_text_AnnounceLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 

@@ -1,59 +1,59 @@
-[ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 1; ]
 import Toybox.Lang;
-[ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 2; ]
+[ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 2; ]
 using Toybox.WatchUi;
-[ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 3; ]
+[ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 3; ]
 using Toybox.WatchUi as :Ui;
-[ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 4; ]
+[ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 4; ]
 using Toybox.Graphics;
-[ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 5; ]
+[ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 5; ]
 using Toybox.Graphics as :Gfx;
-[ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 7; ]
+[ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 7; ]
 module Rez {
-    [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 7; ]
+    [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 7; ]
     <init> {
     }
-    [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 8; ]
+    [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 8; ]
     module Drawables {
-        [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 8; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 8; ]
         <init> {
         }
-        [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 9; @position = 27; initialized = true; ]
         var LauncherIcon as Symbol;
     }
-    [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 12; ]
+    [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 12; ]
     module Fonts {
-        [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 12; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 12; ]
         <init> {
         }
     }
-    [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 15; ]
+    [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 15; ]
     module JsonData {
-        [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 15; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 15; ]
         <init> {
         }
     }
-    [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 18; ]
+    [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 18; ]
     module Layouts {
-        [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 18; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 18; ]
         <init> {
         }
-        [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 19; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 19; ]
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-C_Users_Tachyon_Documents_programming_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_start:
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen" 20 12 ]
-            [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_stop" ]
-            %rez_cmp_local_text_MainTimeLabel.1 = local;
+_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_start:
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen" 20 12 ]
+            [ "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_start" "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_stop" ]
+            %rez_cmp_local_text_DateLabel.1 = local;
             %tmp.3 = getm $.Toybox.WatchUi;
             %tmp.4 = getv function ? %tmp.3 :Text;
             %tmp.5 = newd 6;
             %tmp.7 = const :identifier;
-            %tmp.8 = "MainTimeLabel";
+            %tmp.8 = "DateLabel";
             %tmp.9 = dup %tmp.5;
             %tmp.10 = aputv %tmp.9 %tmp.7 %tmp.8;
             %tmp.12 = const :color;
             %tmp.13 = getm $.Toybox.Graphics;
-            %tmp.14 = getv %tmp.13 :COLOR_BLUE;
+            %tmp.14 = getv %tmp.13 :COLOR_WHITE;
             %tmp.15 = dup %tmp.10;
             %tmp.16 = aputv %tmp.15 %tmp.12 %tmp.14;
             %tmp.18 = const :locX;
@@ -64,7 +64,7 @@ C_Users_Tachyon_Documents_programming_ioa_watch_face_bin_gen_006_B3076_00_source
             %tmp.23 = aputv %tmp.22 %tmp.18 %tmp.21;
             %tmp.25 = const :locY;
             %tmp.26 = 240;
-            %tmp.27 = 4;
+            %tmp.27 = 2;
             %tmp.28 = 100.0;
             %tmp.29 = div %tmp.27 %tmp.28;
             %tmp.30 = mul %tmp.26 %tmp.29;
@@ -77,207 +77,207 @@ C_Users_Tachyon_Documents_programming_ioa_watch_face_bin_gen_006_B3076_00_source
             %tmp.38 = aputv %tmp.37 %tmp.34 %tmp.36;
             %tmp.40 = const :font;
             %tmp.41 = getm $.Toybox.Graphics;
-            %tmp.42 = getv %tmp.41 :FONT_NUMBER_THAI_HOT;
+            %tmp.42 = getv %tmp.41 :FONT_TINY;
             %tmp.43 = dup %tmp.38;
             %tmp.44 = aputv %tmp.43 %tmp.40 %tmp.42;
             %tmp.1 = newc %tmp.4 (%tmp.44);
-            lputv %rez_cmp_local_text_MainTimeLabel.1 %tmp.1;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen" 22 12 ]
-            [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_stop" ]
-            %rez_cmp_local_text_TimeUntilLabel.2 = local;
+            lputv %rez_cmp_local_text_DateLabel.1 %tmp.1;
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen" 22 12 ]
+            [ "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_start" "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_stop" ]
+            %rez_cmp_local_text_MainTimeLabel.2 = local;
             %tmp.47 = getm $.Toybox.WatchUi;
             %tmp.48 = getv function ? %tmp.47 :Text;
             %tmp.49 = newd 6;
             %tmp.51 = const :identifier;
-            %tmp.52 = "TimeUntilLabel";
+            %tmp.52 = "MainTimeLabel";
             %tmp.53 = dup %tmp.49;
             %tmp.54 = aputv %tmp.53 %tmp.51 %tmp.52;
             %tmp.56 = const :color;
             %tmp.57 = getm $.Toybox.Graphics;
-            %tmp.58 = getv %tmp.57 :COLOR_GREEN;
+            %tmp.58 = getv %tmp.57 :COLOR_BLUE;
             %tmp.59 = dup %tmp.54;
             %tmp.60 = aputv %tmp.59 %tmp.56 %tmp.58;
             %tmp.62 = const :locX;
             %tmp.63 = 240;
-            %tmp.64 = 10;
-            %tmp.65 = 100.0;
-            %tmp.66 = div %tmp.64 %tmp.65;
-            %tmp.67 = mul %tmp.63 %tmp.66;
-            %tmp.68 = dup %tmp.60;
-            %tmp.69 = aputv %tmp.68 %tmp.62 %tmp.67;
-            %tmp.71 = const :locY;
-            %tmp.72 = 240;
-            %tmp.73 = 42;
-            %tmp.74 = 100.0;
-            %tmp.75 = div %tmp.73 %tmp.74;
-            %tmp.76 = mul %tmp.72 %tmp.75;
-            %tmp.77 = dup %tmp.69;
-            %tmp.78 = aputv %tmp.77 %tmp.71 %tmp.76;
-            %tmp.80 = const :justification;
-            %tmp.81 = getm $.Toybox.Graphics;
-            %tmp.82 = getv %tmp.81 :TEXT_JUSTIFY_LEFT;
-            %tmp.83 = dup %tmp.78;
-            %tmp.84 = aputv %tmp.83 %tmp.80 %tmp.82;
-            %tmp.86 = const :font;
-            %tmp.87 = getm $.Toybox.Graphics;
-            %tmp.88 = getv %tmp.87 :FONT_TINY;
-            %tmp.89 = dup %tmp.84;
-            %tmp.90 = aputv %tmp.89 %tmp.86 %tmp.88;
-            %tmp.45 = newc %tmp.48 (%tmp.90);
-            lputv %rez_cmp_local_text_TimeUntilLabel.2 %tmp.45;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen" 24 12 ]
-            [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_stop" ]
-            %rez_cmp_local_text_CoffeeTimeLabel.3 = local;
-            %tmp.93 = getm $.Toybox.WatchUi;
-            %tmp.94 = getv function ? %tmp.93 :Text;
-            %tmp.95 = newd 6;
-            %tmp.97 = const :identifier;
-            %tmp.98 = "CoffeeTimeLabel";
-            %tmp.99 = dup %tmp.95;
-            %tmp.100 = aputv %tmp.99 %tmp.97 %tmp.98;
-            %tmp.102 = const :color;
-            %tmp.103 = getm $.Toybox.Graphics;
-            %tmp.104 = getv %tmp.103 :COLOR_WHITE;
-            %tmp.105 = dup %tmp.100;
-            %tmp.106 = aputv %tmp.105 %tmp.102 %tmp.104;
-            %tmp.108 = const :locX;
-            %tmp.109 = 240;
-            %tmp.110 = 80;
-            %tmp.111 = 100.0;
-            %tmp.112 = div %tmp.110 %tmp.111;
-            %tmp.113 = mul %tmp.109 %tmp.112;
-            %tmp.114 = dup %tmp.106;
-            %tmp.115 = aputv %tmp.114 %tmp.108 %tmp.113;
-            %tmp.117 = const :locY;
-            %tmp.118 = 240;
-            %tmp.119 = 57;
-            %tmp.120 = 100.0;
-            %tmp.121 = div %tmp.119 %tmp.120;
-            %tmp.122 = mul %tmp.118 %tmp.121;
-            %tmp.123 = dup %tmp.115;
-            %tmp.124 = aputv %tmp.123 %tmp.117 %tmp.122;
-            %tmp.126 = const :justification;
-            %tmp.127 = getm $.Toybox.Graphics;
-            %tmp.128 = getv %tmp.127 :TEXT_JUSTIFY_RIGHT;
-            %tmp.129 = dup %tmp.124;
-            %tmp.130 = aputv %tmp.129 %tmp.126 %tmp.128;
-            %tmp.132 = const :font;
-            %tmp.133 = getm $.Toybox.Graphics;
-            %tmp.134 = getv %tmp.133 :FONT_TINY;
-            %tmp.135 = dup %tmp.130;
-            %tmp.136 = aputv %tmp.135 %tmp.132 %tmp.134;
-            %tmp.91 = newc %tmp.94 (%tmp.136);
-            lputv %rez_cmp_local_text_CoffeeTimeLabel.3 %tmp.91;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen" 26 12 ]
-            [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_stop" ]
-            %rez_cmp_local_text_LunchTimeLabel.4 = local;
-            %tmp.139 = getm $.Toybox.WatchUi;
-            %tmp.140 = getv function ? %tmp.139 :Text;
-            %tmp.141 = newd 6;
-            %tmp.143 = const :identifier;
-            %tmp.144 = "LunchTimeLabel";
-            %tmp.145 = dup %tmp.141;
-            %tmp.146 = aputv %tmp.145 %tmp.143 %tmp.144;
-            %tmp.148 = const :color;
-            %tmp.149 = getm $.Toybox.Graphics;
-            %tmp.150 = getv %tmp.149 :COLOR_LT_GRAY;
-            %tmp.151 = dup %tmp.146;
-            %tmp.152 = aputv %tmp.151 %tmp.148 %tmp.150;
-            %tmp.154 = const :locX;
-            %tmp.155 = 240;
-            %tmp.156 = 80;
-            %tmp.157 = 100.0;
-            %tmp.158 = div %tmp.156 %tmp.157;
-            %tmp.159 = mul %tmp.155 %tmp.158;
-            %tmp.160 = dup %tmp.152;
-            %tmp.161 = aputv %tmp.160 %tmp.154 %tmp.159;
-            %tmp.163 = const :locY;
-            %tmp.164 = 240;
-            %tmp.165 = 69;
-            %tmp.166 = 100.0;
-            %tmp.167 = div %tmp.165 %tmp.166;
-            %tmp.168 = mul %tmp.164 %tmp.167;
-            %tmp.169 = dup %tmp.161;
-            %tmp.170 = aputv %tmp.169 %tmp.163 %tmp.168;
-            %tmp.172 = const :justification;
-            %tmp.173 = getm $.Toybox.Graphics;
-            %tmp.174 = getv %tmp.173 :TEXT_JUSTIFY_RIGHT;
-            %tmp.175 = dup %tmp.170;
-            %tmp.176 = aputv %tmp.175 %tmp.172 %tmp.174;
-            %tmp.178 = const :font;
-            %tmp.179 = getm $.Toybox.Graphics;
-            %tmp.180 = getv %tmp.179 :FONT_TINY;
-            %tmp.181 = dup %tmp.176;
-            %tmp.182 = aputv %tmp.181 %tmp.178 %tmp.180;
-            %tmp.137 = newc %tmp.140 (%tmp.182);
-            lputv %rez_cmp_local_text_LunchTimeLabel.4 %tmp.137;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen" 28 12 ]
-            [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_stop" ]
-            %rez_cmp_local_text_TeaTimeLabel.5 = local;
-            %tmp.185 = getm $.Toybox.WatchUi;
-            %tmp.186 = getv function ? %tmp.185 :Text;
-            %tmp.187 = newd 6;
-            %tmp.189 = const :identifier;
-            %tmp.190 = "TeaTimeLabel";
-            %tmp.191 = dup %tmp.187;
-            %tmp.192 = aputv %tmp.191 %tmp.189 %tmp.190;
-            %tmp.194 = const :color;
-            %tmp.195 = getm $.Toybox.Graphics;
-            %tmp.196 = getv %tmp.195 :COLOR_WHITE;
-            %tmp.197 = dup %tmp.192;
-            %tmp.198 = aputv %tmp.197 %tmp.194 %tmp.196;
-            %tmp.200 = const :locX;
-            %tmp.201 = 240;
-            %tmp.202 = 80;
-            %tmp.203 = 100.0;
-            %tmp.204 = div %tmp.202 %tmp.203;
-            %tmp.205 = mul %tmp.201 %tmp.204;
-            %tmp.206 = dup %tmp.198;
-            %tmp.207 = aputv %tmp.206 %tmp.200 %tmp.205;
-            %tmp.209 = const :locY;
-            %tmp.210 = 240;
-            %tmp.211 = 81;
-            %tmp.212 = 100.0;
-            %tmp.213 = div %tmp.211 %tmp.212;
-            %tmp.214 = mul %tmp.210 %tmp.213;
-            %tmp.215 = dup %tmp.207;
-            %tmp.216 = aputv %tmp.215 %tmp.209 %tmp.214;
-            %tmp.218 = const :justification;
-            %tmp.219 = getm $.Toybox.Graphics;
-            %tmp.220 = getv %tmp.219 :TEXT_JUSTIFY_RIGHT;
-            %tmp.221 = dup %tmp.216;
-            %tmp.222 = aputv %tmp.221 %tmp.218 %tmp.220;
-            %tmp.224 = const :font;
-            %tmp.225 = getm $.Toybox.Graphics;
-            %tmp.226 = getv %tmp.225 :FONT_TINY;
-            %tmp.227 = dup %tmp.222;
-            %tmp.228 = aputv %tmp.227 %tmp.224 %tmp.226;
-            %tmp.183 = newc %tmp.186 (%tmp.228);
-            lputv %rez_cmp_local_text_TeaTimeLabel.5 %tmp.183;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen" 30 12 ]
-            [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_stop" ]
-            %rez_cmp_local_text_AnnounceLabel.6 = local;
-            %tmp.231 = getm $.Toybox.WatchUi;
-            %tmp.232 = getv function ? %tmp.231 :Text;
-            %tmp.233 = newd 6;
-            %tmp.235 = const :identifier;
-            %tmp.236 = "AnnounceLabel";
-            %tmp.237 = dup %tmp.233;
-            %tmp.238 = aputv %tmp.237 %tmp.235 %tmp.236;
-            %tmp.240 = const :color;
-            %tmp.241 = getm $.Toybox.Graphics;
-            %tmp.242 = getv %tmp.241 :COLOR_GREEN;
-            %tmp.243 = dup %tmp.238;
-            %tmp.244 = aputv %tmp.243 %tmp.240 %tmp.242;
-            %tmp.246 = const :locX;
-            %tmp.247 = 240;
-            %tmp.248 = 0.5;
-            %tmp.249 = mul %tmp.247 %tmp.248;
-            %tmp.250 = dup %tmp.244;
-            %tmp.251 = aputv %tmp.250 %tmp.246 %tmp.249;
+            %tmp.64 = 0.5;
+            %tmp.65 = mul %tmp.63 %tmp.64;
+            %tmp.66 = dup %tmp.60;
+            %tmp.67 = aputv %tmp.66 %tmp.62 %tmp.65;
+            %tmp.69 = const :locY;
+            %tmp.70 = 240;
+            %tmp.71 = 7;
+            %tmp.72 = 100.0;
+            %tmp.73 = div %tmp.71 %tmp.72;
+            %tmp.74 = mul %tmp.70 %tmp.73;
+            %tmp.75 = dup %tmp.67;
+            %tmp.76 = aputv %tmp.75 %tmp.69 %tmp.74;
+            %tmp.78 = const :justification;
+            %tmp.79 = getm $.Toybox.Graphics;
+            %tmp.80 = getv %tmp.79 :TEXT_JUSTIFY_CENTER;
+            %tmp.81 = dup %tmp.76;
+            %tmp.82 = aputv %tmp.81 %tmp.78 %tmp.80;
+            %tmp.84 = const :font;
+            %tmp.85 = getm $.Toybox.Graphics;
+            %tmp.86 = getv %tmp.85 :FONT_NUMBER_THAI_HOT;
+            %tmp.87 = dup %tmp.82;
+            %tmp.88 = aputv %tmp.87 %tmp.84 %tmp.86;
+            %tmp.45 = newc %tmp.48 (%tmp.88);
+            lputv %rez_cmp_local_text_MainTimeLabel.2 %tmp.45;
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen" 24 12 ]
+            [ "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_start" "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_stop" ]
+            %rez_cmp_local_text_TimeUntilLabel.3 = local;
+            %tmp.91 = getm $.Toybox.WatchUi;
+            %tmp.92 = getv function ? %tmp.91 :Text;
+            %tmp.93 = newd 6;
+            %tmp.95 = const :identifier;
+            %tmp.96 = "TimeUntilLabel";
+            %tmp.97 = dup %tmp.93;
+            %tmp.98 = aputv %tmp.97 %tmp.95 %tmp.96;
+            %tmp.100 = const :color;
+            %tmp.101 = getm $.Toybox.Graphics;
+            %tmp.102 = getv %tmp.101 :COLOR_GREEN;
+            %tmp.103 = dup %tmp.98;
+            %tmp.104 = aputv %tmp.103 %tmp.100 %tmp.102;
+            %tmp.106 = const :locX;
+            %tmp.107 = 240;
+            %tmp.108 = 10;
+            %tmp.109 = 100.0;
+            %tmp.110 = div %tmp.108 %tmp.109;
+            %tmp.111 = mul %tmp.107 %tmp.110;
+            %tmp.112 = dup %tmp.104;
+            %tmp.113 = aputv %tmp.112 %tmp.106 %tmp.111;
+            %tmp.115 = const :locY;
+            %tmp.116 = 240;
+            %tmp.117 = 44;
+            %tmp.118 = 100.0;
+            %tmp.119 = div %tmp.117 %tmp.118;
+            %tmp.120 = mul %tmp.116 %tmp.119;
+            %tmp.121 = dup %tmp.113;
+            %tmp.122 = aputv %tmp.121 %tmp.115 %tmp.120;
+            %tmp.124 = const :justification;
+            %tmp.125 = getm $.Toybox.Graphics;
+            %tmp.126 = getv %tmp.125 :TEXT_JUSTIFY_LEFT;
+            %tmp.127 = dup %tmp.122;
+            %tmp.128 = aputv %tmp.127 %tmp.124 %tmp.126;
+            %tmp.130 = const :font;
+            %tmp.131 = getm $.Toybox.Graphics;
+            %tmp.132 = getv %tmp.131 :FONT_TINY;
+            %tmp.133 = dup %tmp.128;
+            %tmp.134 = aputv %tmp.133 %tmp.130 %tmp.132;
+            %tmp.89 = newc %tmp.92 (%tmp.134);
+            lputv %rez_cmp_local_text_TimeUntilLabel.3 %tmp.89;
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen" 26 12 ]
+            [ "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_start" "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_stop" ]
+            %rez_cmp_local_text_CoffeeTimeLabel.4 = local;
+            %tmp.137 = getm $.Toybox.WatchUi;
+            %tmp.138 = getv function ? %tmp.137 :Text;
+            %tmp.139 = newd 6;
+            %tmp.141 = const :identifier;
+            %tmp.142 = "CoffeeTimeLabel";
+            %tmp.143 = dup %tmp.139;
+            %tmp.144 = aputv %tmp.143 %tmp.141 %tmp.142;
+            %tmp.146 = const :color;
+            %tmp.147 = getm $.Toybox.Graphics;
+            %tmp.148 = getv %tmp.147 :COLOR_WHITE;
+            %tmp.149 = dup %tmp.144;
+            %tmp.150 = aputv %tmp.149 %tmp.146 %tmp.148;
+            %tmp.152 = const :locX;
+            %tmp.153 = 240;
+            %tmp.154 = 80;
+            %tmp.155 = 100.0;
+            %tmp.156 = div %tmp.154 %tmp.155;
+            %tmp.157 = mul %tmp.153 %tmp.156;
+            %tmp.158 = dup %tmp.150;
+            %tmp.159 = aputv %tmp.158 %tmp.152 %tmp.157;
+            %tmp.161 = const :locY;
+            %tmp.162 = 240;
+            %tmp.163 = 57;
+            %tmp.164 = 100.0;
+            %tmp.165 = div %tmp.163 %tmp.164;
+            %tmp.166 = mul %tmp.162 %tmp.165;
+            %tmp.167 = dup %tmp.159;
+            %tmp.168 = aputv %tmp.167 %tmp.161 %tmp.166;
+            %tmp.170 = const :justification;
+            %tmp.171 = getm $.Toybox.Graphics;
+            %tmp.172 = getv %tmp.171 :TEXT_JUSTIFY_RIGHT;
+            %tmp.173 = dup %tmp.168;
+            %tmp.174 = aputv %tmp.173 %tmp.170 %tmp.172;
+            %tmp.176 = const :font;
+            %tmp.177 = getm $.Toybox.Graphics;
+            %tmp.178 = getv %tmp.177 :FONT_TINY;
+            %tmp.179 = dup %tmp.174;
+            %tmp.180 = aputv %tmp.179 %tmp.176 %tmp.178;
+            %tmp.135 = newc %tmp.138 (%tmp.180);
+            lputv %rez_cmp_local_text_CoffeeTimeLabel.4 %tmp.135;
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen" 28 12 ]
+            [ "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_start" "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_stop" ]
+            %rez_cmp_local_text_LunchTimeLabel.5 = local;
+            %tmp.183 = getm $.Toybox.WatchUi;
+            %tmp.184 = getv function ? %tmp.183 :Text;
+            %tmp.185 = newd 6;
+            %tmp.187 = const :identifier;
+            %tmp.188 = "LunchTimeLabel";
+            %tmp.189 = dup %tmp.185;
+            %tmp.190 = aputv %tmp.189 %tmp.187 %tmp.188;
+            %tmp.192 = const :color;
+            %tmp.193 = getm $.Toybox.Graphics;
+            %tmp.194 = getv %tmp.193 :COLOR_LT_GRAY;
+            %tmp.195 = dup %tmp.190;
+            %tmp.196 = aputv %tmp.195 %tmp.192 %tmp.194;
+            %tmp.198 = const :locX;
+            %tmp.199 = 240;
+            %tmp.200 = 80;
+            %tmp.201 = 100.0;
+            %tmp.202 = div %tmp.200 %tmp.201;
+            %tmp.203 = mul %tmp.199 %tmp.202;
+            %tmp.204 = dup %tmp.196;
+            %tmp.205 = aputv %tmp.204 %tmp.198 %tmp.203;
+            %tmp.207 = const :locY;
+            %tmp.208 = 240;
+            %tmp.209 = 69;
+            %tmp.210 = 100.0;
+            %tmp.211 = div %tmp.209 %tmp.210;
+            %tmp.212 = mul %tmp.208 %tmp.211;
+            %tmp.213 = dup %tmp.205;
+            %tmp.214 = aputv %tmp.213 %tmp.207 %tmp.212;
+            %tmp.216 = const :justification;
+            %tmp.217 = getm $.Toybox.Graphics;
+            %tmp.218 = getv %tmp.217 :TEXT_JUSTIFY_RIGHT;
+            %tmp.219 = dup %tmp.214;
+            %tmp.220 = aputv %tmp.219 %tmp.216 %tmp.218;
+            %tmp.222 = const :font;
+            %tmp.223 = getm $.Toybox.Graphics;
+            %tmp.224 = getv %tmp.223 :FONT_TINY;
+            %tmp.225 = dup %tmp.220;
+            %tmp.226 = aputv %tmp.225 %tmp.222 %tmp.224;
+            %tmp.181 = newc %tmp.184 (%tmp.226);
+            lputv %rez_cmp_local_text_LunchTimeLabel.5 %tmp.181;
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen" 30 12 ]
+            [ "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_start" "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_stop" ]
+            %rez_cmp_local_text_TeaTimeLabel.6 = local;
+            %tmp.229 = getm $.Toybox.WatchUi;
+            %tmp.230 = getv function ? %tmp.229 :Text;
+            %tmp.231 = newd 6;
+            %tmp.233 = const :identifier;
+            %tmp.234 = "TeaTimeLabel";
+            %tmp.235 = dup %tmp.231;
+            %tmp.236 = aputv %tmp.235 %tmp.233 %tmp.234;
+            %tmp.238 = const :color;
+            %tmp.239 = getm $.Toybox.Graphics;
+            %tmp.240 = getv %tmp.239 :COLOR_WHITE;
+            %tmp.241 = dup %tmp.236;
+            %tmp.242 = aputv %tmp.241 %tmp.238 %tmp.240;
+            %tmp.244 = const :locX;
+            %tmp.245 = 240;
+            %tmp.246 = 80;
+            %tmp.247 = 100.0;
+            %tmp.248 = div %tmp.246 %tmp.247;
+            %tmp.249 = mul %tmp.245 %tmp.248;
+            %tmp.250 = dup %tmp.242;
+            %tmp.251 = aputv %tmp.250 %tmp.244 %tmp.249;
             %tmp.253 = const :locY;
             %tmp.254 = 240;
-            %tmp.255 = 57;
+            %tmp.255 = 81;
             %tmp.256 = 100.0;
             %tmp.257 = div %tmp.255 %tmp.256;
             %tmp.258 = mul %tmp.254 %tmp.257;
@@ -285,59 +285,103 @@ C_Users_Tachyon_Documents_programming_ioa_watch_face_bin_gen_006_B3076_00_source
             %tmp.260 = aputv %tmp.259 %tmp.253 %tmp.258;
             %tmp.262 = const :justification;
             %tmp.263 = getm $.Toybox.Graphics;
-            %tmp.264 = getv %tmp.263 :TEXT_JUSTIFY_CENTER;
+            %tmp.264 = getv %tmp.263 :TEXT_JUSTIFY_RIGHT;
             %tmp.265 = dup %tmp.260;
             %tmp.266 = aputv %tmp.265 %tmp.262 %tmp.264;
             %tmp.268 = const :font;
             %tmp.269 = getm $.Toybox.Graphics;
-            %tmp.270 = getv %tmp.269 :FONT_LARGE;
+            %tmp.270 = getv %tmp.269 :FONT_TINY;
             %tmp.271 = dup %tmp.266;
             %tmp.272 = aputv %tmp.271 %tmp.268 %tmp.270;
-            %tmp.229 = newc %tmp.232 (%tmp.272);
-            lputv %rez_cmp_local_text_AnnounceLabel.6 %tmp.229;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen" 32 12 ]
-            %tmp.273 = newa Array<WatchUi.Drawable> 6;
-            %tmp.275 = lgetv %rez_cmp_local_text_MainTimeLabel.1;
-            %tmp.276 = dup %tmp.273;
-            %tmp.277 = aputv %tmp.276 0 %tmp.275;
-            %tmp.279 = lgetv %rez_cmp_local_text_TimeUntilLabel.2;
-            %tmp.280 = dup %tmp.277;
-            %tmp.281 = aputv %tmp.280 1 %tmp.279;
-            %tmp.283 = lgetv %rez_cmp_local_text_CoffeeTimeLabel.3;
-            %tmp.284 = dup %tmp.281;
-            %tmp.285 = aputv %tmp.284 2 %tmp.283;
-            %tmp.287 = lgetv %rez_cmp_local_text_LunchTimeLabel.4;
-            %tmp.288 = dup %tmp.285;
-            %tmp.289 = aputv %tmp.288 3 %tmp.287;
-            %tmp.291 = lgetv %rez_cmp_local_text_TeaTimeLabel.5;
-            %tmp.292 = dup %tmp.289;
-            %tmp.293 = aputv %tmp.292 4 %tmp.291;
-            %tmp.295 = lgetv %rez_cmp_local_text_AnnounceLabel.6;
-            %tmp.296 = dup %tmp.293;
-            %tmp.297 = aputv %tmp.296 5 %tmp.295;
-            ret %tmp.297;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_stop:
+            %tmp.227 = newc %tmp.230 (%tmp.272);
+            lputv %rez_cmp_local_text_TeaTimeLabel.6 %tmp.227;
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen" 32 12 ]
+            [ "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_start" "_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_stop" ]
+            %rez_cmp_local_text_AnnounceLabel.7 = local;
+            %tmp.275 = getm $.Toybox.WatchUi;
+            %tmp.276 = getv function ? %tmp.275 :Text;
+            %tmp.277 = newd 6;
+            %tmp.279 = const :identifier;
+            %tmp.280 = "AnnounceLabel";
+            %tmp.281 = dup %tmp.277;
+            %tmp.282 = aputv %tmp.281 %tmp.279 %tmp.280;
+            %tmp.284 = const :color;
+            %tmp.285 = getm $.Toybox.Graphics;
+            %tmp.286 = getv %tmp.285 :COLOR_GREEN;
+            %tmp.287 = dup %tmp.282;
+            %tmp.288 = aputv %tmp.287 %tmp.284 %tmp.286;
+            %tmp.290 = const :locX;
+            %tmp.291 = 240;
+            %tmp.292 = 0.5;
+            %tmp.293 = mul %tmp.291 %tmp.292;
+            %tmp.294 = dup %tmp.288;
+            %tmp.295 = aputv %tmp.294 %tmp.290 %tmp.293;
+            %tmp.297 = const :locY;
+            %tmp.298 = 240;
+            %tmp.299 = 57;
+            %tmp.300 = 100.0;
+            %tmp.301 = div %tmp.299 %tmp.300;
+            %tmp.302 = mul %tmp.298 %tmp.301;
+            %tmp.303 = dup %tmp.295;
+            %tmp.304 = aputv %tmp.303 %tmp.297 %tmp.302;
+            %tmp.306 = const :justification;
+            %tmp.307 = getm $.Toybox.Graphics;
+            %tmp.308 = getv %tmp.307 :TEXT_JUSTIFY_CENTER;
+            %tmp.309 = dup %tmp.304;
+            %tmp.310 = aputv %tmp.309 %tmp.306 %tmp.308;
+            %tmp.312 = const :font;
+            %tmp.313 = getm $.Toybox.Graphics;
+            %tmp.314 = getv %tmp.313 :FONT_LARGE;
+            %tmp.315 = dup %tmp.310;
+            %tmp.316 = aputv %tmp.315 %tmp.312 %tmp.314;
+            %tmp.273 = newc %tmp.276 (%tmp.316);
+            lputv %rez_cmp_local_text_AnnounceLabel.7 %tmp.273;
+[ "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen" 34 12 ]
+            %tmp.317 = newa Array<WatchUi.Drawable> 7;
+            %tmp.319 = lgetv %rez_cmp_local_text_DateLabel.1;
+            %tmp.320 = dup %tmp.317;
+            %tmp.321 = aputv %tmp.320 0 %tmp.319;
+            %tmp.323 = lgetv %rez_cmp_local_text_MainTimeLabel.2;
+            %tmp.324 = dup %tmp.321;
+            %tmp.325 = aputv %tmp.324 1 %tmp.323;
+            %tmp.327 = lgetv %rez_cmp_local_text_TimeUntilLabel.3;
+            %tmp.328 = dup %tmp.325;
+            %tmp.329 = aputv %tmp.328 2 %tmp.327;
+            %tmp.331 = lgetv %rez_cmp_local_text_CoffeeTimeLabel.4;
+            %tmp.332 = dup %tmp.329;
+            %tmp.333 = aputv %tmp.332 3 %tmp.331;
+            %tmp.335 = lgetv %rez_cmp_local_text_LunchTimeLabel.5;
+            %tmp.336 = dup %tmp.333;
+            %tmp.337 = aputv %tmp.336 4 %tmp.335;
+            %tmp.339 = lgetv %rez_cmp_local_text_TeaTimeLabel.6;
+            %tmp.340 = dup %tmp.337;
+            %tmp.341 = aputv %tmp.340 5 %tmp.339;
+            %tmp.343 = lgetv %rez_cmp_local_text_AnnounceLabel.7;
+            %tmp.344 = dup %tmp.341;
+            %tmp.345 = aputv %tmp.344 6 %tmp.343;
+            ret %tmp.345;
+_home_tachyon_hobby_garmin_faces_ioa_watch_face_bin_gen_006_B3076_00_source_Rez_mcgen_19_73_stop:
         }
     }
-    [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 36; ]
+    [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 38; ]
     module Menus {
-        [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 36; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 38; ]
         <init> {
         }
     }
-    [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 39; ]
+    [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 41; ]
     module Strings {
-        [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 39; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 41; ]
         <init> {
         }
-        [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 40; @position = 27; initialized = true; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 42; @position = 27; initialized = true; ]
         var lunchHourTitle as Symbol;
-        [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 41; @position = 27; initialized = true; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 43; @position = 27; initialized = true; ]
         var AppName as Symbol;
-        [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 42; @position = 27; initialized = true; ]
+        [ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 44; @position = 27; initialized = true; ]
         var lunchMinTitle as Symbol;
     }
 }
-[ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\bin\gen\006-B3076-00\source\Rez.mcgen"; @line = 1; ]
+[ @file = "/home/tachyon/hobby/garmin_faces/ioa_watch_face/bin/gen/006-B3076-00/source/Rez.mcgen"; @line = 1; ]
 <init> {
 }

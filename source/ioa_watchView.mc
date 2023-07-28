@@ -76,6 +76,13 @@ class ioa_watchView extends WatchUi.WatchFace {
         var today = Gregorian.info(Time.now(), Time.FORMAT_SHORT);
         var weekday = today.day_of_week;
 
+        var weekdayString = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"][weekday - 1];
+
+        var dateString = Lang.format("$1$ $2$", [weekdayString, today.day.format("%02d")]);
+        var dateView = View.findDrawableById("DateLabel") as Text;
+
+        dateView.setText(dateString);
+
         if (weekday == 7) {
             // Saturday
             hoursUntilCoffee += 48;
