@@ -17,9 +17,11 @@ module Rez {
 
     module Layouts {
         function WatchFace(dc as Graphics.Dc) as Array<WatchUi.Drawable> {
-            var rez_cmp_local_text_MainTimeLabel = new WatchUi.Text({:identifier=>"MainTimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>(280 * 0.5), :locY=>(280 * (4 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_THAI_HOT});
+            var rez_cmp_local_text_DateLabel = new WatchUi.Text({:identifier=>"DateLabel", :color=>Graphics.COLOR_WHITE, :locX=>(280 * 0.5), :locY=>(280 * (2 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_TINY});
 
-            var rez_cmp_local_text_TimeUntilLabel = new WatchUi.Text({:identifier=>"TimeUntilLabel", :color=>Graphics.COLOR_GREEN, :locX=>(280 * (10 / 100.0)), :locY=>(280 * (42 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
+            var rez_cmp_local_text_MainTimeLabel = new WatchUi.Text({:identifier=>"MainTimeLabel", :color=>Graphics.COLOR_BLUE, :locX=>(280 * 0.5), :locY=>(280 * (7 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_NUMBER_THAI_HOT});
+
+            var rez_cmp_local_text_TimeUntilLabel = new WatchUi.Text({:identifier=>"TimeUntilLabel", :color=>Graphics.COLOR_GREEN, :locX=>(280 * (10 / 100.0)), :locY=>(280 * (44 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_LEFT, :font=>Graphics.FONT_TINY});
 
             var rez_cmp_local_text_CoffeeTimeLabel = new WatchUi.Text({:identifier=>"CoffeeTimeLabel", :color=>Graphics.COLOR_WHITE, :locX=>(280 * (80 / 100.0)), :locY=>(280 * (57 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_RIGHT, :font=>Graphics.FONT_TINY});
 
@@ -29,7 +31,7 @@ module Rez {
 
             var rez_cmp_local_text_AnnounceLabel = new WatchUi.Text({:identifier=>"AnnounceLabel", :color=>Graphics.COLOR_GREEN, :locX=>(280 * 0.5), :locY=>(280 * (57 / 100.0)), :justification=>Graphics.TEXT_JUSTIFY_CENTER, :font=>Graphics.FONT_LARGE});
 
-            return [rez_cmp_local_text_MainTimeLabel, rez_cmp_local_text_TimeUntilLabel, rez_cmp_local_text_CoffeeTimeLabel, rez_cmp_local_text_LunchTimeLabel, rez_cmp_local_text_TeaTimeLabel, rez_cmp_local_text_AnnounceLabel] as Array<WatchUi.Drawable>;
+            return [rez_cmp_local_text_DateLabel, rez_cmp_local_text_MainTimeLabel, rez_cmp_local_text_TimeUntilLabel, rez_cmp_local_text_CoffeeTimeLabel, rez_cmp_local_text_LunchTimeLabel, rez_cmp_local_text_TeaTimeLabel, rez_cmp_local_text_AnnounceLabel] as Array<WatchUi.Drawable>;
         }
     } // Layouts
 
@@ -67,14 +69,14 @@ module Rez {
         } // prompt_loc__body_no_title
 
         module system_icon_dark__about {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__about.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__about.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
         } // system_icon_dark__about
 
         module system_icon_light__question {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__question.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__question.svg";
             const dithering as String = "none";
         } // system_icon_light__question
 
@@ -88,7 +90,7 @@ module Rez {
         } // prompt_font__title
 
         module system_icon_dark__discard {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__discard.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__discard.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -105,12 +107,12 @@ module Rez {
         } // system_color_dark__text
 
         module system_icon_destructive__discard {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_destructive__discard.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_destructive__discard.svg";
             const dithering as String = "none";
         } // system_icon_destructive__discard
 
         module system_icon_dark__hint_action_menu {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__hint_button_right_top.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__hint_button_right_top.svg";
             const dithering as String = "none";
         } // system_icon_dark__hint_action_menu
 
@@ -168,7 +170,7 @@ module Rez {
         } // system_loc__hint_action_menu
 
         module confirmation_icon__hint_confirm {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_completion.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\confirmation_icon__hint_completion.svg";
             const dithering as String = "none";
         } // confirmation_icon__hint_confirm
 
@@ -183,7 +185,7 @@ module Rez {
         } // prompt_size__body_no_title
 
         module system_icon_light__hint_button_left_top {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__hint_button_left_top.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__hint_button_left_top.svg";
             const dithering as String = "none";
         } // system_icon_light__hint_button_left_top
 
@@ -197,7 +199,7 @@ module Rez {
         } // confirmation_input__delete
 
         module system_icon_dark__hint_button_left_top {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__hint_button_left_top.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__hint_button_left_top.svg";
             const dithering as String = "none";
         } // system_icon_dark__hint_button_left_top
 
@@ -206,7 +208,7 @@ module Rez {
         } // system_input__action_menu
 
         module system_icon_light__save {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__save.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__save.svg";
             const dithering as String = "none";
         } // system_icon_light__save
 
@@ -220,7 +222,7 @@ module Rez {
         } // system_loc__subwindow
 
         module system_icon_light__warning {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__warning.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__warning.svg";
             const dithering as String = "none";
         } // system_icon_light__warning
 
@@ -276,7 +278,7 @@ module Rez {
         } // prompt_loc__body_with_title
 
         module system_icon_dark__search {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__search.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__search.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -288,12 +290,12 @@ module Rez {
         } // activity_color_light__text
 
         module confirmation_icon__hint_keep {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_keep.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\confirmation_icon__hint_keep.svg";
             const dithering as String = "none";
         } // confirmation_icon__hint_keep
 
         module system_icon_dark__save {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__save.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__save.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -304,12 +306,12 @@ module Rez {
         } // system_icon_destructive__hint_button_left_middle
 
         module system_icon_light__search {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__search.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__search.svg";
             const dithering as String = "none";
         } // system_icon_light__search
 
         module system_icon_dark__hint_button_left_bottom {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__hint_button_left_bottom.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__hint_button_left_bottom.svg";
             const dithering as String = "none";
         } // system_icon_dark__hint_button_left_bottom
 
@@ -333,12 +335,12 @@ module Rez {
         } // prompt_color_dark__title
 
         module system_icon_destructive__cancel {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_destructive__cancel.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_destructive__cancel.svg";
             const dithering as String = "none";
         } // system_icon_destructive__cancel
 
         module system_icon_light__hint_button_right_bottom {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__hint_button_right_bottom.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__hint_button_right_bottom.svg";
             const dithering as String = "none";
         } // system_icon_light__hint_button_right_bottom
 
@@ -357,22 +359,22 @@ module Rez {
         } // prompt_color_light__title
 
         module system_icon_dark__hint_button_right_top {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__hint_button_right_top.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__hint_button_right_top.svg";
             const dithering as String = "none";
         } // system_icon_dark__hint_button_right_top
 
         module system_icon_dark__hint_button_left_middle {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__hint_button_left_middle.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__hint_button_left_middle.svg";
             const dithering as String = "none";
         } // system_icon_dark__hint_button_left_middle
 
         module system_icon_light__cancel {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__cancel.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__cancel.svg";
             const dithering as String = "none";
         } // system_icon_light__cancel
 
         module system_icon_light__about {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__about.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__about.svg";
             const dithering as String = "none";
         } // system_icon_light__about
 
@@ -387,12 +389,12 @@ module Rez {
         } // system_icon_dark__hint_button_right_middle
 
         module confirmation_icon__hint_reject {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_reject.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\confirmation_icon__hint_reject.svg";
             const dithering as String = "none";
         } // confirmation_icon__hint_reject
 
         module system_icon_light__hint_action_menu {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__hint_button_right_top.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__hint_button_right_top.svg";
             const dithering as String = "none";
         } // system_icon_light__hint_action_menu
 
@@ -416,7 +418,7 @@ module Rez {
         } // activity_color_dark__background
 
         module system_icon_light__hint_button_left_bottom {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__hint_button_left_bottom.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__hint_button_left_bottom.svg";
             const dithering as String = "none";
         } // system_icon_light__hint_button_left_bottom
 
@@ -431,7 +433,7 @@ module Rez {
         } // system_size__menu_icon
 
         module system_icon_destructive__warning {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_destructive__warning.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_destructive__warning.svg";
             const dithering as String = "none";
         } // system_icon_destructive__warning
 
@@ -440,7 +442,7 @@ module Rez {
         } // system_loc__hint_button_right_middle
 
         module system_icon_dark__cancel {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__cancel.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__cancel.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -462,7 +464,7 @@ module Rez {
         } // system_color_light__text
 
         module system_icon_light__check {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__check.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__check.svg";
             const dithering as String = "none";
         } // system_icon_light__check
 
@@ -471,7 +473,7 @@ module Rez {
         } // confirmation_input__reject
 
         module system_icon_light__revert {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__revert.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__revert.svg";
             const dithering as String = "none";
         } // system_icon_light__revert
 
@@ -484,7 +486,7 @@ module Rez {
         } // system_icon_positive__hint_button_left_bottom
 
         module system_icon_dark__check {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__check.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__check.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -506,12 +508,12 @@ module Rez {
         } // system_icon_positive__hint_button_right_middle
 
         module system_icon_light__hint_button_left_middle {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__hint_button_left_middle.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__hint_button_left_middle.svg";
             const dithering as String = "none";
         } // system_icon_light__hint_button_left_middle
 
         module system_icon_dark__hint_button_right_bottom {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__hint_button_right_bottom.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__hint_button_right_bottom.svg";
             const dithering as String = "none";
         } // system_icon_dark__hint_button_right_bottom
 
@@ -520,21 +522,21 @@ module Rez {
         } // system_icon_positive__hint_button_right_bottom
 
         module system_icon_dark__revert {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__revert.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__revert.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
         } // system_icon_dark__revert
 
         module system_icon_dark__question {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__question.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__question.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
         } // system_icon_dark__question
 
         module system_icon_light__discard {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__discard.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__discard.svg";
             const dithering as String = "none";
         } // system_icon_light__discard
 
@@ -558,7 +560,7 @@ module Rez {
         } // prompt_size__title_icon
 
         module system_icon_dark__warning {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_dark__warning.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_dark__warning.svg";
             const compress as String = "true";
             const dithering as String = "none";
             const automaticPalette as String = "true";
@@ -581,12 +583,12 @@ module Rez {
         } // prompt_color_dark__body
 
         module confirmation_icon__hint_delete {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/confirmation_icon__hint_delete.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\confirmation_icon__hint_delete.svg";
             const dithering as String = "none";
         } // confirmation_icon__hint_delete
 
         module system_icon_light__hint_button_right_top {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_light__hint_button_right_top.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_light__hint_button_right_top.svg";
             const dithering as String = "none";
         } // system_icon_light__hint_button_right_top
 
@@ -596,7 +598,7 @@ module Rez {
         } // confirmation_size__body
 
         module system_icon_positive__check {
-            const filename as String = "/home/tachyon/.Garmin/ConnectIQ/Devices/fenix6xpro/system_icon_positive__check.svg";
+            const filename as String = "C:\\Users\\Tachyon\\AppData\\Roaming\\Garmin\\ConnectIQ\\Devices\\fenix6xpro\\system_icon_positive__check.svg";
             const dithering as String = "none";
         } // system_icon_positive__check
     } // Styles

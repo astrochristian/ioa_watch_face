@@ -124,7 +124,7 @@ class ioa_watchView extends WatchUi.WatchFace {
             TeaString = "";
         }
 
-        if ((hoursUntilLunch == 23 and minutesUntilLunch > 0) or (hoursUntilLunch == 24 and minutesUntilLunch == 0)) {
+        if ((hoursUntilLunch == 23 and minutesUntilLunch > 0) or (hoursUntilLunch == 0 and minutesUntilLunch == 0)) {
             announceString = "Lunch Time!";
 
             TimeUntilString = "";
@@ -133,7 +133,7 @@ class ioa_watchView extends WatchUi.WatchFace {
             TeaString = "";
         }
 
-        if ((hoursUntilTea == 23 and minutesUntilTea > 30) or (hoursUntilTea == 24 and minutesUntilTea == 0)) {
+        if ((hoursUntilTea == 23 and minutesUntilTea > 30) or (hoursUntilTea == 0 and minutesUntilTea == 0)) {
             announceString = "Tea Time!";
 
             TimeUntilString = "";
