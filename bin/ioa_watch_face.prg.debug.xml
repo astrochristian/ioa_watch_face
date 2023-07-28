@@ -43,65 +43,81 @@
 <entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="81" parent="globals/ioa_watchView" pc="268436265" symbol="onUpdate"/>
 <entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="82" parent="globals/ioa_watchView" pc="268436333" symbol="onUpdate"/>
 <entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="84" parent="globals/ioa_watchView" pc="268436361" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="86" parent="globals/ioa_watchView" pc="268436375" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="88" parent="globals/ioa_watchView" pc="268436386" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="89" parent="globals/ioa_watchView" pc="268436396" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="90" parent="globals/ioa_watchView" pc="268436406" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="94" parent="globals/ioa_watchView" pc="268436419" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="96" parent="globals/ioa_watchView" pc="268436430" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="97" parent="globals/ioa_watchView" pc="268436440" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="98" parent="globals/ioa_watchView" pc="268436450" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="102" parent="globals/ioa_watchView" pc="268436463" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="103" parent="globals/ioa_watchView" pc="268436470" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="105" parent="globals/ioa_watchView" pc="268436498" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="106" parent="globals/ioa_watchView" pc="268436580" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="108" parent="globals/ioa_watchView" pc="268436608" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="109" parent="globals/ioa_watchView" pc="268436690" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="111" parent="globals/ioa_watchView" pc="268436718" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="112" parent="globals/ioa_watchView" pc="268436800" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="114" parent="globals/ioa_watchView" pc="268436828" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="115" parent="globals/ioa_watchView" pc="268436835" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="118" parent="globals/ioa_watchView" pc="268436863" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="119" parent="globals/ioa_watchView" pc="268436916" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="121" parent="globals/ioa_watchView" pc="268436923" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="122" parent="globals/ioa_watchView" pc="268436930" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="123" parent="globals/ioa_watchView" pc="268436937" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="124" parent="globals/ioa_watchView" pc="268436944" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="127" parent="globals/ioa_watchView" pc="268436954" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="128" parent="globals/ioa_watchView" pc="268437007" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="130" parent="globals/ioa_watchView" pc="268437014" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="131" parent="globals/ioa_watchView" pc="268437021" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="132" parent="globals/ioa_watchView" pc="268437028" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="133" parent="globals/ioa_watchView" pc="268437035" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="136" parent="globals/ioa_watchView" pc="268437045" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="137" parent="globals/ioa_watchView" pc="268437098" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="139" parent="globals/ioa_watchView" pc="268437105" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="140" parent="globals/ioa_watchView" pc="268437112" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="141" parent="globals/ioa_watchView" pc="268437119" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="142" parent="globals/ioa_watchView" pc="268437126" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="147" parent="globals/ioa_watchView" pc="268437136" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="148" parent="globals/ioa_watchView" pc="268437150" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="149" parent="globals/ioa_watchView" pc="268437164" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="150" parent="globals/ioa_watchView" pc="268437178" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="151" parent="globals/ioa_watchView" pc="268437192" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="154" parent="globals/ioa_watchView" pc="268437206" symbol="onUpdate"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="10" lineNum="7" parent="globals/Rez" pc="268437231" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchApp.mc" id="11" lineNum="5" parent="globals/ioa_watchApp" pc="268437255" symbol="&lt;init&gt;"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchApp.mc" id="12" lineNum="12" parent="globals/ioa_watchApp" pc="268437274" symbol="onStart"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchApp.mc" id="13" lineNum="20" parent="globals/ioa_watchApp" pc="268437277" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchApp.mc" id="13" lineNum="21" parent="globals/ioa_watchApp" pc="268437279" symbol="getInitialView"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchApp.mc" id="14" lineNum="7" parent="globals/ioa_watchApp" pc="268437320" symbol="initialize"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchApp.mc" id="14" lineNum="8" parent="globals/ioa_watchApp" pc="268437322" symbol="initialize"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchApp.mc" id="15" lineNum="16" parent="globals/ioa_watchApp" pc="268437341" symbol="onStop"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="19" parent="globals/Rez/Layouts" pc="268437344" symbol="WatchFace"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="20" parent="globals/Rez/Layouts" pc="268437356" symbol="WatchFace"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="22" parent="globals/Rez/Layouts" pc="268437468" symbol="WatchFace"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="24" parent="globals/Rez/Layouts" pc="268437580" symbol="WatchFace"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="26" parent="globals/Rez/Layouts" pc="268437692" symbol="WatchFace"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="28" parent="globals/Rez/Layouts" pc="268437804" symbol="WatchFace"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="30" parent="globals/Rez/Layouts" pc="268437916" symbol="WatchFace"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="32" parent="globals/Rez/Layouts" pc="268438028" symbol="WatchFace"/>
-<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="34" parent="globals/Rez/Layouts" pc="268438140" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="87" parent="globals/ioa_watchView" pc="268436375" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="89" parent="globals/ioa_watchView" pc="268436379" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="90" parent="globals/ioa_watchView" pc="268436386" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="91" parent="globals/ioa_watchView" pc="268436393" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="92" parent="globals/ioa_watchView" pc="268436400" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="93" parent="globals/ioa_watchView" pc="268436407" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="95" parent="globals/ioa_watchView" pc="268436414" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="96" parent="globals/ioa_watchView" pc="268436467" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="97" parent="globals/ioa_watchView" pc="268436492" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="98" parent="globals/ioa_watchView" pc="268436499" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="102" parent="globals/ioa_watchView" pc="268436509" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="103" parent="globals/ioa_watchView" pc="268436562" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="104" parent="globals/ioa_watchView" pc="268436587" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="105" parent="globals/ioa_watchView" pc="268436594" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="109" parent="globals/ioa_watchView" pc="268436604" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="110" parent="globals/ioa_watchView" pc="268436657" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="111" parent="globals/ioa_watchView" pc="268436682" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="112" parent="globals/ioa_watchView" pc="268436689" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="117" parent="globals/ioa_watchView" pc="268436699" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="119" parent="globals/ioa_watchView" pc="268436710" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="120" parent="globals/ioa_watchView" pc="268436721" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="122" parent="globals/ioa_watchView" pc="268436731" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="123" parent="globals/ioa_watchView" pc="268436739" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="125" parent="globals/ioa_watchView" pc="268436749" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="126" parent="globals/ioa_watchView" pc="268436760" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="132" parent="globals/ioa_watchView" pc="268436782" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="134" parent="globals/ioa_watchView" pc="268436793" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="135" parent="globals/ioa_watchView" pc="268436833" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="137" parent="globals/ioa_watchView" pc="268436846" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="140" parent="globals/ioa_watchView" pc="268436856" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="141" parent="globals/ioa_watchView" pc="268436873" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="143" parent="globals/ioa_watchView" pc="268436886" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="146" parent="globals/ioa_watchView" pc="268436896" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="147" parent="globals/ioa_watchView" pc="268436916" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="149" parent="globals/ioa_watchView" pc="268436929" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="154" parent="globals/ioa_watchView" pc="268436942" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="156" parent="globals/ioa_watchView" pc="268436953" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="157" parent="globals/ioa_watchView" pc="268436993" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="160" parent="globals/ioa_watchView" pc="268437006" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="161" parent="globals/ioa_watchView" pc="268437023" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="164" parent="globals/ioa_watchView" pc="268437036" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="165" parent="globals/ioa_watchView" pc="268437056" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="170" parent="globals/ioa_watchView" pc="268437072" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="171" parent="globals/ioa_watchView" pc="268437100" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="172" parent="globals/ioa_watchView" pc="268437128" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="173" parent="globals/ioa_watchView" pc="268437156" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="174" parent="globals/ioa_watchView" pc="268437184" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="176" parent="globals/ioa_watchView" pc="268437212" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="177" parent="globals/ioa_watchView" pc="268437218" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="178" parent="globals/ioa_watchView" pc="268437300" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="179" parent="globals/ioa_watchView" pc="268437382" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="180" parent="globals/ioa_watchView" pc="268437464" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="184" parent="globals/ioa_watchView" pc="268437474" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="185" parent="globals/ioa_watchView" pc="268437488" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="186" parent="globals/ioa_watchView" pc="268437502" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="187" parent="globals/ioa_watchView" pc="268437516" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="188" parent="globals/ioa_watchView" pc="268437530" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchView.mc" id="9" lineNum="191" parent="globals/ioa_watchView" pc="268437544" symbol="onUpdate"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="10" lineNum="7" parent="globals/Rez" pc="268437569" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchApp.mc" id="11" lineNum="5" parent="globals/ioa_watchApp" pc="268437593" symbol="&lt;init&gt;"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchApp.mc" id="12" lineNum="12" parent="globals/ioa_watchApp" pc="268437612" symbol="onStart"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchApp.mc" id="13" lineNum="20" parent="globals/ioa_watchApp" pc="268437615" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchApp.mc" id="13" lineNum="21" parent="globals/ioa_watchApp" pc="268437617" symbol="getInitialView"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchApp.mc" id="14" lineNum="7" parent="globals/ioa_watchApp" pc="268437658" symbol="initialize"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchApp.mc" id="14" lineNum="8" parent="globals/ioa_watchApp" pc="268437660" symbol="initialize"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\source\\ioa_watchApp.mc" id="15" lineNum="16" parent="globals/ioa_watchApp" pc="268437679" symbol="onStop"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="19" parent="globals/Rez/Layouts" pc="268437682" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="20" parent="globals/Rez/Layouts" pc="268437694" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="22" parent="globals/Rez/Layouts" pc="268437806" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="24" parent="globals/Rez/Layouts" pc="268437918" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="26" parent="globals/Rez/Layouts" pc="268438030" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="28" parent="globals/Rez/Layouts" pc="268438142" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="30" parent="globals/Rez/Layouts" pc="268438254" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="32" parent="globals/Rez/Layouts" pc="268438366" symbol="WatchFace"/>
+<entry filename="C:\\Users\\Tachyon\\Documents\\programming\\ioa_watch_face\\bin\\gen\\006-B3291-00\\source\\Rez.mcgen" id="16" lineNum="34" parent="globals/Rez/Layouts" pc="268438478" symbol="WatchFace"/>
 </pcToLineNum>
 <symbolTable>
 <entry id="8388639" module="true" symbol="Graphics"/>
@@ -155,41 +171,42 @@
 </symbolTable>
 <localVars>
 <entry arg="true" endPc="268435548" name="dc" stackId="1" startPc="268435505"/>
-<entry arg="true" endPc="268437230" name="dc" stackId="1" startPc="268435570"/>
-<entry endPc="268437229" name="clockTime" stackId="2" startPc="268435574"/>
-<entry endPc="268437229" name="timeString" stackId="3" startPc="268435574"/>
-<entry endPc="268437229" name="mainView" stackId="4" startPc="268435574"/>
-<entry endPc="268437229" name="hoursUntilCoffee" stackId="5" startPc="268435574"/>
-<entry endPc="268437229" name="minutesUntilCoffee" stackId="6" startPc="268435574"/>
-<entry endPc="268437229" name="lunchHour" stackId="7" startPc="268435574"/>
-<entry endPc="268437229" name="lunchMinute" stackId="8" startPc="268435574"/>
-<entry endPc="268437229" name="hoursUntilLunch" stackId="9" startPc="268435574"/>
-<entry endPc="268437229" name="minutesUntilLunch" stackId="10" startPc="268435574"/>
-<entry endPc="268437229" name="hoursUntilTea" stackId="11" startPc="268435574"/>
-<entry endPc="268437229" name="minutesUntilTea" stackId="12" startPc="268435574"/>
-<entry endPc="268437229" name="today" stackId="13" startPc="268435574"/>
-<entry endPc="268437229" name="weekday" stackId="14" startPc="268435574"/>
-<entry endPc="268437229" name="weekdayString" stackId="15" startPc="268435574"/>
-<entry endPc="268437229" name="dateString" stackId="16" startPc="268435574"/>
-<entry endPc="268437229" name="dateView" stackId="17" startPc="268435574"/>
-<entry endPc="268437229" name="announceString" stackId="18" startPc="268435574"/>
-<entry endPc="268437229" name="announceView" stackId="19" startPc="268435574"/>
-<entry endPc="268437229" name="coffeeString" stackId="20" startPc="268435574"/>
-<entry endPc="268437229" name="coffeeView" stackId="21" startPc="268435574"/>
-<entry endPc="268437229" name="lunchString" stackId="22" startPc="268435574"/>
-<entry endPc="268437229" name="lunchView" stackId="23" startPc="268435574"/>
-<entry endPc="268437229" name="TeaString" stackId="24" startPc="268435574"/>
-<entry endPc="268437229" name="TeaView" stackId="25" startPc="268435574"/>
-<entry endPc="268437229" name="TimeUntilString" stackId="26" startPc="268435574"/>
-<entry endPc="268437229" name="TimeUntilView" stackId="27" startPc="268435574"/>
-<entry arg="true" endPc="268438216" name="dc" stackId="1" startPc="268437344"/>
-<entry endPc="268438216" name="rez_cmp_local_text_DateLabel" stackId="2" startPc="268437356"/>
-<entry endPc="268438216" name="rez_cmp_local_text_MainTimeLabel" stackId="3" startPc="268437356"/>
-<entry endPc="268438216" name="rez_cmp_local_text_TimeUntilLabel" stackId="4" startPc="268437356"/>
-<entry endPc="268438216" name="rez_cmp_local_text_CoffeeTimeLabel" stackId="5" startPc="268437356"/>
-<entry endPc="268438216" name="rez_cmp_local_text_LunchTimeLabel" stackId="6" startPc="268437356"/>
-<entry endPc="268438216" name="rez_cmp_local_text_TeaTimeLabel" stackId="7" startPc="268437356"/>
-<entry endPc="268438216" name="rez_cmp_local_text_AnnounceLabel" stackId="8" startPc="268437356"/>
+<entry arg="true" endPc="268437568" name="dc" stackId="1" startPc="268435570"/>
+<entry endPc="268437567" name="clockTime" stackId="2" startPc="268435574"/>
+<entry endPc="268437567" name="timeString" stackId="3" startPc="268435574"/>
+<entry endPc="268437567" name="mainView" stackId="4" startPc="268435574"/>
+<entry endPc="268437567" name="hoursUntilCoffee" stackId="5" startPc="268435574"/>
+<entry endPc="268437567" name="minutesUntilCoffee" stackId="6" startPc="268435574"/>
+<entry endPc="268437567" name="lunchHour" stackId="7" startPc="268435574"/>
+<entry endPc="268437567" name="lunchMinute" stackId="8" startPc="268435574"/>
+<entry endPc="268437567" name="hoursUntilLunch" stackId="9" startPc="268435574"/>
+<entry endPc="268437567" name="minutesUntilLunch" stackId="10" startPc="268435574"/>
+<entry endPc="268437567" name="hoursUntilTea" stackId="11" startPc="268435574"/>
+<entry endPc="268437567" name="minutesUntilTea" stackId="12" startPc="268435574"/>
+<entry endPc="268437567" name="today" stackId="13" startPc="268435574"/>
+<entry endPc="268437567" name="weekday" stackId="14" startPc="268435574"/>
+<entry endPc="268437567" name="weekdayString" stackId="15" startPc="268435574"/>
+<entry endPc="268437567" name="dateString" stackId="16" startPc="268435574"/>
+<entry endPc="268437567" name="dateView" stackId="17" startPc="268435574"/>
+<entry endPc="268437567" name="coffee_lunch_tea" stackId="18" startPc="268435574"/>
+<entry endPc="268437567" name="announceString" stackId="19" startPc="268435574"/>
+<entry endPc="268437567" name="TimeUntilString" stackId="20" startPc="268435574"/>
+<entry endPc="268437567" name="coffeeString" stackId="21" startPc="268435574"/>
+<entry endPc="268437567" name="lunchString" stackId="22" startPc="268435574"/>
+<entry endPc="268437567" name="TeaString" stackId="23" startPc="268435574"/>
+<entry endPc="268437567" name="announceView" stackId="24" startPc="268435574"/>
+<entry endPc="268437567" name="coffeeView" stackId="25" startPc="268435574"/>
+<entry endPc="268437567" name="TeaView" stackId="26" startPc="268435574"/>
+<entry endPc="268437567" name="lunchView" stackId="27" startPc="268435574"/>
+<entry endPc="268437567" name="TimeUntilView" stackId="28" startPc="268435574"/>
+<entry arg="true" endPc="268438554" name="dc" stackId="1" startPc="268437682"/>
+<entry endPc="268438554" name="rez_cmp_local_text_DateLabel" stackId="2" startPc="268437694"/>
+<entry endPc="268438554" name="rez_cmp_local_text_MainTimeLabel" stackId="3" startPc="268437694"/>
+<entry endPc="268438554" name="rez_cmp_local_text_TimeUntilLabel" stackId="4" startPc="268437694"/>
+<entry endPc="268438554" name="rez_cmp_local_text_CoffeeTimeLabel" stackId="5" startPc="268437694"/>
+<entry endPc="268438554" name="rez_cmp_local_text_LunchTimeLabel" stackId="6" startPc="268437694"/>
+<entry endPc="268438554" name="rez_cmp_local_text_TeaTimeLabel" stackId="7" startPc="268437694"/>
+<entry endPc="268438554" name="rez_cmp_local_text_AnnounceLabel" stackId="8" startPc="268437694"/>
 </localVars>
 <annotations>
 <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
@@ -235,27 +252,27 @@
 <functionEntry accessMode="public" name="onHide" parent="ioa_watchView">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437230" name="onUpdate" parent="ioa_watchView" startPc="268435570">
+<functionEntry accessMode="public" endPc="268437568" name="onUpdate" parent="ioa_watchView" startPc="268435570">
 <param id="dc"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437254" name="&lt;init&gt;" parent="Rez" startPc="268437231">
+<functionEntry accessMode="public" endPc="268437592" name="&lt;init&gt;" parent="Rez" startPc="268437569">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437273" name="&lt;init&gt;" parent="ioa_watchApp" startPc="268437255">
+<functionEntry accessMode="public" endPc="268437611" name="&lt;init&gt;" parent="ioa_watchApp" startPc="268437593">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437276" name="onStart" parent="ioa_watchApp" startPc="268437274">
+<functionEntry accessMode="public" endPc="268437614" name="onStart" parent="ioa_watchApp" startPc="268437612">
 <param id="state"/>
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437319" name="getInitialView" parent="ioa_watchApp" startPc="268437277">
+<functionEntry accessMode="public" endPc="268437657" name="getInitialView" parent="ioa_watchApp" startPc="268437615">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437340" name="initialize" parent="ioa_watchApp" startPc="268437320">
+<functionEntry accessMode="public" endPc="268437678" name="initialize" parent="ioa_watchApp" startPc="268437658">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268437343" name="onStop" parent="ioa_watchApp" startPc="268437341">
+<functionEntry accessMode="public" endPc="268437681" name="onStop" parent="ioa_watchApp" startPc="268437679">
 <param id="state"/>
 <documentation/>
 </functionEntry>
@@ -277,7 +294,7 @@
 <functionEntry accessMode="public" name="&lt;init&gt;" parent="JsonData">
 <documentation/>
 </functionEntry>
-<functionEntry accessMode="public" endPc="268438216" name="WatchFace" parent="Layouts" startPc="268437344">
+<functionEntry accessMode="public" endPc="268438554" name="WatchFace" parent="Layouts" startPc="268437682">
 <param id="dc"/>
 <documentation/>
 </functionEntry>

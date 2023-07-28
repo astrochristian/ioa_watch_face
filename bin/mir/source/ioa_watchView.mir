@@ -368,398 +368,661 @@ C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_72_
         %tmp.204 = getv function %tmp.203 :setText;
         %tmp.206 = lgetv %dateString.15;
         invoke %tmp.203 %tmp.204(%tmp.206);
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 86 8 ]
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_86_8_if_stmt:
-        %tmp.208 = lgetv %weekday.13;
-        %tmp.209 = 7;
-        %tmp.210 = eq %tmp.208 %tmp.209;
-        bf %tmp.210 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_86_8_if_end;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_86_8_if_true:
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_86_26_start:
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 88 12 ]
-        %tmp.211 = lgetv %hoursUntilCoffee.4;
-        %tmp.212 = 48;
-        %tmp.213 = add %tmp.211 %tmp.212;
-        lputv %hoursUntilCoffee.4 %tmp.213;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 89 12 ]
-        %tmp.214 = lgetv %hoursUntilLunch.8;
-        %tmp.215 = 48;
-        %tmp.216 = add %tmp.214 %tmp.215;
-        lputv %hoursUntilLunch.8 %tmp.216;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 90 12 ]
-        %tmp.217 = lgetv %hoursUntilTea.10;
-        %tmp.218 = 48;
-        %tmp.219 = add %tmp.217 %tmp.218;
-        lputv %hoursUntilTea.10 %tmp.219;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_86_26_stop:
-        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_86_8_if_end;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_86_8_if_end:
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 94 8 ]
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_94_8_if_stmt:
-        %tmp.221 = lgetv %weekday.13;
-        %tmp.222 = 1;
-        %tmp.223 = eq %tmp.221 %tmp.222;
-        bf %tmp.223 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_94_8_if_end;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_94_8_if_true:
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_94_26_start:
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 96 12 ]
-        %tmp.224 = lgetv %hoursUntilCoffee.4;
-        %tmp.225 = 24;
-        %tmp.226 = add %tmp.224 %tmp.225;
-        lputv %hoursUntilCoffee.4 %tmp.226;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 97 12 ]
-        %tmp.227 = lgetv %hoursUntilLunch.8;
-        %tmp.228 = 24;
-        %tmp.229 = add %tmp.227 %tmp.228;
-        lputv %hoursUntilLunch.8 %tmp.229;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 98 12 ]
-        %tmp.230 = lgetv %hoursUntilTea.10;
-        %tmp.231 = 24;
-        %tmp.232 = add %tmp.230 %tmp.231;
-        lputv %hoursUntilTea.10 %tmp.232;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_94_26_stop:
-        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_94_8_if_end;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_94_8_if_end:
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 102 8 ]
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 87 8 ]
         [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_stop" ]
-        %announceString.17 = local;
-        %tmp.233 = "";
-        lputv %announceString.17 %tmp.233;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 103 8 ]
+        %coffee_lunch_tea.17 = local;
+        %tmp.207 = false;
+        lputv %coffee_lunch_tea.17 %tmp.207;
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 89 8 ]
         [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_stop" ]
-        %announceView.18 = local;
-        %tmp.235 = getv ? :View;
-        %tmp.236 = getv function %tmp.235 :findDrawableById;
-        %tmp.237 = "AnnounceLabel";
-        %tmp.238 = invoke %tmp.235 %tmp.236(%tmp.237);
-        %tmp.239 = as %tmp.238 Text;
-        lputv %announceView.18 %tmp.239;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 105 8 ]
+        %announceString.18 = local;
+        %tmp.208 = "";
+        lputv %announceString.18 %tmp.208;
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 90 8 ]
         [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_stop" ]
-        %coffeeString.19 = local;
-        %tmp.240 = "Coffee: ";
-        %tmp.241 = getm $.Toybox.Lang;
-        %tmp.242 = getv function %tmp.241 :format;
-        %tmp.243 = "$1$h $2$m";
-        %tmp.244 = newa 2;
-        %tmp.245 = lgetv %hoursUntilCoffee.4;
-        %tmp.246 = getv function %tmp.245 :format;
-        %tmp.247 = "%02d";
-        %tmp.248 = invoke %tmp.245 %tmp.246(%tmp.247);
-        %tmp.249 = dup %tmp.244;
-        %tmp.250 = aputv %tmp.249 0 %tmp.248;
-        %tmp.251 = lgetv %minutesUntilCoffee.5;
-        %tmp.252 = getv function %tmp.251 :format;
-        %tmp.253 = "%02d";
-        %tmp.254 = invoke %tmp.251 %tmp.252(%tmp.253);
-        %tmp.255 = dup %tmp.250;
-        %tmp.256 = aputv %tmp.255 1 %tmp.254;
-        %tmp.257 = invoke %tmp.241 %tmp.242(%tmp.243, %tmp.256);
-        %tmp.258 = add %tmp.240 %tmp.257;
-        lputv %coffeeString.19 %tmp.258;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 106 8 ]
+        %TimeUntilString.19 = local;
+        %tmp.209 = "";
+        lputv %TimeUntilString.19 %tmp.209;
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 91 8 ]
         [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_stop" ]
-        %coffeeView.20 = local;
-        %tmp.260 = getv ? :View;
-        %tmp.261 = getv function %tmp.260 :findDrawableById;
-        %tmp.262 = "CoffeeTimeLabel";
-        %tmp.263 = invoke %tmp.260 %tmp.261(%tmp.262);
-        %tmp.264 = as %tmp.263 Text;
-        lputv %coffeeView.20 %tmp.264;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 108 8 ]
+        %coffeeString.20 = local;
+        %tmp.210 = "";
+        lputv %coffeeString.20 %tmp.210;
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 92 8 ]
         [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_stop" ]
         %lunchString.21 = local;
-        %tmp.265 = "Lunch: ";
-        %tmp.266 = getm $.Toybox.Lang;
-        %tmp.267 = getv function %tmp.266 :format;
-        %tmp.268 = "$1$h $2$m";
-        %tmp.269 = newa 2;
-        %tmp.270 = lgetv %hoursUntilLunch.8;
-        %tmp.271 = getv function %tmp.270 :format;
-        %tmp.272 = "%02d";
-        %tmp.273 = invoke %tmp.270 %tmp.271(%tmp.272);
-        %tmp.274 = dup %tmp.269;
-        %tmp.275 = aputv %tmp.274 0 %tmp.273;
-        %tmp.276 = lgetv %minutesUntilLunch.9;
-        %tmp.277 = getv function %tmp.276 :format;
-        %tmp.278 = "%02d";
-        %tmp.279 = invoke %tmp.276 %tmp.277(%tmp.278);
-        %tmp.280 = dup %tmp.275;
-        %tmp.281 = aputv %tmp.280 1 %tmp.279;
-        %tmp.282 = invoke %tmp.266 %tmp.267(%tmp.268, %tmp.281);
-        %tmp.283 = add %tmp.265 %tmp.282;
-        lputv %lunchString.21 %tmp.283;
+        %tmp.211 = "";
+        lputv %lunchString.21 %tmp.211;
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 93 8 ]
+        [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_stop" ]
+        %TeaString.22 = local;
+        %tmp.212 = "";
+        lputv %TeaString.22 %tmp.212;
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 95 8 ]
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_8_if_stmt:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_12_begin:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_13_begin:
+        %tmp.214 = lgetv %hoursUntilCoffee.4;
+        %tmp.215 = 23;
+        %tmp.216 = eq %tmp.214 %tmp.215;
+        %tmp.217 = dup %tmp.216;
+        bf %tmp.217 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_40_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_40_true:
+        %tmp.219 = lgetv %minutesUntilCoffee.5;
+        %tmp.220 = 30;
+        %tmp.221 = gt %tmp.219 %tmp.220;
+        %tmp.222 = and %tmp.216 %tmp.221;
+        push %tmp.222;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_40_end:
+        %tmp.223 = phi [%tmp.217 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_13_begin] [%tmp.222 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_40_true] [%tmp.223 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_40_end];
+        %tmp.224 = dup %tmp.223;
+        bt %tmp.224 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_68_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_68_false:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_69_begin:
+        %tmp.226 = lgetv %hoursUntilCoffee.4;
+        %tmp.227 = 24;
+        %tmp.228 = eq %tmp.226 %tmp.227;
+        %tmp.229 = dup %tmp.228;
+        bf %tmp.229 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_96_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_96_true:
+        %tmp.231 = lgetv %minutesUntilCoffee.5;
+        %tmp.232 = 0;
+        %tmp.233 = eq %tmp.231 %tmp.232;
+        %tmp.234 = and %tmp.228 %tmp.233;
+        push %tmp.234;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_96_end:
+        %tmp.235 = phi [%tmp.229 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_69_begin] [%tmp.234 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_96_true] [%tmp.235 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_96_end];
+        %tmp.236 = or %tmp.223 %tmp.235;
+        push %tmp.236;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_68_end:
+        %tmp.237 = phi [%tmp.224 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_12_begin] [%tmp.236 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_68_false] [%tmp.237 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_68_end];
+        bf %tmp.237 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_8_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_8_if_true:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_122_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 96 12 ]
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_96_12_if_stmt:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_96_16_begin:
+        %tmp.239 = lgetv %weekday.13;
+        %tmp.240 = 1;
+        %tmp.241 = ne %tmp.239 %tmp.240;
+        %tmp.242 = dup %tmp.241;
+        bf %tmp.242 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_96_35_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_96_35_true:
+        %tmp.244 = lgetv %weekday.13;
+        %tmp.245 = 7;
+        %tmp.246 = ne %tmp.244 %tmp.245;
+        %tmp.247 = and %tmp.241 %tmp.246;
+        push %tmp.247;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_96_35_end:
+        %tmp.248 = phi [%tmp.242 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_96_16_begin] [%tmp.247 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_96_35_true] [%tmp.248 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_96_35_end];
+        bf %tmp.248 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_96_12_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_96_12_if_true:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_96_51_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 97 16 ]
+        %tmp.249 = "Coffee Time!";
+        lputv %announceString.18 %tmp.249;
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 98 16 ]
+        %tmp.250 = true;
+        lputv %coffee_lunch_tea.17 %tmp.250;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_96_51_stop:
+        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_96_12_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_96_12_if_end:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_122_stop:
+        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_8_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_95_8_if_end:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 102 8 ]
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_8_if_stmt:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_12_begin:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_13_begin:
+        %tmp.252 = lgetv %hoursUntilLunch.8;
+        %tmp.253 = 23;
+        %tmp.254 = eq %tmp.252 %tmp.253;
+        %tmp.255 = dup %tmp.254;
+        bf %tmp.255 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_39_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_39_true:
+        %tmp.257 = lgetv %minutesUntilLunch.9;
+        %tmp.258 = 0;
+        %tmp.259 = gt %tmp.257 %tmp.258;
+        %tmp.260 = and %tmp.254 %tmp.259;
+        push %tmp.260;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_39_end:
+        %tmp.261 = phi [%tmp.255 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_13_begin] [%tmp.260 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_39_true] [%tmp.261 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_39_end];
+        %tmp.262 = dup %tmp.261;
+        bt %tmp.262 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_65_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_65_false:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_66_begin:
+        %tmp.264 = lgetv %hoursUntilLunch.8;
+        %tmp.265 = 0;
+        %tmp.266 = eq %tmp.264 %tmp.265;
+        %tmp.267 = dup %tmp.266;
+        bf %tmp.267 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_91_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_91_true:
+        %tmp.269 = lgetv %minutesUntilLunch.9;
+        %tmp.270 = 0;
+        %tmp.271 = eq %tmp.269 %tmp.270;
+        %tmp.272 = and %tmp.266 %tmp.271;
+        push %tmp.272;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_91_end:
+        %tmp.273 = phi [%tmp.267 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_66_begin] [%tmp.272 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_91_true] [%tmp.273 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_91_end];
+        %tmp.274 = or %tmp.261 %tmp.273;
+        push %tmp.274;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_65_end:
+        %tmp.275 = phi [%tmp.262 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_12_begin] [%tmp.274 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_65_false] [%tmp.275 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_65_end];
+        bf %tmp.275 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_8_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_8_if_true:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_116_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 103 12 ]
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_103_12_if_stmt:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_103_16_begin:
+        %tmp.277 = lgetv %weekday.13;
+        %tmp.278 = 1;
+        %tmp.279 = ne %tmp.277 %tmp.278;
+        %tmp.280 = dup %tmp.279;
+        bf %tmp.280 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_103_35_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_103_35_true:
+        %tmp.282 = lgetv %weekday.13;
+        %tmp.283 = 7;
+        %tmp.284 = ne %tmp.282 %tmp.283;
+        %tmp.285 = and %tmp.279 %tmp.284;
+        push %tmp.285;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_103_35_end:
+        %tmp.286 = phi [%tmp.280 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_103_16_begin] [%tmp.285 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_103_35_true] [%tmp.286 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_103_35_end];
+        bf %tmp.286 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_103_12_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_103_12_if_true:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_103_51_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 104 16 ]
+        %tmp.287 = "Lunch Time!";
+        lputv %announceString.18 %tmp.287;
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 105 16 ]
+        %tmp.288 = true;
+        lputv %coffee_lunch_tea.17 %tmp.288;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_103_51_stop:
+        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_103_12_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_103_12_if_end:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_116_stop:
+        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_8_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_102_8_if_end:
 [ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 109 8 ]
-        [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_stop" ]
-        %lunchView.22 = local;
-        %tmp.285 = getv ? :View;
-        %tmp.286 = getv function %tmp.285 :findDrawableById;
-        %tmp.287 = "LunchTimeLabel";
-        %tmp.288 = invoke %tmp.285 %tmp.286(%tmp.287);
-        %tmp.289 = as %tmp.288 Text;
-        lputv %lunchView.22 %tmp.289;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 111 8 ]
-        [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_stop" ]
-        %TeaString.23 = local;
-        %tmp.290 = "Tea: ";
-        %tmp.291 = getm $.Toybox.Lang;
-        %tmp.292 = getv function %tmp.291 :format;
-        %tmp.293 = "$1$h $2$m";
-        %tmp.294 = newa 2;
-        %tmp.295 = lgetv %hoursUntilTea.10;
-        %tmp.296 = getv function %tmp.295 :format;
-        %tmp.297 = "%02d";
-        %tmp.298 = invoke %tmp.295 %tmp.296(%tmp.297);
-        %tmp.299 = dup %tmp.294;
-        %tmp.300 = aputv %tmp.299 0 %tmp.298;
-        %tmp.301 = lgetv %minutesUntilTea.11;
-        %tmp.302 = getv function %tmp.301 :format;
-        %tmp.303 = "%02d";
-        %tmp.304 = invoke %tmp.301 %tmp.302(%tmp.303);
-        %tmp.305 = dup %tmp.300;
-        %tmp.306 = aputv %tmp.305 1 %tmp.304;
-        %tmp.307 = invoke %tmp.291 %tmp.292(%tmp.293, %tmp.306);
-        %tmp.308 = add %tmp.290 %tmp.307;
-        lputv %TeaString.23 %tmp.308;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 112 8 ]
-        [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_stop" ]
-        %TeaView.24 = local;
-        %tmp.310 = getv ? :View;
-        %tmp.311 = getv function %tmp.310 :findDrawableById;
-        %tmp.312 = "TeaTimeLabel";
-        %tmp.313 = invoke %tmp.310 %tmp.311(%tmp.312);
-        %tmp.314 = as %tmp.313 Text;
-        lputv %TeaView.24 %tmp.314;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 114 8 ]
-        [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_stop" ]
-        %TimeUntilString.25 = local;
-        %tmp.315 = "Time Until...";
-        lputv %TimeUntilString.25 %tmp.315;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 115 8 ]
-        [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_stop" ]
-        %TimeUntilView.26 = local;
-        %tmp.317 = getv ? :View;
-        %tmp.318 = getv function %tmp.317 :findDrawableById;
-        %tmp.319 = "TimeUntilLabel";
-        %tmp.320 = invoke %tmp.317 %tmp.318(%tmp.319);
-        %tmp.321 = as %tmp.320 Text;
-        lputv %TimeUntilView.26 %tmp.321;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 118 8 ]
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_8_if_stmt:
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_12_begin:
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_13_begin:
-        %tmp.323 = lgetv %hoursUntilCoffee.4;
-        %tmp.324 = 23;
-        %tmp.325 = eq %tmp.323 %tmp.324;
-        %tmp.326 = dup %tmp.325;
-        bf %tmp.326 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_40_end;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_40_true:
-        %tmp.328 = lgetv %minutesUntilCoffee.5;
-        %tmp.329 = 30;
-        %tmp.330 = gt %tmp.328 %tmp.329;
-        %tmp.331 = and %tmp.325 %tmp.330;
-        push %tmp.331;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_40_end:
-        %tmp.332 = phi [%tmp.326 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_13_begin] [%tmp.331 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_40_true] [%tmp.332 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_40_end];
-        %tmp.333 = dup %tmp.332;
-        bt %tmp.333 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_68_end;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_68_false:
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_69_begin:
-        %tmp.335 = lgetv %hoursUntilCoffee.4;
-        %tmp.336 = 24;
-        %tmp.337 = eq %tmp.335 %tmp.336;
-        %tmp.338 = dup %tmp.337;
-        bf %tmp.338 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_96_end;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_96_true:
-        %tmp.340 = lgetv %minutesUntilCoffee.5;
-        %tmp.341 = 0;
-        %tmp.342 = eq %tmp.340 %tmp.341;
-        %tmp.343 = and %tmp.337 %tmp.342;
-        push %tmp.343;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_96_end:
-        %tmp.344 = phi [%tmp.338 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_69_begin] [%tmp.343 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_96_true] [%tmp.344 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_96_end];
-        %tmp.345 = or %tmp.332 %tmp.344;
-        push %tmp.345;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_68_end:
-        %tmp.346 = phi [%tmp.333 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_12_begin] [%tmp.345 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_68_false] [%tmp.346 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_68_end];
-        bf %tmp.346 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_8_if_end;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_8_if_true:
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_122_start:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_8_if_stmt:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_12_begin:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_13_begin:
+        %tmp.290 = lgetv %hoursUntilTea.10;
+        %tmp.291 = 23;
+        %tmp.292 = eq %tmp.290 %tmp.291;
+        %tmp.293 = dup %tmp.292;
+        bf %tmp.293 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_37_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_37_true:
+        %tmp.295 = lgetv %minutesUntilTea.11;
+        %tmp.296 = 30;
+        %tmp.297 = gt %tmp.295 %tmp.296;
+        %tmp.298 = and %tmp.292 %tmp.297;
+        push %tmp.298;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_37_end:
+        %tmp.299 = phi [%tmp.293 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_13_begin] [%tmp.298 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_37_true] [%tmp.299 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_37_end];
+        %tmp.300 = dup %tmp.299;
+        bt %tmp.300 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_62_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_62_false:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_63_begin:
+        %tmp.302 = lgetv %hoursUntilTea.10;
+        %tmp.303 = 0;
+        %tmp.304 = eq %tmp.302 %tmp.303;
+        %tmp.305 = dup %tmp.304;
+        bf %tmp.305 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_86_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_86_true:
+        %tmp.307 = lgetv %minutesUntilTea.11;
+        %tmp.308 = 0;
+        %tmp.309 = eq %tmp.307 %tmp.308;
+        %tmp.310 = and %tmp.304 %tmp.309;
+        push %tmp.310;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_86_end:
+        %tmp.311 = phi [%tmp.305 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_63_begin] [%tmp.310 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_86_true] [%tmp.311 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_86_end];
+        %tmp.312 = or %tmp.299 %tmp.311;
+        push %tmp.312;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_62_end:
+        %tmp.313 = phi [%tmp.300 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_12_begin] [%tmp.312 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_62_false] [%tmp.313 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_62_end];
+        bf %tmp.313 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_8_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_8_if_true:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_109_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 110 12 ]
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_110_12_if_stmt:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_110_16_begin:
+        %tmp.315 = lgetv %weekday.13;
+        %tmp.316 = 1;
+        %tmp.317 = ne %tmp.315 %tmp.316;
+        %tmp.318 = dup %tmp.317;
+        bf %tmp.318 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_110_35_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_110_35_true:
+        %tmp.320 = lgetv %weekday.13;
+        %tmp.321 = 7;
+        %tmp.322 = ne %tmp.320 %tmp.321;
+        %tmp.323 = and %tmp.317 %tmp.322;
+        push %tmp.323;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_110_35_end:
+        %tmp.324 = phi [%tmp.318 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_110_16_begin] [%tmp.323 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_110_35_true] [%tmp.324 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_110_35_end];
+        bf %tmp.324 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_110_12_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_110_12_if_true:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_110_51_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 111 16 ]
+        %tmp.325 = "Tea Time!";
+        lputv %announceString.18 %tmp.325;
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 112 16 ]
+        %tmp.326 = true;
+        lputv %coffee_lunch_tea.17 %tmp.326;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_110_51_stop:
+        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_110_12_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_110_12_if_end:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_109_stop:
+        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_8_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_109_8_if_end:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 117 8 ]
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_117_8_if_stmt:
+        %tmp.328 = lgetv %weekday.13;
+        %tmp.329 = 6;
+        %tmp.330 = eq %tmp.328 %tmp.329;
+        bf %tmp.330 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_117_8_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_117_8_if_true:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_117_26_start:
 [ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 119 12 ]
-        %tmp.347 = "Coffee Time!";
-        lputv %announceString.17 %tmp.347;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 121 12 ]
-        %tmp.348 = "";
-        lputv %TimeUntilString.25 %tmp.348;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 122 12 ]
-        %tmp.349 = "";
-        lputv %coffeeString.19 %tmp.349;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 123 12 ]
-        %tmp.350 = "";
-        lputv %lunchString.21 %tmp.350;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 124 12 ]
-        %tmp.351 = "";
-        lputv %TeaString.23 %tmp.351;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_122_stop:
-        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_8_if_end;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_118_8_if_end:
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 127 8 ]
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_8_if_stmt:
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_12_begin:
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_13_begin:
-        %tmp.353 = lgetv %hoursUntilLunch.8;
-        %tmp.354 = 23;
-        %tmp.355 = eq %tmp.353 %tmp.354;
-        %tmp.356 = dup %tmp.355;
-        bf %tmp.356 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_39_end;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_39_true:
-        %tmp.358 = lgetv %minutesUntilLunch.9;
-        %tmp.359 = 0;
-        %tmp.360 = gt %tmp.358 %tmp.359;
-        %tmp.361 = and %tmp.355 %tmp.360;
-        push %tmp.361;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_39_end:
-        %tmp.362 = phi [%tmp.356 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_13_begin] [%tmp.361 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_39_true] [%tmp.362 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_39_end];
-        %tmp.363 = dup %tmp.362;
-        bt %tmp.363 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_65_end;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_65_false:
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_66_begin:
-        %tmp.365 = lgetv %hoursUntilLunch.8;
-        %tmp.366 = 0;
-        %tmp.367 = eq %tmp.365 %tmp.366;
-        %tmp.368 = dup %tmp.367;
-        bf %tmp.368 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_91_end;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_91_true:
-        %tmp.370 = lgetv %minutesUntilLunch.9;
-        %tmp.371 = 0;
-        %tmp.372 = eq %tmp.370 %tmp.371;
-        %tmp.373 = and %tmp.367 %tmp.372;
-        push %tmp.373;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_91_end:
-        %tmp.374 = phi [%tmp.368 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_66_begin] [%tmp.373 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_91_true] [%tmp.374 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_91_end];
-        %tmp.375 = or %tmp.362 %tmp.374;
-        push %tmp.375;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_65_end:
-        %tmp.376 = phi [%tmp.363 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_12_begin] [%tmp.375 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_65_false] [%tmp.376 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_65_end];
-        bf %tmp.376 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_8_if_end;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_8_if_true:
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_116_start:
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 128 12 ]
-        %tmp.377 = "Lunch Time!";
-        lputv %announceString.17 %tmp.377;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 130 12 ]
-        %tmp.378 = "";
-        lputv %TimeUntilString.25 %tmp.378;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 131 12 ]
-        %tmp.379 = "";
-        lputv %coffeeString.19 %tmp.379;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 132 12 ]
-        %tmp.380 = "";
-        lputv %lunchString.21 %tmp.380;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 133 12 ]
-        %tmp.381 = "";
-        lputv %TeaString.23 %tmp.381;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_116_stop:
-        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_8_if_end;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_127_8_if_end:
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 136 8 ]
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_8_if_stmt:
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_12_begin:
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_13_begin:
-        %tmp.383 = lgetv %hoursUntilTea.10;
-        %tmp.384 = 23;
-        %tmp.385 = eq %tmp.383 %tmp.384;
-        %tmp.386 = dup %tmp.385;
-        bf %tmp.386 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_37_end;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_37_true:
-        %tmp.388 = lgetv %minutesUntilTea.11;
-        %tmp.389 = 30;
-        %tmp.390 = gt %tmp.388 %tmp.389;
-        %tmp.391 = and %tmp.385 %tmp.390;
-        push %tmp.391;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_37_end:
-        %tmp.392 = phi [%tmp.386 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_13_begin] [%tmp.391 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_37_true] [%tmp.392 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_37_end];
-        %tmp.393 = dup %tmp.392;
-        bt %tmp.393 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_62_end;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_62_false:
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_63_begin:
-        %tmp.395 = lgetv %hoursUntilTea.10;
-        %tmp.396 = 0;
-        %tmp.397 = eq %tmp.395 %tmp.396;
-        %tmp.398 = dup %tmp.397;
-        bf %tmp.398 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_86_end;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_86_true:
-        %tmp.400 = lgetv %minutesUntilTea.11;
-        %tmp.401 = 0;
-        %tmp.402 = eq %tmp.400 %tmp.401;
-        %tmp.403 = and %tmp.397 %tmp.402;
-        push %tmp.403;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_86_end:
-        %tmp.404 = phi [%tmp.398 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_63_begin] [%tmp.403 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_86_true] [%tmp.404 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_86_end];
-        %tmp.405 = or %tmp.392 %tmp.404;
-        push %tmp.405;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_62_end:
-        %tmp.406 = phi [%tmp.393 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_12_begin] [%tmp.405 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_62_false] [%tmp.406 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_62_end];
-        bf %tmp.406 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_8_if_end;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_8_if_true:
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_109_start:
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 137 12 ]
-        %tmp.407 = "Tea Time!";
-        lputv %announceString.17 %tmp.407;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 139 12 ]
-        %tmp.408 = "";
-        lputv %TimeUntilString.25 %tmp.408;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_119_12_if_stmt:
+        %tmp.332 = lgetv %hoursUntilCoffee.4;
+        %tmp.333 = 11;
+        %tmp.334 = gte %tmp.332 %tmp.333;
+        bf %tmp.334 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_119_12_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_119_12_if_true:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_119_40_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 120 16 ]
+        %tmp.335 = lgetv %hoursUntilCoffee.4;
+        %tmp.336 = 48;
+        %tmp.337 = add %tmp.335 %tmp.336;
+        lputv %hoursUntilCoffee.4 %tmp.337;
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 122 16 ]
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_122_16_if_stmt:
+        %tmp.339 = lgetv %hoursUntilLunch.8;
+        %tmp.341 = lgetv %lunchHour.6;
+        %tmp.342 = gte %tmp.339 %tmp.341;
+        bf %tmp.342 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_122_16_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_122_16_if_true:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_122_50_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 123 20 ]
+        %tmp.343 = lgetv %hoursUntilLunch.8;
+        %tmp.344 = 48;
+        %tmp.345 = add %tmp.343 %tmp.344;
+        lputv %hoursUntilLunch.8 %tmp.345;
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 125 20 ]
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_125_20_if_stmt:
+        %tmp.347 = lgetv %hoursUntilTea.10;
+        %tmp.348 = 15;
+        %tmp.349 = gte %tmp.347 %tmp.348;
+        bf %tmp.349 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_125_20_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_125_20_if_true:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_125_45_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 126 24 ]
+        %tmp.350 = lgetv %hoursUntilTea.10;
+        %tmp.351 = 48;
+        %tmp.352 = add %tmp.350 %tmp.351;
+        lputv %hoursUntilTea.10 %tmp.352;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_125_45_stop:
+        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_125_20_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_125_20_if_end:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_122_50_stop:
+        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_122_16_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_122_16_if_end:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_119_40_stop:
+        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_119_12_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_119_12_if_end:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_117_26_stop:
+        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_117_8_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_117_8_if_end:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 132 8 ]
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_132_8_if_stmt:
+        %tmp.354 = lgetv %weekday.13;
+        %tmp.355 = 7;
+        %tmp.356 = eq %tmp.354 %tmp.355;
+        bf %tmp.356 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_132_8_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_132_8_if_true:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_132_26_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 134 12 ]
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_134_12_if_stmt:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_134_16_begin:
+        %tmp.358 = lgetv %hoursUntilCoffee.4;
+        %tmp.360 = lgetv %minutesUntilCoffee.5;
+        %tmp.361 = 60;
+        %tmp.362 = div %tmp.360 %tmp.361;
+        %tmp.363 = add %tmp.358 %tmp.362;
+        %tmp.364 = 11;
+        %tmp.365 = lte %tmp.363 %tmp.364;
+        %tmp.366 = dup %tmp.365;
+        bf %tmp.366 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_134_69_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_134_69_true:
+        %tmp.367 = lgetv %clockTime.1;
+        %tmp.368 = getv %tmp.367 :hour;
+        %tmp.369 = 12;
+        %tmp.370 = lt %tmp.368 %tmp.369;
+        %tmp.371 = and %tmp.365 %tmp.370;
+        push %tmp.371;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_134_69_end:
+        %tmp.372 = phi [%tmp.366 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_134_16_begin] [%tmp.371 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_134_69_true] [%tmp.372 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_134_69_end];
+        bf %tmp.372 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_134_12_if_false;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_134_12_if_true:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_134_90_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 135 16 ]
+        %tmp.373 = lgetv %hoursUntilCoffee.4;
+        %tmp.374 = 48;
+        %tmp.375 = add %tmp.373 %tmp.374;
+        lputv %hoursUntilCoffee.4 %tmp.375;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_134_90_stop:
+        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_134_12_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_134_12_if_false:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_19_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 137 16 ]
+        %tmp.376 = lgetv %hoursUntilCoffee.4;
+        %tmp.377 = 24;
+        %tmp.378 = add %tmp.376 %tmp.377;
+        lputv %hoursUntilCoffee.4 %tmp.378;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_19_stop:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_134_12_if_end:
 [ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 140 12 ]
-        %tmp.409 = "";
-        lputv %coffeeString.19 %tmp.409;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 141 12 ]
-        %tmp.410 = "";
-        lputv %lunchString.21 %tmp.410;
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 142 12 ]
-        %tmp.411 = "";
-        lputv %TeaString.23 %tmp.411;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_109_stop:
-        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_8_if_end;
-C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_136_8_if_end:
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 147 8 ]
-        %tmp.412 = lgetv %announceView.18;
-        %tmp.413 = getv function %tmp.412 :setText;
-        %tmp.415 = lgetv %announceString.17;
-        invoke %tmp.412 %tmp.413(%tmp.415);
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 148 8 ]
-        %tmp.416 = lgetv %TimeUntilView.26;
-        %tmp.417 = getv function %tmp.416 :setText;
-        %tmp.419 = lgetv %TimeUntilString.25;
-        invoke %tmp.416 %tmp.417(%tmp.419);
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 149 8 ]
-        %tmp.420 = lgetv %coffeeView.20;
-        %tmp.421 = getv function %tmp.420 :setText;
-        %tmp.423 = lgetv %coffeeString.19;
-        invoke %tmp.420 %tmp.421(%tmp.423);
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 150 8 ]
-        %tmp.424 = lgetv %lunchView.22;
-        %tmp.425 = getv function %tmp.424 :setText;
-        %tmp.427 = lgetv %lunchString.21;
-        invoke %tmp.424 %tmp.425(%tmp.427);
-[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 151 8 ]
-        %tmp.428 = lgetv %TeaView.24;
-        %tmp.429 = getv function %tmp.428 :setText;
-        %tmp.431 = lgetv %TeaString.23;
-        invoke %tmp.428 %tmp.429(%tmp.431);
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_140_12_if_stmt:
+        %tmp.380 = lgetv %hoursUntilLunch.8;
+        %tmp.382 = lgetv %minutesUntilLunch.9;
+        %tmp.383 = 60;
+        %tmp.384 = div %tmp.382 %tmp.383;
+        %tmp.385 = add %tmp.380 %tmp.384;
+        %tmp.387 = lgetv %lunchHour.6;
+        %tmp.388 = lte %tmp.385 %tmp.387;
+        bf %tmp.388 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_140_12_if_false;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_140_12_if_true:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_140_69_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 141 16 ]
+        %tmp.389 = lgetv %hoursUntilLunch.8;
+        %tmp.390 = 48;
+        %tmp.391 = add %tmp.389 %tmp.390;
+        lputv %hoursUntilLunch.8 %tmp.391;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_140_69_stop:
+        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_140_12_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_140_12_if_false:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_142_19_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 143 16 ]
+        %tmp.392 = lgetv %hoursUntilLunch.8;
+        %tmp.393 = 24;
+        %tmp.394 = add %tmp.392 %tmp.393;
+        lputv %hoursUntilLunch.8 %tmp.394;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_142_19_stop:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_140_12_if_end:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 146 12 ]
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_146_12_if_stmt:
+        %tmp.396 = lgetv %hoursUntilTea.10;
+        %tmp.398 = lgetv %minutesUntilTea.11;
+        %tmp.399 = 60;
+        %tmp.400 = div %tmp.398 %tmp.399;
+        %tmp.401 = add %tmp.396 %tmp.400;
+        %tmp.402 = 15;
+        %tmp.403 = lte %tmp.401 %tmp.402;
+        bf %tmp.403 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_146_12_if_false;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_146_12_if_true:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_146_58_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 147 16 ]
+        %tmp.404 = lgetv %hoursUntilTea.10;
+        %tmp.405 = 48;
+        %tmp.406 = add %tmp.404 %tmp.405;
+        lputv %hoursUntilTea.10 %tmp.406;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_146_58_stop:
+        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_146_12_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_146_12_if_false:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_148_19_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 149 16 ]
+        %tmp.407 = lgetv %hoursUntilTea.10;
+        %tmp.408 = 24;
+        %tmp.409 = add %tmp.407 %tmp.408;
+        lputv %hoursUntilTea.10 %tmp.409;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_148_19_stop:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_146_12_if_end:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_132_26_stop:
+        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_132_8_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_132_8_if_end:
 [ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 154 8 ]
-        %tmp.433 = getv ? :View;
-        %tmp.434 = getv function %tmp.433 :onUpdate;
-        %tmp.436 = lgetv %dc;
-        invoke %tmp.433 %tmp.434(%tmp.436);
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_154_8_if_stmt:
+        %tmp.411 = lgetv %weekday.13;
+        %tmp.412 = 1;
+        %tmp.413 = eq %tmp.411 %tmp.412;
+        bf %tmp.413 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_154_8_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_154_8_if_true:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_154_26_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 156 12 ]
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_156_12_if_stmt:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_156_16_begin:
+        %tmp.415 = lgetv %hoursUntilCoffee.4;
+        %tmp.417 = lgetv %minutesUntilCoffee.5;
+        %tmp.418 = 60;
+        %tmp.419 = div %tmp.417 %tmp.418;
+        %tmp.420 = add %tmp.415 %tmp.419;
+        %tmp.421 = 11;
+        %tmp.422 = lte %tmp.420 %tmp.421;
+        %tmp.423 = dup %tmp.422;
+        bf %tmp.423 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_156_69_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_156_69_true:
+        %tmp.424 = lgetv %clockTime.1;
+        %tmp.425 = getv %tmp.424 :hour;
+        %tmp.426 = 12;
+        %tmp.427 = lt %tmp.425 %tmp.426;
+        %tmp.428 = and %tmp.422 %tmp.427;
+        push %tmp.428;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_156_69_end:
+        %tmp.429 = phi [%tmp.423 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_156_16_begin] [%tmp.428 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_156_69_true] [%tmp.429 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_156_69_end];
+        bf %tmp.429 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_156_12_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_156_12_if_true:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_156_90_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 157 16 ]
+        %tmp.430 = lgetv %hoursUntilCoffee.4;
+        %tmp.431 = 24;
+        %tmp.432 = add %tmp.430 %tmp.431;
+        lputv %hoursUntilCoffee.4 %tmp.432;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_156_90_stop:
+        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_156_12_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_156_12_if_end:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 160 12 ]
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_160_12_if_stmt:
+        %tmp.434 = lgetv %hoursUntilLunch.8;
+        %tmp.436 = lgetv %minutesUntilLunch.9;
+        %tmp.437 = 60;
+        %tmp.438 = div %tmp.436 %tmp.437;
+        %tmp.439 = add %tmp.434 %tmp.438;
+        %tmp.441 = lgetv %lunchHour.6;
+        %tmp.442 = lte %tmp.439 %tmp.441;
+        bf %tmp.442 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_160_12_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_160_12_if_true:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_160_69_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 161 16 ]
+        %tmp.443 = lgetv %hoursUntilLunch.8;
+        %tmp.444 = 24;
+        %tmp.445 = add %tmp.443 %tmp.444;
+        lputv %hoursUntilLunch.8 %tmp.445;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_160_69_stop:
+        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_160_12_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_160_12_if_end:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 164 12 ]
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_164_12_if_stmt:
+        %tmp.447 = lgetv %hoursUntilTea.10;
+        %tmp.449 = lgetv %minutesUntilTea.11;
+        %tmp.450 = 60;
+        %tmp.451 = div %tmp.449 %tmp.450;
+        %tmp.452 = add %tmp.447 %tmp.451;
+        %tmp.453 = 15;
+        %tmp.454 = lte %tmp.452 %tmp.453;
+        bf %tmp.454 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_164_12_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_164_12_if_true:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_164_58_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 165 16 ]
+        %tmp.455 = lgetv %hoursUntilTea.10;
+        %tmp.456 = 24;
+        %tmp.457 = add %tmp.455 %tmp.456;
+        lputv %hoursUntilTea.10 %tmp.457;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_164_58_stop:
+        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_164_12_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_164_12_if_end:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_154_26_stop:
+        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_154_8_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_154_8_if_end:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 170 8 ]
+        [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_stop" ]
+        %announceView.23 = local;
+        %tmp.459 = getv ? :View;
+        %tmp.460 = getv function %tmp.459 :findDrawableById;
+        %tmp.461 = "AnnounceLabel";
+        %tmp.462 = invoke %tmp.459 %tmp.460(%tmp.461);
+        %tmp.463 = as %tmp.462 Text;
+        lputv %announceView.23 %tmp.463;
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 171 8 ]
+        [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_stop" ]
+        %coffeeView.24 = local;
+        %tmp.465 = getv ? :View;
+        %tmp.466 = getv function %tmp.465 :findDrawableById;
+        %tmp.467 = "CoffeeTimeLabel";
+        %tmp.468 = invoke %tmp.465 %tmp.466(%tmp.467);
+        %tmp.469 = as %tmp.468 Text;
+        lputv %coffeeView.24 %tmp.469;
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 172 8 ]
+        [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_stop" ]
+        %TeaView.25 = local;
+        %tmp.471 = getv ? :View;
+        %tmp.472 = getv function %tmp.471 :findDrawableById;
+        %tmp.473 = "TeaTimeLabel";
+        %tmp.474 = invoke %tmp.471 %tmp.472(%tmp.473);
+        %tmp.475 = as %tmp.474 Text;
+        lputv %TeaView.25 %tmp.475;
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 173 8 ]
+        [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_stop" ]
+        %lunchView.26 = local;
+        %tmp.477 = getv ? :View;
+        %tmp.478 = getv function %tmp.477 :findDrawableById;
+        %tmp.479 = "LunchTimeLabel";
+        %tmp.480 = invoke %tmp.477 %tmp.478(%tmp.479);
+        %tmp.481 = as %tmp.480 Text;
+        lputv %lunchView.26 %tmp.481;
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 174 8 ]
+        [ "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_start" "C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_stop" ]
+        %TimeUntilView.27 = local;
+        %tmp.483 = getv ? :View;
+        %tmp.484 = getv function %tmp.483 :findDrawableById;
+        %tmp.485 = "TimeUntilLabel";
+        %tmp.486 = invoke %tmp.483 %tmp.484(%tmp.485);
+        %tmp.487 = as %tmp.486 Text;
+        lputv %TimeUntilView.27 %tmp.487;
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 176 8 ]
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_176_8_if_stmt:
+        %tmp.489 = lgetv %coffee_lunch_tea.17;
+        %tmp.490 = not %tmp.489;
+        bf %tmp.490 @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_176_8_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_176_8_if_true:
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_176_31_start:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 177 12 ]
+        %tmp.491 = "Coffee: ";
+        %tmp.492 = getm $.Toybox.Lang;
+        %tmp.493 = getv function %tmp.492 :format;
+        %tmp.494 = "$1$h $2$m";
+        %tmp.495 = newa 2;
+        %tmp.496 = lgetv %hoursUntilCoffee.4;
+        %tmp.497 = getv function %tmp.496 :format;
+        %tmp.498 = "%02d";
+        %tmp.499 = invoke %tmp.496 %tmp.497(%tmp.498);
+        %tmp.500 = dup %tmp.495;
+        %tmp.501 = aputv %tmp.500 0 %tmp.499;
+        %tmp.502 = lgetv %minutesUntilCoffee.5;
+        %tmp.503 = getv function %tmp.502 :format;
+        %tmp.504 = "%02d";
+        %tmp.505 = invoke %tmp.502 %tmp.503(%tmp.504);
+        %tmp.506 = dup %tmp.501;
+        %tmp.507 = aputv %tmp.506 1 %tmp.505;
+        %tmp.508 = invoke %tmp.492 %tmp.493(%tmp.494, %tmp.507);
+        %tmp.509 = add %tmp.491 %tmp.508;
+        lputv %coffeeString.20 %tmp.509;
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 178 12 ]
+        %tmp.510 = "Lunch: ";
+        %tmp.511 = getm $.Toybox.Lang;
+        %tmp.512 = getv function %tmp.511 :format;
+        %tmp.513 = "$1$h $2$m";
+        %tmp.514 = newa 2;
+        %tmp.515 = lgetv %hoursUntilLunch.8;
+        %tmp.516 = getv function %tmp.515 :format;
+        %tmp.517 = "%02d";
+        %tmp.518 = invoke %tmp.515 %tmp.516(%tmp.517);
+        %tmp.519 = dup %tmp.514;
+        %tmp.520 = aputv %tmp.519 0 %tmp.518;
+        %tmp.521 = lgetv %minutesUntilLunch.9;
+        %tmp.522 = getv function %tmp.521 :format;
+        %tmp.523 = "%02d";
+        %tmp.524 = invoke %tmp.521 %tmp.522(%tmp.523);
+        %tmp.525 = dup %tmp.520;
+        %tmp.526 = aputv %tmp.525 1 %tmp.524;
+        %tmp.527 = invoke %tmp.511 %tmp.512(%tmp.513, %tmp.526);
+        %tmp.528 = add %tmp.510 %tmp.527;
+        lputv %lunchString.21 %tmp.528;
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 179 12 ]
+        %tmp.529 = "Tea: ";
+        %tmp.530 = getm $.Toybox.Lang;
+        %tmp.531 = getv function %tmp.530 :format;
+        %tmp.532 = "$1$h $2$m";
+        %tmp.533 = newa 2;
+        %tmp.534 = lgetv %hoursUntilTea.10;
+        %tmp.535 = getv function %tmp.534 :format;
+        %tmp.536 = "%02d";
+        %tmp.537 = invoke %tmp.534 %tmp.535(%tmp.536);
+        %tmp.538 = dup %tmp.533;
+        %tmp.539 = aputv %tmp.538 0 %tmp.537;
+        %tmp.540 = lgetv %minutesUntilTea.11;
+        %tmp.541 = getv function %tmp.540 :format;
+        %tmp.542 = "%02d";
+        %tmp.543 = invoke %tmp.540 %tmp.541(%tmp.542);
+        %tmp.544 = dup %tmp.539;
+        %tmp.545 = aputv %tmp.544 1 %tmp.543;
+        %tmp.546 = invoke %tmp.530 %tmp.531(%tmp.532, %tmp.545);
+        %tmp.547 = add %tmp.529 %tmp.546;
+        lputv %TeaString.22 %tmp.547;
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 180 12 ]
+        %tmp.548 = "Time Until...";
+        lputv %TimeUntilString.19 %tmp.548;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_176_31_stop:
+        goto @C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_176_8_if_end;
+C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_176_8_if_end:
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 184 8 ]
+        %tmp.549 = lgetv %announceView.23;
+        %tmp.550 = getv function %tmp.549 :setText;
+        %tmp.552 = lgetv %announceString.18;
+        invoke %tmp.549 %tmp.550(%tmp.552);
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 185 8 ]
+        %tmp.553 = lgetv %TimeUntilView.27;
+        %tmp.554 = getv function %tmp.553 :setText;
+        %tmp.556 = lgetv %TimeUntilString.19;
+        invoke %tmp.553 %tmp.554(%tmp.556);
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 186 8 ]
+        %tmp.557 = lgetv %coffeeView.24;
+        %tmp.558 = getv function %tmp.557 :setText;
+        %tmp.560 = lgetv %coffeeString.20;
+        invoke %tmp.557 %tmp.558(%tmp.560);
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 187 8 ]
+        %tmp.561 = lgetv %lunchView.26;
+        %tmp.562 = getv function %tmp.561 :setText;
+        %tmp.564 = lgetv %lunchString.21;
+        invoke %tmp.561 %tmp.562(%tmp.564);
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 188 8 ]
+        %tmp.565 = lgetv %TeaView.25;
+        %tmp.566 = getv function %tmp.565 :setText;
+        %tmp.568 = lgetv %TeaString.22;
+        invoke %tmp.565 %tmp.566(%tmp.568);
+[ "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc" 191 8 ]
+        %tmp.570 = getv ? :View;
+        %tmp.571 = getv function %tmp.570 :onUpdate;
+        %tmp.573 = lgetv %dc;
+        invoke %tmp.570 %tmp.571(%tmp.573);
 C_Users_Tachyon_Documents_programming_ioa_watch_face_source_ioa_watchView_mc_25_40_stop:
     }
-    [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc"; @line = 160; ]
+    [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc"; @line = 197; ]
     function onHide() as Void {
     }
-    [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc"; @line = 164; ]
+    [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc"; @line = 201; ]
     function onExitSleep() as Void {
     }
-    [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc"; @line = 168; ]
+    [ @file = "C:\Users\Tachyon\Documents\programming\ioa_watch_face\source\ioa_watchView.mc"; @line = 205; ]
     function onEnterSleep() as Void {
     }
 }

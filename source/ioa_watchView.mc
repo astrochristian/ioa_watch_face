@@ -83,65 +83,102 @@ class ioa_watchView extends WatchUi.WatchFace {
 
         dateView.setText(dateString);
 
+        // Check if it is currently coffee/lunch/tea time
+        var coffee_lunch_tea = false;
+
+        var announceString = "";
+        var TimeUntilString = "";
+        var coffeeString = "";
+        var lunchString = "";
+        var TeaString = "";
+
+        if ((hoursUntilCoffee == 23 and minutesUntilCoffee > 30) or (hoursUntilCoffee == 24 and minutesUntilCoffee == 0)) {
+            if ((weekday != 1) and (weekday != 7)) {
+                announceString = "Coffee Time!";
+                coffee_lunch_tea = true;
+            }
+        }
+
+        if ((hoursUntilLunch == 23 and minutesUntilLunch > 0) or (hoursUntilLunch == 0 and minutesUntilLunch == 0)) {
+            if ((weekday != 1) and (weekday != 7)) {
+                announceString = "Lunch Time!";
+                coffee_lunch_tea = true;
+            }
+        }
+
+        if ((hoursUntilTea == 23 and minutesUntilTea > 30) or (hoursUntilTea == 0 and minutesUntilTea == 0)) {
+            if ((weekday != 1) and (weekday != 7)) {
+                announceString = "Tea Time!";
+                coffee_lunch_tea = true;
+            }
+        }
+
+
+        if (weekday == 6) {
+            // Friday
+            if (hoursUntilCoffee >= 11) {
+                hoursUntilCoffee += 48;
+
+                if (hoursUntilLunch >= lunchHour) {
+                    hoursUntilLunch += 48;
+
+                    if (hoursUntilTea >= 15) {
+                        hoursUntilTea += 48;
+                    }
+                }
+            }
+        }
+
         if (weekday == 7) {
             // Saturday
-            hoursUntilCoffee += 48;
-            hoursUntilLunch += 48;
-            hoursUntilTea += 48;
+            if ((hoursUntilCoffee + minutesUntilCoffee/60 <= 11) and clockTime.hour < 12) {
+                hoursUntilCoffee += 48;
+            } else {
+                hoursUntilCoffee += 24;
+            }
+            
+            if (hoursUntilLunch + minutesUntilLunch/60 <= lunchHour) {
+                hoursUntilLunch += 48;
+            } else {
+                hoursUntilLunch += 24;
+            }
+            
+            if (hoursUntilTea + minutesUntilTea/60 <= 15) {
+                hoursUntilTea += 48;
+            } else {
+                hoursUntilTea += 24;
+            }
             
         }
 
         if (weekday == 1) {
             // Sunday
-            hoursUntilCoffee += 24;
-            hoursUntilLunch += 24;
-            hoursUntilTea += 24;
+            if ((hoursUntilCoffee + minutesUntilCoffee/60 <= 11) and clockTime.hour < 12) {
+                hoursUntilCoffee += 24;
+            }
+            
+            if (hoursUntilLunch + minutesUntilLunch/60 <= lunchHour) {
+                hoursUntilLunch += 24;
+            }
+            
+            if (hoursUntilTea + minutesUntilTea/60 <= 15) {
+                hoursUntilTea += 24;
+            }
         }
         
         // Defaults of strings
-        var announceString = "";
         var announceView = View.findDrawableById("AnnounceLabel") as Text;
-
-        var coffeeString = "Coffee: " + Lang.format("$1$h $2$m", [hoursUntilCoffee.format("%02d"), minutesUntilCoffee.format("%02d")]);
         var coffeeView = View.findDrawableById("CoffeeTimeLabel") as Text;
-
-        var lunchString = "Lunch: " + Lang.format("$1$h $2$m", [hoursUntilLunch.format("%02d"), minutesUntilLunch.format("%02d")]);
-        var lunchView = View.findDrawableById("LunchTimeLabel") as Text;
-
-        var TeaString = "Tea: " + Lang.format("$1$h $2$m", [hoursUntilTea.format("%02d"), minutesUntilTea.format("%02d")]);
         var TeaView = View.findDrawableById("TeaTimeLabel") as Text;
-
-        var TimeUntilString = "Time Until...";
+        var lunchView = View.findDrawableById("LunchTimeLabel") as Text;
         var TimeUntilView = View.findDrawableById("TimeUntilLabel") as Text;
 
-        // Check if it is currently coffee/lunch/tea time
-        if ((hoursUntilCoffee == 23 and minutesUntilCoffee > 30) or (hoursUntilCoffee == 24 and minutesUntilCoffee == 0)) {
-            announceString = "Coffee Time!";
-
-            TimeUntilString = "";
-            coffeeString = "";
-            lunchString = "";
-            TeaString = "";
+        if (!coffee_lunch_tea) {
+            coffeeString = "Coffee: " + Lang.format("$1$h $2$m", [hoursUntilCoffee.format("%02d"), minutesUntilCoffee.format("%02d")]);   
+            lunchString = "Lunch: " + Lang.format("$1$h $2$m", [hoursUntilLunch.format("%02d"), minutesUntilLunch.format("%02d")]);        
+            TeaString = "Tea: " + Lang.format("$1$h $2$m", [hoursUntilTea.format("%02d"), minutesUntilTea.format("%02d")]);          
+            TimeUntilString = "Time Until...";         
         }
-
-        if ((hoursUntilLunch == 23 and minutesUntilLunch > 0) or (hoursUntilLunch == 0 and minutesUntilLunch == 0)) {
-            announceString = "Lunch Time!";
-
-            TimeUntilString = "";
-            coffeeString = "";
-            lunchString = "";
-            TeaString = "";
-        }
-
-        if ((hoursUntilTea == 23 and minutesUntilTea > 30) or (hoursUntilTea == 0 and minutesUntilTea == 0)) {
-            announceString = "Tea Time!";
-
-            TimeUntilString = "";
-            coffeeString = "";
-            lunchString = "";
-            TeaString = "";
-        }
-
 
         // Set views
         announceView.setText(announceString);
